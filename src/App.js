@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
 import Navigation from './navigation.js';
+import Website from './website.js';
 
 function App() {
   return (
-    <Navigation/>
+  	<React.Fragment>
+    	<Navigation/>
+    	<Website/>
+	</React.Fragment>
   );
 }
 
