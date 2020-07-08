@@ -28,8 +28,7 @@ const styles = makeStyles({
     }
 });
 
-const NavigationOptions = ({
-}) => {
+const NavigationOptions = () => {
     const classes = styles();
 
     return map(NAVIGATION_SELECTIONS, (option) => {

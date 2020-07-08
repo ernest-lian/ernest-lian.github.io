@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {
     BrowserRouter as Router,
     Switch,
@@ -33,9 +33,7 @@ const styles = makeStyles({
     }
 });
 
-const Navigation = ({
-
-}) => {
+const Navigation = () => {
     const classes = styles();
     return(
     <Box
