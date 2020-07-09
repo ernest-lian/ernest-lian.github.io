@@ -7,34 +7,56 @@ import Typography from '@material-ui/core/Typography';
 
 import { makeStyles } from '@material-ui/core/styles';
 
+import ErnestBefore from './images/ernest-before.jpg';
+import ErnestAfter from './images/ernest-after.jpg';
+
 const styles = makeStyles({
-    redBackground: {
-        background: 'linear-gradient(45deg, #0d47a1 10%, #64b5f6 90%)',
-        color: 'white',
-        width: '15px',
-        height: '15px',
-        'border-radius': '50%'
+    fontWeight: {
+        'font-weight': 900
     }
 });
 
 const Website = () => {
     const classes = styles();
-    const [isBefore, setIsBefore] = useState(false);
-    const [activePage, setActivePage] = useState(-1);
+    const [isBefore, setIsBefore] = useState(true);
 
     const handleHover = () => setIsBefore(!isBefore);
 
     return (
         <React.Fragment>
             <Box
-                component={Typography}
-                variant='h6'
-                color='primary'
-                className={`${classes.typographyStyle} ${classes.noFontWeight}`}
-                alignSelf='center'
-                pt={2}
+                display='flex'
+                justifyContent='center'
+                pt={5}
             >
-                hi!
+                <Box
+                    alignSelf='center'
+                >
+                    <Box
+                        component={Typography}
+                        variant='h2'
+                        color='white'
+                        className={`${classes.typographyStyle} ${classes.fontWeight}`}
+                    >
+                        hi, i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>
+                    </Box>
+                    <Box
+                        component={Typography}
+                        color='white'
+                        variant='h7'
+                    >
+                        I am in my 4th year of Computer Science at the University of Waterloo
+                    </Box>
+                </Box>
+                <Box
+                    component='img'
+                    width='400px'
+                    height='400px'
+                    borderRadius='50%'
+                    src={isBefore ? ErnestBefore : ErnestAfter}
+                    onMouseOver={handleHover}
+                    onMouseOut={handleHover}
+                    style={{objectFit: 'cover', border: '5px solid #FF7E6B'}}/>
             </Box>
         </React.Fragment>
     );
