@@ -4,6 +4,9 @@ import React, {useState} from 'react';
 /* Material-UI Components */
 import { Box, CardMedia } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -27,10 +30,11 @@ const Website = () => {
             <Box
                 display='flex'
                 justifyContent='center'
-                pt={5}
+                pt={10}
             >
                 <Box
                     alignSelf='center'
+                    pr={10}
                 >
                     <Box
                         component={Typography}
@@ -45,13 +49,31 @@ const Website = () => {
                         color='white'
                         variant='h7'
                     >
-                        I am in my 4th year of Computer Science at the University of Waterloo
+                        I study Computer Science at the University of Waterloo
+                    </Box>
+                    <Box
+                        display='flex'
+                        pt={3}
+                    >
+                        <Box
+                            pr={2}
+                        >
+                            <LinkedInIcon fontSize='large'/>
+                        </Box>
+                        <Box
+                            pr={2}
+                        >
+                            <GitHubIcon fontSize='large'/>
+                        </Box>
+                        <Box>
+                            <MailOutlineIcon fontSize='large'/>
+                        </Box>
                     </Box>
                 </Box>
                 <Box
                     component='img'
-                    width='400px'
-                    height='400px'
+                    width='30%'
+                    height='30%'
                     borderRadius='50%'
                     src={isBefore ? ErnestBefore : ErnestAfter}
                     onMouseOver={handleHover}
