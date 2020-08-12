@@ -5,6 +5,7 @@ import React, {useState} from 'react';
 import { Box, CardMedia } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
@@ -12,6 +13,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import ErnestBefore from './images/ernest-before.jpg';
 import ErnestAfter from './images/ernest-after.jpg';
+
+import About from './about.js';
 
 const styles = makeStyles({
     fontWeight: {
@@ -58,15 +61,20 @@ const Website = () => {
                         <Box
                             pr={2}
                         >
-                            <LinkedInIcon fontSize='large'/>
+                            <LinkedInIcon color='primary' fontSize='large'/>
                         </Box>
                         <Box
                             pr={2}
                         >
-                            <GitHubIcon fontSize='large'/>
+                            <GitHubIcon color='primary' fontSize='large'/>
+                        </Box>
+                        <Box
+                            pr={2}
+                        >
+                            <MailOutlineIcon color='primary' fontSize='large'/>
                         </Box>
                         <Box>
-                            <MailOutlineIcon fontSize='large'/>
+                            <InsertDriveFileIcon color='primary' fontSize='large'/>
                         </Box>
                     </Box>
                 </Box>
@@ -80,6 +88,7 @@ const Website = () => {
                     onMouseOut={handleHover}
                     style={{objectFit: 'cover', border: '5px solid #FF7E6B'}}/>
             </Box>
+            <About/>
         </React.Fragment>
     );
 }

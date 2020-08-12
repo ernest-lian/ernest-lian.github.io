@@ -6,7 +6,6 @@ export default function Header(){
         <header className="Header">
             <nav className="Nav">
                 <a href='/'>about</a>
-                <a href='/'>resume</a>
             </nav>
         </header>
     );

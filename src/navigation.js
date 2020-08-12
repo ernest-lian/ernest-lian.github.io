@@ -85,8 +85,6 @@ const Navigation = () => {
                 <Switch>
                     <Route path="/about">
                     </Route>
-                    <Route path="/resume">
-                    </Route>
                 </Switch>
             </Box>
         </Router>
