@@ -19,6 +19,12 @@ import About from './about.js';
 const styles = makeStyles({
     fontWeight: {
         'font-weight': 900
+    },
+    fiveFontSize: {
+        'font-size': '7vw'
+    },
+    threeFontSize: {
+        'font-size': '2vw'
     }
 });
 
@@ -32,18 +38,17 @@ const Website = () => {
         <React.Fragment>
             <Box
                 display='flex'
-                justifyContent='center'
+                justifyContent='space-around'
                 pt={10}
             >
                 <Box
                     alignSelf='center'
-                    pr={10}
                 >
                     <Box
                         component={Typography}
                         variant='h2'
                         color='white'
-                        className={`${classes.typographyStyle} ${classes.fontWeight}`}
+                        className={`${classes.typographyStyle} ${classes.fontWeight} ${classes.fiveFontSize}`}
                     >
                         hi, i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>
                     </Box>
@@ -51,6 +56,7 @@ const Website = () => {
                         component={Typography}
                         color='white'
                         variant='h7'
+                        className={`${classes.threeFontSize}`}
                     >
                         I study Computer Science at the University of Waterloo
                     </Box>
@@ -80,8 +86,8 @@ const Website = () => {
                 </Box>
                 <Box
                     component='img'
-                    width='30%'
-                    height='30%'
+                    width='25vw'
+                    height='25vw'
                     borderRadius='50%'
                     src={isBefore ? ErnestBefore : ErnestAfter}
                     onMouseOver={handleHover}
