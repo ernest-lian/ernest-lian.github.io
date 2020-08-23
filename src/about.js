@@ -34,6 +34,7 @@ const About = () => {
                 className='about-container'
                 display='flex'
                 textAlign='center'
+                bgcolor='orange'
             >
                 <Box
                     component={Typography}

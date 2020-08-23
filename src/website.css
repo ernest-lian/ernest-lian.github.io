@@ -2,6 +2,10 @@
   padding: 10vw 10vw 10vw 10vw;
 }
 
+.biography {
+  padding: 5vw 0vw 10vw 0vw;
+}
+
 /* .border { */
   /* background:
     linear-gradient(to left, orange 4px, transparent 4px) 100% 100%,
