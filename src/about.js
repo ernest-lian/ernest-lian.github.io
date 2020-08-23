@@ -7,6 +7,9 @@ import { makeStyles } from '@material-ui/core/styles';
 const styles = makeStyles({
     fontWeight: {
         'font-weight': 900
+    },
+    halfBackground: {
+        'background': 'linear-gradient(to top, orange 50%, transparent 50%)'
     }
 });
 
@@ -18,7 +21,7 @@ const About = () => {
             component={Typography}
             variant='h2'
             color='white'
-            className={`${classes.typographyStyle} ${classes.fontWeight}`}
+            className={`${classes.halfBackground} ${classes.fontWeight}`}
             display='flex'
             justifyContent='center'
         >

@@ -4,23 +4,27 @@ import React, {useState} from 'react';
 /* Material-UI Components */
 import { Box, CardMedia } from '@material-ui/core';
 import Tooltip from '@material-ui/core/Tooltip';
-
 import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
+
+/* Material-UI Icons */
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
-import { makeStyles } from '@material-ui/core/styles';
-
+/* Icons */
 import ErnestBefore from './images/ernest-before.jpg';
 import ErnestAfter from './images/ernest-after.jpg';
 
+/* FontAwesome Icons */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons';
 
 import './website.css';
+
+import About from './about.js';
 
 const styles = makeStyles({
     fontWeight: {
@@ -119,6 +123,7 @@ const Website = () => {
                     />
                 </Box>
             </Box>
+            <About/>
         </React.Fragment>
     );
 }
