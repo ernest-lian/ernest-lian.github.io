@@ -2,10 +2,6 @@
   padding: 10vw 10vw 10vw 10vw;
 }
 
-.intro-text-container {
-  word-spacing: -1px;
-}
-
 @media only screen and (max-width: 600px) {
   .biography {
     flex-direction: column;

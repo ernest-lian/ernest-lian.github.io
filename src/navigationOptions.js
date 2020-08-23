@@ -12,11 +12,11 @@ import { NAVIGATION_SELECTIONS } from './constants/navigation';
 const styles = makeStyles({
     hoverNavigation: {
         "&:hover": {
-            borderBottom: '#FF7E6B solid 3px'
+            color: 'orange'
         }
     },
     selectedNavigation: {
-        borderBottom: 'burlywood solid 3px'
+        borderBottom: 'orange solid 3px'
     }
 });
 
@@ -39,7 +39,7 @@ const NavigationOptions = () => {
                     <Box
                         component={Typography}
                         variant='h6'
-                        color='primary'
+                        color='white'
                         className={(page === option) ? classes.selectedNavigation : classes.hoverNavigation}
                         alignSelf='center'
                         pt={2}

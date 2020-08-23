@@ -3,6 +3,8 @@ import React, {useState} from 'react';
 
 /* Material-UI Components */
 import { Box, CardMedia } from '@material-ui/core';
+import Tooltip from '@material-ui/core/Tooltip';
+
 import Typography from '@material-ui/core/Typography';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
@@ -14,7 +16,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import ErnestBefore from './images/ernest-before.jpg';
 import ErnestAfter from './images/ernest-after.jpg';
 
-import About from './about.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons';
 
 import './website.css';
 
@@ -49,50 +53,48 @@ const Website = () => {
                     display='flex'
                     flexDirection='column'
                     className='intro'
-                    textAlign='justify'
+                    textAlign='left'
                 >
                     <Box
                         component={Typography}
                         color='white'
-                        className={`${classes.typographyStyle} ${classes.fontWeight}`}
+                        className='intro-text-ernest'
+                        style= {{ 'font-size': '50px'}}
                     >
-                        hi i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>
+                        hi there, i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>
                     </Box>
                     <Box
-                        textAlign='justify'
-                        className='intro-text-container'
+                        component={Typography}
+                        color='white'
+                        style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
                     >
-                        <Box
-                            component={Typography}
-                            color='white'
-                        >
-                            I study Computer Science at the University of Waterloo
-                        </Box>
+                        I study Computer Science at the University of Waterloo
                     </Box>
                     <Box
                         display='flex'
+                        justifyContent='space-between'
+                        style= {{ 'width': '10em'}}
                     >
-                        <Box
-                        >
-                            <LinkedInIcon color='primary'
-                                style={{ 
-                                    'font-size': '5vw',
-                                    'padding': '5px 5px 0px 0px'
-                                }}
-                            />
-                            <i class="fab fa-linkedin"></i>
-                        </Box>
-                        <Box
-                        >
-                            <GitHubIcon color='primary' style={{ 'font-size': '5vw', 'padding': '5px 5px 0px 0px' }}/>
-                        </Box>
-                        <Box
-                        >
-                            <MailOutlineIcon color='primary' style={{ 'font-size': '5vw', 'padding': '5px 5px 0px 0px'}}/>
-                        </Box>
-                        <Box>
-                            <InsertDriveFileIcon color='primary' style={{ 'font-size': '5vw', 'padding': '5px 5px 0px 0px'}}/>
-                        </Box>
+                        <Tooltip title="LinkedIn">
+                            <Box>
+                                <FontAwesomeIcon icon={faLinkedin} size='2x'/>
+                            </Box>
+                        </Tooltip>
+                        <Tooltip title='Github'>
+                            <Box>
+                                <FontAwesomeIcon icon={faGithub} size='2x'/>
+                            </Box>
+                        </Tooltip>
+                        <Tooltip title='Email'>
+                            <Box>
+                                <FontAwesomeIcon icon={faEnvelope} size='2x'/>
+                            </Box>
+                        </Tooltip>
+                        <Tooltip title='Resume'>
+                            <Box>
+                                <FontAwesomeIcon icon={faFile} size='2x'/>
+                            </Box>
+                        </Tooltip>
                     </Box>
                 </Box>
                 <Box
@@ -102,6 +104,7 @@ const Website = () => {
                         component='img'
                         width='80%'
                         height='80%'
+                        borderRadius='50%'
                         src={isBefore ? ErnestBefore : ErnestAfter}
                         onMouseOver={handleHover}
                         onMouseOut={handleHover}

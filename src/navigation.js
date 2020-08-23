@@ -44,7 +44,6 @@ const Navigation = () => {
     >
         <Router>
             <Box
-                pb={10}
             >
                 {/* <AppBar
                     position='fixed'
@@ -56,7 +55,7 @@ const Navigation = () => {
                             'listStyleType': 'none', 
                             'alignItems': 'center',
                             'justifyContent': 'space-around',
-                            'padding-inline-start': '0px'    
+                            'padding-inline-start': '0px'
                         }}
                     >
                         <NavigationOptions/>
