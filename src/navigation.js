@@ -15,18 +15,8 @@ const styles = makeStyles({
         backgroundColor: 'black',
         paddingBottom: '20px'
     },
-    hoverNavigation: {
-        "&:hover": {
-            borderBottom: '#FF7E6B solid 3px'
-        }
-    },
     selectedNavigation: {
         borderBottom: 'black solid 3px'
-    },
-    typographyStyle: {
-        flex: 1,
-        'padding-left': '50px',
-        color: '#FF7E6B'
     },
     noFontWeight: {
         fontWeight: 100

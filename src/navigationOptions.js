@@ -16,6 +16,9 @@ const styles = makeStyles({
         }
     },
     selectedNavigation: {
+        "&:hover": {
+            color: 'orange'
+        },
         borderBottom: 'orange solid 3px'
     }
 });

@@ -77,22 +77,22 @@ const Website = () => {
                     >
                         <Tooltip title="LinkedIn">
                             <Box>
-                                <FontAwesomeIcon icon={faLinkedin} size='2x'/>
+                                <FontAwesomeIcon icon={faLinkedin} size='2x' color='white'/>
                             </Box>
                         </Tooltip>
                         <Tooltip title='Github'>
                             <Box>
-                                <FontAwesomeIcon icon={faGithub} size='2x'/>
+                                <FontAwesomeIcon icon={faGithub} size='2x' color='white'/>
                             </Box>
                         </Tooltip>
                         <Tooltip title='Email'>
                             <Box>
-                                <FontAwesomeIcon icon={faEnvelope} size='2x'/>
+                                <FontAwesomeIcon icon={faEnvelope} size='2x' color='white'/>
                             </Box>
                         </Tooltip>
                         <Tooltip title='Resume'>
                             <Box>
-                                <FontAwesomeIcon icon={faFile} size='2x'/>
+                                <FontAwesomeIcon icon={faFile} size='2x' color='white'/>
                             </Box>
                         </Tooltip>
                     </Box>
