@@ -13,6 +13,10 @@
     display: flex;
     justify-content: center;
   }
+
+  .profile {
+    border-radius: inherit;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -22,6 +26,7 @@
   }
 
   .profile {
-    padding-right: 10vw
+    padding-right: 10vw;
+    border-radius: 50%
   }
 }

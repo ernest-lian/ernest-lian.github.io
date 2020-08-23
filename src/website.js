@@ -77,22 +77,30 @@ const Website = () => {
                     >
                         <Tooltip title="LinkedIn">
                             <Box>
-                                <FontAwesomeIcon icon={faLinkedin} size='2x' color='white'/>
+                                <a href='https://www.linkedin.com/in/ernest-lian/' target='_blank'>
+                                    <FontAwesomeIcon icon={faLinkedin} size='2x' color='white'/>
+                                </a>
                             </Box>
                         </Tooltip>
                         <Tooltip title='Github'>
                             <Box>
-                                <FontAwesomeIcon icon={faGithub} size='2x' color='white'/>
+                                <a href='https://github.com/ernest-lian' target="_blank">
+                                    <FontAwesomeIcon icon={faGithub} size='2x' color='white'/>
+                                </a>
                             </Box>
                         </Tooltip>
                         <Tooltip title='Email'>
                             <Box>
-                                <FontAwesomeIcon icon={faEnvelope} size='2x' color='white'/>
+                                <a href='mailto: ernestclian@gmail.com'>
+                                    <FontAwesomeIcon icon={faEnvelope} size='2x' color='white'/>
+                                </a>
                             </Box>
                         </Tooltip>
                         <Tooltip title='Resume'>
                             <Box>
-                                <FontAwesomeIcon icon={faFile} size='2x' color='white'/>
+                                <a href='files/ernest-lian-resume.pdf' download>
+                                    <FontAwesomeIcon icon={faFile} size='2x' color='white'/>
+                                </a>
                             </Box>
                         </Tooltip>
                     </Box>
@@ -104,7 +112,6 @@ const Website = () => {
                         component='img'
                         width='80%'
                         height='80%'
-                        borderRadius='50%'
                         src={isBefore ? ErnestBefore : ErnestAfter}
                         onMouseOver={handleHover}
                         onMouseOut={handleHover}
