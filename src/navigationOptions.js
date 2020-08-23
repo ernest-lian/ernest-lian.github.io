@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { map } from 'lodash';
 import {
     Link
@@ -17,19 +17,16 @@ const styles = makeStyles({
     },
     selectedNavigation: {
         borderBottom: 'burlywood solid 3px'
-    },
-    typographyStyle: {
-        flex: 1,
-        'padding-left': '50px',
-        color: '#FF7E6B'
-    },
-    noFontWeight: {
-        fontWeight: 100
     }
 });
 
 const NavigationOptions = () => {
     const classes = styles();
+    const [page, setPage] = useState('')
+
+    const handleCurrentPage = (currentPage) => {
+        setPage(currentPage)
+    }
 
     return map(NAVIGATION_SELECTIONS, (option) => {
         return (
@@ -43,9 +40,10 @@ const NavigationOptions = () => {
                         component={Typography}
                         variant='h6'
                         color='primary'
-                        className={`${classes.typographyStyle} ${classes.noFontWeight}`}
+                        className={(page === option) ? classes.selectedNavigation : classes.hoverNavigation}
                         alignSelf='center'
                         pt={2}
+                        onClick={()=> {handleCurrentPage(option)}}
                     >
                         {option}
                     </Box>

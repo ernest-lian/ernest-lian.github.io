@@ -16,12 +16,15 @@ import ErnestAfter from './images/ernest-after.jpg';
 
 import About from './about.js';
 
+import './website.css';
+
 const styles = makeStyles({
     fontWeight: {
-        'font-weight': 900
+        'font-weight': 400
     },
     fiveFontSize: {
-        'font-size': '7vw'
+        // 'font-size': '7vw'
+        'font-size': '50px'
     },
     threeFontSize: {
         'font-size': '2vw'
@@ -38,63 +41,74 @@ const Website = () => {
         <React.Fragment>
             <Box
                 display='flex'
+                className='biography'
                 justifyContent='space-around'
-                pt={10}
+                alignItems='center'
             >
                 <Box
-                    alignSelf='center'
+                    display='flex'
+                    flexDirection='column'
+                    className='intro'
+                    textAlign='justify'
                 >
                     <Box
                         component={Typography}
-                        variant='h2'
                         color='white'
-                        className={`${classes.typographyStyle} ${classes.fontWeight} ${classes.fiveFontSize}`}
+                        className={`${classes.typographyStyle} ${classes.fontWeight}`}
                     >
-                        hi, i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>
+                        hi i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>
                     </Box>
                     <Box
-                        component={Typography}
-                        color='white'
-                        variant='h7'
-                        className={`${classes.threeFontSize}`}
+                        textAlign='justify'
+                        className='intro-text-container'
                     >
-                        I study Computer Science at the University of Waterloo
+                        <Box
+                            component={Typography}
+                            color='white'
+                        >
+                            I study Computer Science at the University of Waterloo
+                        </Box>
                     </Box>
                     <Box
                         display='flex'
-                        pt={3}
                     >
                         <Box
-                            pr={2}
                         >
-                            <LinkedInIcon color='primary' fontSize='large'/>
+                            <LinkedInIcon color='primary'
+                                style={{ 
+                                    'font-size': '5vw',
+                                    'padding': '5px 5px 0px 0px'
+                                }}
+                            />
+                            <i class="fab fa-linkedin"></i>
                         </Box>
                         <Box
-                            pr={2}
                         >
-                            <GitHubIcon color='primary' fontSize='large'/>
+                            <GitHubIcon color='primary' style={{ 'font-size': '5vw', 'padding': '5px 5px 0px 0px' }}/>
                         </Box>
                         <Box
-                            pr={2}
                         >
-                            <MailOutlineIcon color='primary' fontSize='large'/>
+                            <MailOutlineIcon color='primary' style={{ 'font-size': '5vw', 'padding': '5px 5px 0px 0px'}}/>
                         </Box>
                         <Box>
-                            <InsertDriveFileIcon color='primary' fontSize='large'/>
+                            <InsertDriveFileIcon color='primary' style={{ 'font-size': '5vw', 'padding': '5px 5px 0px 0px'}}/>
                         </Box>
                     </Box>
                 </Box>
                 <Box
-                    component='img'
-                    width='25vw'
-                    height='25vw'
-                    borderRadius='50%'
-                    src={isBefore ? ErnestBefore : ErnestAfter}
-                    onMouseOver={handleHover}
-                    onMouseOut={handleHover}
-                    style={{objectFit: 'cover', border: '5px solid #FF7E6B'}}/>
+                    className='profile-container'
+                >
+                    <Box
+                        component='img'
+                        width='80%'
+                        height='80%'
+                        src={isBefore ? ErnestBefore : ErnestAfter}
+                        onMouseOver={handleHover}
+                        onMouseOut={handleHover}
+                        className='profile'
+                    />
+                </Box>
             </Box>
-            <About/>
         </React.Fragment>
     );
 }

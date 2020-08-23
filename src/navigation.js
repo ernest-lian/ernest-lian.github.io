@@ -46,39 +46,22 @@ const Navigation = () => {
             <Box
                 pb={10}
             >
-                <AppBar
+                {/* <AppBar
                     position='fixed'
                     className={classes.appBarStyle}
-                >
-                    <Box
-                        display='flex'
-                        justifyContent='space-around'
-                        alignItems='center'
+                > */}
+                    <ul
+                        style={{
+                            'display':'flex', 
+                            'listStyleType': 'none', 
+                            'alignItems': 'center',
+                            'justifyContent': 'space-around',
+                            'padding-inline-start': '0px'    
+                        }}
                     >
-                        <Box>
-                            <Box
-                                component={Typography}
-                                variant='h6'
-                                color='primary'
-                                className={`${classes.typographyStyle} ${classes.noFontWeight}`}
-                                alignSelf='center'
-                                pt={2}
-                            >
-                                ernest lian
-                            </Box>
-                        </Box>
-                        <Box
-                            display='flex'
-                            alignItems='center'
-                        >
-                            <ul
-                                style={{'display':'flex', 'listStyleType': 'none', 'alignItems': 'center'}}
-                            >
-                                <NavigationOptions/>
-                            </ul>
-                        </Box>
-                    </Box>
-                </AppBar>
+                        <NavigationOptions/>
+                    </ul>
+                {/* </AppBar> */}
             </Box>
 
             <Box>
