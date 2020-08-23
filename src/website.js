@@ -60,53 +60,57 @@ const Website = () => {
                     textAlign='left'
                 >
                     <Box
-                        component={Typography}
-                        color='white'
-                        className='intro-text-ernest'
-                        style= {{ 'font-size': '50px'}}
+                        className='border'
                     >
-                        hi there, i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>
-                    </Box>
-                    <Box
-                        component={Typography}
-                        color='white'
-                        style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
-                    >
-                        I study Computer Science at the University of Waterloo
-                    </Box>
-                    <Box
-                        display='flex'
-                        justifyContent='space-between'
-                        style= {{ 'width': '10em'}}
-                    >
-                        <Tooltip title="LinkedIn">
-                            <Box>
-                                <a href='https://www.linkedin.com/in/ernest-lian/' target='_blank'>
-                                    <FontAwesomeIcon icon={faLinkedin} size='2x' color='white'/>
-                                </a>
-                            </Box>
-                        </Tooltip>
-                        <Tooltip title='Github'>
-                            <Box>
-                                <a href='https://github.com/ernest-lian' target="_blank">
-                                    <FontAwesomeIcon icon={faGithub} size='2x' color='white'/>
-                                </a>
-                            </Box>
-                        </Tooltip>
-                        <Tooltip title='Email'>
-                            <Box>
-                                <a href='mailto: ernestclian@gmail.com'>
-                                    <FontAwesomeIcon icon={faEnvelope} size='2x' color='white'/>
-                                </a>
-                            </Box>
-                        </Tooltip>
-                        <Tooltip title='Resume'>
-                            <Box>
-                                <a href='files/ernest-lian-resume.pdf' download>
-                                    <FontAwesomeIcon icon={faFile} size='2x' color='white'/>
-                                </a>
-                            </Box>
-                        </Tooltip>
+                        <Box
+                            component={Typography}
+                            color='white'
+                            className='intro-text-ernest'
+                            style= {{ 'font-size': '50px'}}
+                        >
+                            hi there, i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>
+                        </Box>
+                        <Box
+                            component={Typography}
+                            color='white'
+                            style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
+                        >
+                            I study Computer Science at the University of Waterloo
+                        </Box>
+                        <Box
+                            display='flex'
+                            justifyContent='space-between'
+                            style= {{ 'width': '10em'}}
+                        >
+                            <Tooltip title="LinkedIn">
+                                <Box>
+                                    <a href='https://www.linkedin.com/in/ernest-lian/' target='_blank'>
+                                        <FontAwesomeIcon icon={faLinkedin} size='2x' color='white'/>
+                                    </a>
+                                </Box>
+                            </Tooltip>
+                            <Tooltip title='Github'>
+                                <Box>
+                                    <a href='https://github.com/ernest-lian' target="_blank">
+                                        <FontAwesomeIcon icon={faGithub} size='2x' color='white'/>
+                                    </a>
+                                </Box>
+                            </Tooltip>
+                            <Tooltip title='Email'>
+                                <Box>
+                                    <a href='mailto: ernestclian@gmail.com'>
+                                        <FontAwesomeIcon icon={faEnvelope} size='2x' color='white'/>
+                                    </a>
+                                </Box>
+                            </Tooltip>
+                            <Tooltip title='Resume'>
+                                <Box>
+                                    <a href='files/ernest-lian-resume.pdf' download>
+                                        <FontAwesomeIcon icon={faFile} size='2x' color='white'/>
+                                    </a>
+                                </Box>
+                            </Tooltip>
+                        </Box>
                     </Box>
                 </Box>
                 <Box

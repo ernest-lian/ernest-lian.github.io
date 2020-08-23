@@ -2,6 +2,14 @@
   padding: 10vw 10vw 10vw 10vw;
 }
 
+/* .border { */
+  /* background:
+    linear-gradient(to left, orange 4px, transparent 4px) 100% 100%,
+    linear-gradient(to top, orange 4px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 30px 30px; */
+/* } */
+
 @media only screen and (max-width: 600px) {
   .biography {
     flex-direction: column;
