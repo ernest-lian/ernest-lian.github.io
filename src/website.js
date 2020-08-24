@@ -25,6 +25,7 @@ import { faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons';
 import './website.css';
 
 import About from './about.js';
+import Work from './work.js';
 
 const styles = makeStyles({
     fontWeight: {
@@ -128,6 +129,7 @@ const Website = () => {
                 </Box>
             </Box>
             <About/>
+            <Work/>
         </React.Fragment>
     );
 }
