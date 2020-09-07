@@ -9,6 +9,8 @@ import { Box, Typography, AppBar } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import NavigationOptions from './navigationOptions.js';
 
+import Website from './website.js';
+import About from './about.js';
 
 const styles = makeStyles({
     appBarStyle: {
@@ -55,7 +57,12 @@ const Navigation = () => {
 
             <Box>
                 <Switch>
+                    <Route path="/ernest lian">
+                        <Website/>
+                    </Route>
+
                     <Route path="/about">
+                        <About/>
                     </Route>
                 </Switch>
             </Box>

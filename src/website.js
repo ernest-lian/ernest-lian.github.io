@@ -24,9 +24,6 @@ import { faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons';
 
 import './website.css';
 
-import About from './about.js';
-import Work from './work.js';
-
 const styles = makeStyles({
     fontWeight: {
         'font-weight': 400
@@ -76,7 +73,7 @@ const Website = () => {
                             color='white'
                             style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
                         >
-                            I study Computer Science at the University of Waterloo
+                            I am a Backend Intern at Shopify working on the Online Store Editor team
                         </Box>
                         <Box
                             display='flex'
@@ -128,8 +125,6 @@ const Website = () => {
                     />
                 </Box>
             </Box>
-            <About/>
-            <Work/>
         </React.Fragment>
     );
 }

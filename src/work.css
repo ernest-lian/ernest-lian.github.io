@@ -1,6 +1,26 @@
 @media only screen and (max-width: 600px) {
   .timeline-item {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: left;
+  }
+
+  .timeline-item-date {
+    display: none;
+  }
+
+  .timeline-item-date-mobile {
+    color: black;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  .timeline-item-date-mobile {
+    color: white;
+  }
+  
+  .timeline-item {
+    display: flex;
+    justify-content: center;
   }
 }
