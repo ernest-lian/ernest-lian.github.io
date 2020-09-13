@@ -45,10 +45,6 @@ const Navigation = () => {
                     <Route path="/about">
                         <About/>
                     </Route>
-
-                    <Route path="/">
-                        <Redirect to="/home"/>
-                    </Route>
                 </Switch>
             </Box>
         </Router>
