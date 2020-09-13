@@ -2,16 +2,9 @@
 import React, {useState} from 'react';
 
 /* Material-UI Components */
-import { Box, CardMedia } from '@material-ui/core';
+import { Box } from '@material-ui/core';
 import Tooltip from '@material-ui/core/Tooltip';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
-
-/* Material-UI Icons */
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
 /* Icons */
 import ErnestBefore from './images/ernest-before.jpg';
@@ -24,21 +17,7 @@ import { faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons';
 
 import './website.css';
 
-const styles = makeStyles({
-    fontWeight: {
-        'font-weight': 400
-    },
-    fiveFontSize: {
-        // 'font-size': '7vw'
-        'font-size': '50px'
-    },
-    threeFontSize: {
-        'font-size': '2vw'
-    }
-});
-
 const Website = () => {
-    const classes = styles();
     const [isBefore, setIsBefore] = useState(true);
 
     const handleHover = () => setIsBefore(!isBefore);
@@ -82,14 +61,14 @@ const Website = () => {
                         >
                             <Tooltip title="LinkedIn">
                                 <Box>
-                                    <a href='https://www.linkedin.com/in/ernest-lian/' target='_blank'>
+                                    <a href='https://www.linkedin.com/in/ernest-lian/' rel="noopener noreferrer" target='_blank'>
                                         <FontAwesomeIcon icon={faLinkedin} size='2x' color='white'/>
                                     </a>
                                 </Box>
                             </Tooltip>
                             <Tooltip title='Github'>
                                 <Box>
-                                    <a href='https://github.com/ernest-lian' target="_blank">
+                                    <a href='https://github.com/ernest-lian' rel="noopener noreferrer" target="_blank">
                                         <FontAwesomeIcon icon={faGithub} size='2x' color='white'/>
                                     </a>
                                 </Box>

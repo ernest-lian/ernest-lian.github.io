@@ -42,3 +42,35 @@
     border-radius: 50%
   }
 }
+
+.border {
+  position:relative;
+  animation:animateleft 0.9s
+}
+
+@keyframes animateleft {
+  from {
+    left:-300px;
+    opacity:0
+  }
+  to {
+    left:0;
+    opacity:1
+  }
+}
+
+.profile-container {
+  position: relative;
+  animation: animateup 0.9s
+}
+
+@keyframes animateup {
+  from {
+    bottom:-300px;
+    opacity:0
+  }
+  to {
+    bottom:0;
+    opacity:1
+  }
+}

@@ -5,3 +5,8 @@ export const NAVIGATION_SELECTIONS = [
     HOME,
     ABOUT
 ];
+
+export const NAVIGATION_EXTENSIONS = {
+    'ernest lian': 'home',
+    'about': 'about'
+};

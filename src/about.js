@@ -1,14 +1,14 @@
 
-import React, {useState} from 'react';
-import { Box, CardMedia } from '@material-ui/core';
+import React from 'react';
+import { Box } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
 import ErnestAbout from './images/ernest-about.jpg';
+import ErnestAboutSecond from './images/ernest-about-2.jpg';
 import Me from './images/me.png';
 
 import './about.css';
-import Work from './work.js';
 
 const styles = makeStyles({
     fontWeight: {
@@ -24,32 +24,9 @@ const About = () => {
 
     return (
         <Box
+            className='about-section'
             pt={4}
         >
-            <Box
-                display='flex'
-                justifyContent='center'
-                flexDirection='column'
-                className='about-profile-container'
-                pb={5}
-            >
-                <Box
-                    className='about-profile'
-                    component='img'
-                    width='50%'
-                    height='50%'
-                    src={ErnestAbout}
-                    pb={3}
-                />
-                <Box
-                    width='25%'
-                    height='25%'
-                    component='img'
-                    src={Me}
-                >
-
-                </Box>
-            </Box>
             <Box
                 component={Typography}
                 variant='h2'
@@ -70,7 +47,7 @@ const About = () => {
                 <Box
                     component={Typography}
                     color='white'
-                    style= {{ 'font-size': '20px', 'font-weight': '900'}}
+                    style= {{ 'font-size': '30px', 'font-weight': '900'}}
                     pb={3}
                 >
                     <span style={{
@@ -78,6 +55,7 @@ const About = () => {
                                 }}> ernest (he/him) </span>- I am a fourth year Computer Science student at the University of Waterloo
                 </Box>
                 <Box
+                    className='about-section-two'
                     component={Typography}
                     color='white'
                     style= {{ 'font-size': '20px'}}
@@ -88,6 +66,7 @@ const About = () => {
                     code for all individuals.
                 </Box>
                 <Box
+                    className='about-section-three'
                     component={Typography}
                     color='white'
                     style= {{ 'font-size': '20px'}}
@@ -96,6 +75,42 @@ const About = () => {
                     I love collecting LP records, listening to real crime podcasts, and hope to open my
                     own embroidering small business in the future. 
                 </Box>
+                <Box
+                display='flex'
+                justifyContent='center'
+                flexDirection='column'
+                className='about-profile-container'
+                pt={5}
+            >
+                <Box
+                    display='flex'
+                    className='about-images'
+                >
+                    <Box
+                        className='about-profile'
+                        component='img'
+                        src={ErnestAbout}
+                        pb={3}
+                        pr={2}
+                    />
+                    <Box
+                        className='about-profile-two'
+                        component='img'
+                        src={ErnestAboutSecond}
+                        pb={3}
+                        pl={2}
+                    />
+                </Box>
+                <Box
+                    className='about-profile-me'
+                    width='25%'
+                    height='25%'
+                    component='img'
+                    src={Me}
+                >
+
+                </Box>
+            </Box>
             </Box>
         </Box>
         );

@@ -7,7 +7,7 @@ import {
 import { Box, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-import { NAVIGATION_SELECTIONS } from './constants/navigation';
+import { NAVIGATION_SELECTIONS, NAVIGATION_EXTENSIONS } from './constants/navigation';
 
 const styles = makeStyles({
     hoverNavigation: {
@@ -37,16 +37,16 @@ const NavigationOptions = () => {
             >
                 <Link
                     style={{'textDecoration': 'none'}}
-                    to={'/'+option}
+                    to={'/'+ NAVIGATION_EXTENSIONS[option]}
                 >
                     <Box
                         component={Typography}
                         variant='h6'
                         color='white'
-                        className={(page === option) ? classes.selectedNavigation : classes.hoverNavigation}
+                        className={(page === NAVIGATION_EXTENSIONS[option]) ? classes.selectedNavigation : classes.hoverNavigation}
                         alignSelf='center'
                         pt={2}
-                        onClick={()=> {handleCurrentPage(option)}}
+                        onClick={()=> {handleCurrentPage(NAVIGATION_EXTENSIONS[option])}}
                     >
                         {option}
                     </Box>

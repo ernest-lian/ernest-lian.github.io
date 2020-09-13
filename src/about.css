@@ -1,20 +1,89 @@
-.about-container {
-  padding: 2em 10vw 10vw 10vw;
+.about-section {
+  position: relative;
+  animation:animateup 1.5s
 }
 
-.about-profile-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
+@keyframes animateup {
+  from {
+    bottom:-300px;
+    opacity:0
+  }
+  to {
+    bottom:0;
+    opacity:1
+  }
 }
 
-.about-profile {
-  border-radius: inherit;
+.about-section-two {
+  position: relative;
+  animation:animateuptwo 3.0s
 }
+
+.about-section-three {
+  position: relative;
+  animation:animateuptwo 3.0s
+}
+
+@keyframes animateuptwo {
+  from {
+    bottom:-300px;
+    opacity:0
+  }
+  to {
+    bottom:0;
+    opacity:1
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
+  .about-container {
+    padding: 2em 10vw 10vw 10vw;
+  }
+  
+  .about-profile-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-profile {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+
+  .about-profile-two {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 600px) {
+  .about-container {
+    padding: 2em 20vw 10vw 20vw;
+  }
+  
+  .about-profile-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-profile {
+    width: 50%;
+    height: 50%;
+    border-radius: inherit;
+  }
+
+  .about-profile-two {
+    width: 50%;
+    height: 50%;
+    border-radius: inherit;
+  }
+
+  .about-profile-me {
+    display: none;
+  }
 }
