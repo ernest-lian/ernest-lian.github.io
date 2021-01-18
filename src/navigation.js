@@ -38,16 +38,9 @@ const Navigation = () => {
 
             <Box>
                 <Switch>
-                    <Route path="/">
-                        <Website/>
-                    </Route>
-                    <Route path="/home">
-                        <Website/>
-                    </Route>
-
-                    <Route path="/about">
-                        <About/>
-                    </Route>
+                    <Route path="/" exact component={Website}/>
+                    <Route path="/home" component={Website}/>
+                    <Route path="/about" component={About}/>
                 </Switch>
             </Box>
         </Router>
