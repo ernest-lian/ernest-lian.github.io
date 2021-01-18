@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+    HashRouter,
     Switch,
     Route,
     Redirect
@@ -20,7 +20,7 @@ const Navigation = () => {
         height='100%'
         width='100%'
     >
-        <Router>
+        <HashRouter>
             <Box
             >
                 <ul
@@ -43,7 +43,7 @@ const Navigation = () => {
                     <Route path="/about" component={About}/>
                 </Switch>
             </Box>
-        </Router>
+        </HashRouter>
     </Box>);
 }
 
