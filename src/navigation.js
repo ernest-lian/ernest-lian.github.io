@@ -38,6 +38,9 @@ const Navigation = () => {
 
             <Box>
                 <Switch>
+                    <Route path="/">
+                        <Website/>
+                    </Route>
                     <Route path="/home">
                         <Website/>
                     </Route>

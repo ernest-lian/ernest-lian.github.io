@@ -45,7 +45,7 @@ const Website = () => {
                             className='intro-text-ernest'
                             style= {{ 'font-size': '50px'}}
                         >
-                            hi there, i me <span style={{'color': '#FF7E6B'}}>Ernest.</span>
+                            hi there, i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>
                         </Box>
                         <Box
                             component={Typography}
