@@ -16,6 +16,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons';
 
 import './website.css';
+import Project from './project.js';
 
 const Website = () => {
     const [isBefore, setIsBefore] = useState(true);
@@ -104,6 +105,7 @@ const Website = () => {
                     />
                 </Box>
             </Box>
+            <Project/>
         </React.Fragment>
     );
 }

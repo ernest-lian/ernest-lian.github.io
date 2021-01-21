@@ -1,0 +1,44 @@
+.project {
+  padding: 2em 2em 2em 2em; 
+  background-color: #343836ad;
+}
+
+@media only screen and (max-width: 600px) {
+  .project {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .spotilytics-container {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+  }
+
+  .project-container {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .project-text {
+    padding-top: 2em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .project {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .spotilytics-container {
+    width: 50%;
+    height: 50%;
+    align-self: center;
+  }
+
+  .project-container {
+    padding-left: 15em;
+    padding-right: 15em;
+  }
+}
