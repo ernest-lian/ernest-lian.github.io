@@ -10,7 +10,7 @@ import Spotilytics from './images/spotilytics.png';
 
 const styles = makeStyles({
     halfBackground: {
-        'background': 'linear-gradient(to top, #343836ad 50%, transparent 0%)'
+        'background': 'linear-gradient(to top, #1D1F2E 50%, transparent 0%)'
     }
 });
 
@@ -50,7 +50,10 @@ const Project = () => {
                         </Box> */}
                         <Box
                             component={Typography}
-                            style= {{ 'font-size': '20px'}}
+                            style= {{
+                                'font-size': '20px',
+                                'font-weight': '700'
+                            }}
                             color='white'
                         >
                             Song recommendation <span style={{'color': '#FF7E6B'}}>Spotify analytics</span> platform
@@ -59,13 +62,27 @@ const Project = () => {
                     <Box
                         display='flex'
                         flexDirection='row'
-                        style= {{ 'padding-top': '1em'}}
+                        style= {{
+                            'padding-top': '1em'
+                        }}
                         color='white'
                     >
-                        <Box>
-                            View Project
+                        <Box
+                            component={Typography}
+                            style= {{
+                                'font-size': '20px',
+                                'font-weight': '700'
+                            }}
+                            color='white'
+                        >
+                            View Project  
                         </Box>
-                        <ArrowRightAltIcon/>
+                        <Box
+                            display='flex'
+                            alignItems='center'
+                        >
+                            <ArrowRightAltIcon/>
+                        </Box>
                     </Box>
                 </Box>
                 <Box
