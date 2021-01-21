@@ -43,7 +43,6 @@ const Website = () => {
                         <Box
                             component={Typography}
                             color='white'
-                            className='intro-text-ernest'
                             style= {{ 'font-size': '50px'}}
                         >
                             hi there, i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>

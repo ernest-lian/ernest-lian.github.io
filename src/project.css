@@ -3,6 +3,10 @@
   background-color: #343836ad;
 }
 
+.project-container {
+  animation: animateup 0.9s
+}
+
 @media only screen and (max-width: 600px) {
   .project {
     display: flex;
@@ -40,5 +44,16 @@
   .project-container {
     padding-left: 15em;
     padding-right: 15em;
+  }
+}
+
+@keyframes animateup {
+  from {
+    bottom:-300px;
+    opacity:0
+  }
+  to {
+    bottom:0;
+    opacity:1
   }
 }

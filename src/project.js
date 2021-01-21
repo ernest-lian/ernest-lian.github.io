@@ -1,17 +1,36 @@
 import React from 'react';
 
 import { Box, Typography } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 
 import './project.css';
 
 import Spotilytics from './images/spotilytics.png';
 
+const styles = makeStyles({
+    halfBackground: {
+        'background': 'linear-gradient(to top, #343836ad 50%, transparent 0%)'
+    }
+});
+
 const Project = () => {
+    const classes = styles();
+    
     return(
         <Box
             className='project-container'
         >
+            <Box
+                component={Typography}
+                color='white'
+                className={` ${classes.halfBackground} ${classes.fontWeight}`}
+                display='flex'
+                justifyContent='center'
+                style= {{ 'font-size': '50px'}}
+            >
+                spotilytics
+            </Box>
             <Box
                 justifyContent='space-evenly'
                 className='project'
