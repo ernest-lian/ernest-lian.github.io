@@ -21,53 +21,114 @@ const About = () => {
     const classes = styles();
 
     return (
+        // <Box
+        //     className='about-section'
+        //     display='flex'
+        // >
+        //     <Box
+        //         className='about-profile-container'
+        //         style={{
+        //             'border-radius': '10%'
+        //         }}
+        //     >
+        //         <Box
+        //             className='about-profile'
+        //             component='img'
+        //             src={ErnestBefore}
+        //         />
+        //     </Box>
+        //     <Box
+        //         className='about-text-container'
+        //         display='flex'
+        //         flexDirection='column'
+        //         textAlign='left'
+        //     >
+        //         <Box
+        //             component={Typography}
+        //             color='white'
+        //             style= {{
+        //                 'font-size': '30px',
+        //                 'font-weight': '900'
+        //             }}
+        //             pb={3}
+        //         >
+        //             I am ernest, an aspiring Computer Scientist attending the University of Waterloo.
+        //         </Box>
+        //         <Box
+        //             component={Typography}
+        //             color='white'
+        //             style= {{ 'font-size': '12px'}}
+        //             pb={3}
+        //         >
+        //             I have 2+ years of experience working across various software positions; QA, back-end development, full stack development. I have a huge interest in front-end development and am passionate about writing more accessible code.
+        //             code for all individuals.
+        //         </Box>
+        //         <Box
+        //             component={Typography}
+        //             color='white'
+        //             style= {{ 'font-size': '12px'}}
+        //             pb={2}
+        //         >
+        //             Aside from work, I love collecting LP records, am an aspiring vegetarian, and mediocre embroiderer 
+        //         </Box>
+        //     </Box>
+        // </Box>
         <Box
-            className='about-section'
-            pt={4}
-            pl={8}
-            pr={8}
-            display='flex'
+            
         >
             <Box
-                component='img'
-                src={ErnestBefore}
-                height='50%'
-                width='50%'
-            />
-            <Box
-                className='about-container'
                 display='flex'
-                flexDirection='column'
-                textAlign='left'
-                bgcolor='white'
+                className='about-biography'
+                justifyContent='space-around'
+                alignItems='center'
             >
                 <Box
-                    component={Typography}
-                    color='black'
-                    style= {{
-                        'font-size': '20px',
-                        'font-weight': '900'
-                    }}
-                    pb={3}
+                    display='flex'
+                    flexDirection='column'
+                    className='about-intro'
+                    textAlign='left'
                 >
-                    I am ernest, an aspiring Computer Scientist attending the University of Waterloo.
+                    <Box
+                        className='border'
+                    >
+                        <Box
+                            component={Typography}
+                            color='white'
+                            style= {{
+                                'font-size': '30px',
+                                'font-weight': '900'
+                            }}
+                            pb={3}
+                        >
+                            I am ernest, an aspiring Computer Scientist attending the University of Waterloo.
+                        </Box>
+                        <Box
+                            component={Typography}
+                            color='white'
+                            style= {{ 'font-size': '12px'}}
+                            pb={3}
+                        >
+                            I have 2+ years of experience working across various software positions; QA, back-end development, full stack development. I have a huge interest in front-end development and am passionate about writing more accessible code.
+                            code for all individuals.
+                        </Box>
+                        <Box
+                            component={Typography}
+                            color='white'
+                            style= {{ 'font-size': '12px'}}
+                            pb={2}
+                        >
+                            Aside from work, I love collecting LP records, am an aspiring vegetarian, and mediocre embroiderer 
+                        </Box>
+                    </Box>
                 </Box>
                 <Box
-                    component={Typography}
-                    color='black'
-                    style= {{ 'font-size': '12px'}}
-                    pb={3}
+                    className='about-profile-container'
                 >
-                    I have 2+ years of experience working across various software positions; QA, back-end development, full stack development. I have a huge interest in front-end development and am passionate about writing more accessible code.
-                    code for all individuals.
-                </Box>
-                <Box
-                    component={Typography}
-                    color='black'
-                    style= {{ 'font-size': '12px'}}
-                    pb={2}
-                >
-                    Aside from work, I love collecting LP records, am an aspiring vegetarian, and mediocre embroiderer 
+                    <Box
+                        component='img'
+                        src={ErnestBefore}
+                        className='about-profile'
+                    />
                 </Box>
             </Box>
         </Box>
