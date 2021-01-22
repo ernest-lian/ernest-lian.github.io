@@ -4,9 +4,7 @@ import { Box } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
-import ErnestAbout from './images/ernest-about.jpg';
-import ErnestAboutSecond from './images/ernest-about-2.jpg';
-import Me from './images/me.png';
+import ErnestBefore from './images/ernest-before.jpg';
 
 import './about.css';
 
@@ -26,7 +24,16 @@ const About = () => {
         <Box
             className='about-section'
             pt={4}
+            pl={8}
+            pr={8}
+            display='flex'
         >
+            <Box
+                component='img'
+                src={ErnestBefore}
+                height='50%'
+                width='50%'
+            />
             <Box
                 className='about-container'
                 display='flex'
@@ -46,7 +53,6 @@ const About = () => {
                     I am ernest, an aspiring Computer Scientist attending the University of Waterloo.
                 </Box>
                 <Box
-                    className='about-section-two'
                     component={Typography}
                     color='black'
                     style= {{ 'font-size': '12px'}}
@@ -56,7 +62,6 @@ const About = () => {
                     code for all individuals.
                 </Box>
                 <Box
-                    className='about-section-three'
                     component={Typography}
                     color='black'
                     style= {{ 'font-size': '12px'}}

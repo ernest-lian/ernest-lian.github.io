@@ -14,31 +14,9 @@
   }
 }
 
-.about-section-two {
-  position: relative;
-  animation:animateuptwo 3.0s
-}
-
-.about-section-three {
-  position: relative;
-  animation:animateuptwo 3.0s
-}
-
-@keyframes animateuptwo {
-  from {
-    bottom:-300px;
-    opacity:0
-  }
-  to {
-    bottom:0;
-    opacity:1
-  }
-}
-
-
 @media only screen and (max-width: 600px) {
   .about-container {
-    padding: 2em 10vw 10vw 10vw;
+    padding: 2em 2em 2em 2em;
   }
   
   .about-profile-container {
@@ -61,6 +39,6 @@
 
 @media only screen and (min-width: 600px) {
   .about-container {
-    padding: 2em 20vw 10vw 20vw;
+    padding: 2em 4em 2em 4em;
   }
 }
