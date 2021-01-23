@@ -5,7 +5,8 @@
 }
 
 .about-biography {
-  padding: 5vw 0vw 10vw 0vw;
+  padding: 5vw 10vw 0vw 10vw;
+  animation:animateup 0.9s
 }
 
 @keyframes animateup {
@@ -19,7 +20,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .about-biography {
     flex-direction: column-reverse;
   }
@@ -31,21 +32,28 @@
     justify-content: center;
   }
 
-  .about-profile {
-    border-radius: inherit;
+  .about-intro {
+    padding-top: 5vw;
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .about-biography {
     flex-direction: row-reverse;
+    height: 30em;
   }
 
   .about-intro {
-    padding-left: 5vw;
+    height: 100%;
+    align-items: center;
   }
 
   .about-profile-container {
-    width: 50%;
+    width: 100%;
+    align-self: end;
+  }
+
+  .about-border {
+    width: 70%;
   }
 }

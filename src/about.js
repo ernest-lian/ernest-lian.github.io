@@ -7,6 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import ErnestBefore from './images/ernest-before.jpg';
 
 import './about.css';
+import Music from './music.js';
 
 const styles = makeStyles({
     fontWeight: {
@@ -73,8 +74,9 @@ const About = () => {
         //         </Box>
         //     </Box>
         // </Box>
+        <React.Fragment>
         <Box
-            
+            alignSelf='center'
         >
             <Box
                 display='flex'
@@ -89,7 +91,7 @@ const About = () => {
                     textAlign='left'
                 >
                     <Box
-                        className='border'
+                        className='about-border'
                     >
                         <Box
                             component={Typography}
@@ -100,12 +102,12 @@ const About = () => {
                             }}
                             pb={3}
                         >
-                            I am ernest, an aspiring Computer Scientist attending the University of Waterloo.
+                            I am ernest, a uwaterloo student and aspiring computer scientist.
                         </Box>
                         <Box
                             component={Typography}
                             color='white'
-                            style= {{ 'font-size': '12px'}}
+                            style= {{ 'font-size': '15px'}}
                             pb={3}
                         >
                             I have 2+ years of experience working across various software positions; QA, back-end development, full stack development. I have a huge interest in front-end development and am passionate about writing more accessible code.
@@ -114,7 +116,7 @@ const About = () => {
                         <Box
                             component={Typography}
                             color='white'
-                            style= {{ 'font-size': '12px'}}
+                            style= {{ 'font-size': '15px'}}
                             pb={2}
                         >
                             Aside from work, I love collecting LP records, am an aspiring vegetarian, and mediocre embroiderer 
@@ -132,6 +134,8 @@ const About = () => {
                 </Box>
             </Box>
         </Box>
+        <Music/>
+        </React.Fragment>
         );
 }
 
