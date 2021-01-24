@@ -1,11 +1,30 @@
 import React from 'react';
 
+import ErnestBefore from './images/ernest-before.jpg';
+
 import { Box, Typography } from '@material-ui/core';
 
 const Song = () => {
     return(
-        <Box>
-            song
+        <Box
+            display='flex'
+        >
+            <Box
+                component='img'
+                src={ErnestBefore}
+            />
+
+            <Box
+                display='flex'
+                flexDirection='column'
+            >
+                <Box>
+                    Song title
+                </Box>
+                <Box>
+                    Song artist
+                </Box>
+            </Box>
         </Box>
     )
 }
