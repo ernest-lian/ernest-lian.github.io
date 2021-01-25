@@ -10,7 +10,7 @@ import Spotilytics from './images/spotilytics.png';
 
 const styles = makeStyles({
     halfBackground: {
-        'background': 'linear-gradient(to top, #1D1F2E 50%, transparent 0%)'
+        'background': 'linear-gradient(to top, #2d2e2e 50%, transparent 0%)'
     }
 });
 

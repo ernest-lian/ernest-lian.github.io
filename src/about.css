@@ -6,7 +6,14 @@
 
 .about-biography {
   padding: 5vw 10vw 0vw 10vw;
-  animation:animateup 0.9s
+}
+
+.about-intro {
+  animation: animateup 2.9s
+}
+
+.about-profile-container {
+  animation: animateleft 2.9s
 }
 
 @keyframes animateup {
@@ -19,6 +26,17 @@
     opacity:1
   }
 }
+
+@keyframes animateleft {
+  from {
+    left:-300px;
+    opacity:0
+  }
+  to {
+    left:0;
+    opacity:1
+  }
+} */
 
 @media only screen and (max-width: 800px) {
   .about-biography {

@@ -1,10 +1,10 @@
 .project {
   padding: 2em 2em 2em 2em; 
-  background-color: #1D1F2E;
+  background-color: #2d2e2e;
 }
 
 .project-container {
-  animation: animateup 0.9s
+  animation: animateup 5.0s
 }
 
 @media only screen and (max-width: 600px) {
