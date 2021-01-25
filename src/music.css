@@ -1,0 +1,17 @@
+.fave-tunes-container {
+  padding: 5vw 10vw 0vw 10vw;
+  animation: animateleft 2.9s;
+}
+
+@media only screen and (max-width: 800px) {
+  .fave-tunes{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .fave-tunes{
+    flex-direction: row;
+  }
+}

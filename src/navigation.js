@@ -3,7 +3,6 @@ import {
     HashRouter,
     Switch,
     Route,
-    Redirect
   } from "react-router-dom";
 
 import { Box } from '@material-ui/core';
