@@ -46,8 +46,7 @@ const About = () => {
                             style= {{ 'font-size': '15px'}}
                             pb={3}
                         >
-                            I have 2+ years of experience working across various software positions; QA, back-end development, full stack development. I have a huge interest in front-end development and am passionate about writing more accessible code.
-                            code for all individuals.
+                           With 6 previous internships in; QA, back-end development, full stack development, I have been able to experience numerous discplines in the software industry. I am an incoming backend developer at Shopify. I have a huge interest in learning more about front-end development and am passionate about writing more accessible code for all individuals.
                         </Box>
                         <Box
                             component={Typography}
@@ -55,7 +54,7 @@ const About = () => {
                             style= {{ 'font-size': '15px'}}
                             pb={2}
                         >
-                            Aside from work, I love collecting LP records, am an aspiring vegetarian, and mediocre embroiderer 
+                            Aside from work I am a music enthusiast who has a love for collecting LP records, am an aspiring vegetarian, and hope to open up my own embroidery small business in the future. 
                         </Box>
                     </Box>
                 </Box>
