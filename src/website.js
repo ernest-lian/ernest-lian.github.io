@@ -45,14 +45,14 @@ const Website = () => {
                             color='white'
                             style= {{ 'font-size': '50px'}}
                         >
-                            hi there, i am <span style={{'color': '#FF7E6B'}}>Ernest.</span>
+                            hi there, i am <span style={{'color': '#FF7E6B'}}>ernest.</span>
                         </Box>
                         <Box
                             component={Typography}
                             color='white'
                             style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
                         >
-                            I am a Backend Intern at Shopify working on the Online Store Editor team
+                            i am an incoming backend dev at shopify
                         </Box>
                         <Box
                             display='flex'

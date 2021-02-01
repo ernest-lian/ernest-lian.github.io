@@ -46,7 +46,15 @@ const About = () => {
                             style= {{ 'font-size': '15px'}}
                             pb={3}
                         >
-                           With 6 previous internships in; QA, back-end development, full stack development, I have been able to experience numerous discplines in the software industry. I am an incoming backend developer at Shopify. I have a huge interest in learning more about front-end development and am passionate about writing more accessible code for all individuals.
+                           With 6 previous internships in; QA, back-end development, full stack development. I have been able to experience numerous discplines in the software industry.
+                        </Box>
+                        <Box
+                            component={Typography}
+                            color='white'
+                            style= {{ 'font-size': '15px'}}
+                            pb={3}
+                        >
+                           I have a huge interest in learning more about front-end development and am passionate about writing more accessible code for all individuals.
                         </Box>
                         <Box
                             component={Typography}
