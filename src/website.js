@@ -57,7 +57,7 @@ const Website = () => {
                         <Box
                             display='flex'
                             justifyContent='space-between'
-                            style= {{ 'width': '10em'}}
+                            style= {{ 'width': '8em'}}
                         >
                             <Tooltip title="LinkedIn">
                                 <Box>
@@ -80,13 +80,13 @@ const Website = () => {
                                     </a>
                                 </Box>
                             </Tooltip>
-                            <Tooltip title='Resume'>
+                            {/* <Tooltip title='Resume'>
                                 <Box>
                                     <a href='files/ernest-lian-resume.pdf' download>
                                         <FontAwesomeIcon icon={faFile} size='2x' color='white'/>
                                     </a>
                                 </Box>
-                            </Tooltip>
+                            </Tooltip> */}
                         </Box>
                     </Box>
                 </Box>

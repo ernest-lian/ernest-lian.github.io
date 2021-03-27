@@ -25,7 +25,6 @@ const topSongs = {
 
 const Song = () => {
     return map(topSongs , (songDetails, index) => {
-        console.log('hello: ', songDetails)
         return(
             <Box
                 key={index}
