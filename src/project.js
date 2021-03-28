@@ -19,83 +19,58 @@ const Project = () => {
     
     return(
         <Box
-            className='project-container'
+            bgcolor='#2d2e2e'
+            display='flex'
+            className='project-biography'
+            justifyContent='space-around'
+            alignItems='center'
         >
             <Box
-                component={Typography}
-                color='white'
-                className={` ${classes.halfBackground} ${classes.fontWeight}`}
-                display='flex'
-                justifyContent='center'
-                style= {{ 'font-size': '50px'}}
-            >
-                spotilytics
-            </Box>
-            <Box
-                justifyContent='space-evenly'
-                className='project'
+                className='project-intro'
             >
                 <Box
                     display='flex'
                     flexDirection='column'
-                    justifyContent='space-evenly'
-                    className='project-text'
+                    textAlign='left'
+                    style= {{ 'font-size': '50px'}}
                 >
-                    <Box>
-                        {/* <Box
-                            component={Typography}
-                            style= {{ 'font-size': '30px'}}
-                        >
-                            Spotilytics
-                        </Box> */}
-                        <Box
-                            component={Typography}
-                            style= {{
-                                'font-size': '20px',
-                                'font-weight': '700'
-                            }}
-                            color='white'
-                        >
-                            Song recommendation <span style={{'color': '#FF7E6B'}}>Spotify analytics</span> platform
-                        </Box>
-                    </Box>
-                    <Box
-                        display='flex'
-                        flexDirection='row'
-                        style= {{
-                            'padding-top': '1em'
-                        }}
-                        color='white'
-                    >
-                        <Box
-                            component={Typography}
-                            style= {{
-                                'font-size': '20px',
-                                'font-weight': '700'
-                            }}
-                            color='white'
-                        >
-                            View Project  
-                        </Box>
-                        <Box
-                            display='flex'
-                            alignItems='center'
-                        >
-                            <ArrowRightAltIcon/>
-                        </Box>
-                    </Box>
+                    spotilytics
+                </Box>
+
+                <Box
+                    component={Typography}
+                    color='white'
+                    style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
+                >
+                    Song recommendation <span style={{'color': '#FF7E6B'}}>Spotify analytics</span> platform
                 </Box>
                 <Box
-                    className='spotilytics-container'
+                    display='flex'
+                    alignItems='center'
+                >
+                    <Box
+                        component={Typography}
+                        color='white'
+                        style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
+                    >
+                        View Project
+                    </Box>
+                    <Box>
+                        <ArrowRightAltIcon/>
+                    </Box>
+                </Box>
+            </Box>
+            <Box
+                    className='project-profile-container'
                 >
                     <Box
                         component='img'
-                        width='100%'
-                        height='100%'
                         src={Spotilytics}
+                        width='80%'
+                        height='80%'
+                        className='project-profile'
                     />
                 </Box>
-            </Box>
         </Box>
     )
 }

@@ -1,5 +1,6 @@
 
 import React, {useState} from 'react';
+import { makeStyles } from '@material-ui/core/styles';
 
 /* Material-UI Components */
 import { Box } from '@material-ui/core';
@@ -18,7 +19,14 @@ import { faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons';
 import './website.css';
 import Project from './project.js';
 
+const styles = makeStyles({
+    halfBackground: {
+        'background': 'linear-gradient(to top, #2d2e2e 50%, transparent 0%)'
+    }
+});
+
 const Website = () => {
+    const classes = styles();
     const [isBefore, setIsBefore] = useState(true);
 
     const handleHover = () => setIsBefore(!isBefore);
@@ -103,6 +111,15 @@ const Website = () => {
                         className='profile'
                     />
                 </Box>
+            </Box>
+            <Box
+                component={Typography}
+                color='white'
+                textAlign='center'
+                className={` ${classes.halfBackground}`}
+                style= {{ 'font-size': '50px', 'font-weight': '500' }}
+            >
+                PROJECTS
             </Box>
             <Project/>
         </React.Fragment>

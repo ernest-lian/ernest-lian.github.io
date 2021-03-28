@@ -1,50 +1,53 @@
-.project {
-  padding: 2em 2em 2em 2em; 
-  background-color: #2d2e2e;
+.project-intro {
+  padding: 10vw 10vw 10vw 10vw;
 }
 
-.project-container {
-  animation: animateup 5.0s
+.project-biography {
+  padding: 5vw 5vw 10vw 5vw;
 }
 
 @media only screen and (max-width: 600px) {
-  .project {
-    display: flex;
-    flex-direction: column-reverse;
+  .project-biography {
+    flex-direction: column;
   }
 
-  .spotilytics-container {
+  .project-profile-container {
     width: 100%;
     height: 100%;
-    align-self: center;
+    display: flex;
+    justify-content: center;
   }
 
-  .project-container {
-    padding-left: 3em;
-    padding-right: 3em;
-  }
-
-  .project-text {
-    padding-top: 2em;
+  .project-profile {
+    border-radius: inherit;
   }
 }
 
 @media only screen and (min-width: 600px) {
-  .project {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .spotilytics-container {
+  .project-profile-container {
     width: 50%;
     height: 50%;
-    align-self: center;
   }
 
-  .project-container {
-    padding-left: 15em;
-    padding-right: 15em;
+  .project-profile {
+    padding-right: 10vw;
   }
+}
+
+@keyframes animateleft {
+  from {
+    left:-300px;
+    opacity:0
+  }
+  to {
+    left:0;
+    opacity:1
+  }
+}
+
+.project-profile-container {
+  position: relative;
+  animation: animateup 0.9s
 }
 
 @keyframes animateup {
