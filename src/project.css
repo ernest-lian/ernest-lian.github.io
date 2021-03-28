@@ -16,12 +16,12 @@
   top: -30px;
 }
 
-.view-project {
-  border-bottom: 5px solid yellow;
+.project-container:hover .view-project {
+  border-bottom: 5px solid black;
 }
 
-.view-project:hover {
-  border-bottom: 5px solid #FF7E6B;
+.view-project {
+  border-bottom: 5px solid yellow;
 }
 
 @media only screen and (max-width: 600px) {

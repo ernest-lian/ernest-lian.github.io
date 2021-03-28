@@ -37,8 +37,12 @@ const Project = () => {
                 onClick={() => openInNewTab('https://github.com/ernest-lian/Spotilytics')}
             >
                 <Box
-                    className='project-text'
+                    style={{ 'background': 'linear-gradient(to right, #FF7E6B 50%, transparent 0%)'}}
+                    borderRadius='inherit'
                 >
+                    <Box
+                        className='project-text'
+                    >
                     <Box
                         display='flex'
                         flexDirection='column'
@@ -52,7 +56,7 @@ const Project = () => {
                         component={Typography}
                         style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
                     >
-                        Song recommendation <span style={{'color': '#FF7E6B'}}>Spotify analytics</span> platform
+                        Song recommendation <span style={{'font-weight': '600'}}>Spotify analytics</span> platform
                     </Box>
                     <Box
                         display='flex'
@@ -69,6 +73,7 @@ const Project = () => {
                                 {<ArrowRightAltIcon/>}
                             </span>
                         </Box>
+                    </Box>
                     </Box>
                 </Box>
                 <Box
