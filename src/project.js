@@ -16,60 +16,72 @@ const styles = makeStyles({
 
 const Project = () => {
     const classes = styles();
+
+    const openInNewTab = (url) => {
+      const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+      if (newWindow) newWindow.opener = null
+    }
     
     return(
         <Box
             bgcolor='#2d2e2e'
-            display='flex'
             className='project-biography'
             justifyContent='space-around'
-            alignItems='center'
         >
             <Box
-                className='project-intro'
+                display='flex'
+                alignItems='center'
+                bgcolor='yellow'
+                borderRadius='15px'
+                className='project-container'
+                onClick={() => openInNewTab('https://github.com/ernest-lian/Spotilytics')}
             >
                 <Box
-                    display='flex'
-                    flexDirection='column'
-                    textAlign='left'
-                    style= {{ 'font-size': '50px'}}
+                    className='project-text'
                 >
-                    spotilytics
-                </Box>
+                    <Box
+                        display='flex'
+                        flexDirection='column'
+                        textAlign='left'
+                        style= {{ 'font-size': '50px'}}
+                    >
+                        spotilytics
+                    </Box>
 
-                <Box
-                    component={Typography}
-                    color='white'
-                    style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
-                >
-                    Song recommendation <span style={{'color': '#FF7E6B'}}>Spotify analytics</span> platform
-                </Box>
-                <Box
-                    display='flex'
-                    alignItems='center'
-                >
                     <Box
                         component={Typography}
-                        color='white'
                         style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
                     >
-                        View Project
+                        Song recommendation <span style={{'color': '#FF7E6B'}}>Spotify analytics</span> platform
                     </Box>
-                    <Box>
-                        <ArrowRightAltIcon/>
+                    <Box
+                        display='flex'
+                        alignItems='center'
+                    >
+                        <Box
+                            component={Typography}
+                            style= {{ 'font-size': '20px' }}
+                            className='view-project'
+                        >
+                            View Project <span
+                                style= {{ 'vertical-align': 'sub'}}
+                            >
+                                {<ArrowRightAltIcon/>}
+                            </span>
+                        </Box>
                     </Box>
                 </Box>
-            </Box>
-            <Box
-                    className='project-profile-container'
-                >
-                    <Box
-                        component='img'
-                        src={Spotilytics}
-                        width='80%'
-                        height='80%'
-                        className='project-profile'
-                    />
+                <Box
+                        className='project-icon-container'
+                    >
+                        <Box
+                            component='img'
+                            src={Spotilytics}
+                            width='80%'
+                            height='80%'
+                            className='project-icon'
+                        />
+                    </Box>
                 </Box>
         </Box>
     )
