@@ -47,7 +47,7 @@ const Project = () => {
                         component={Typography}
                         style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
                     >
-                        Song recommendation <span style={{'font-weight': '600'}}>Spotify analytics</span> platform
+                        Song recommendation Spotify analytics platform
                     </Box>
                     <Box
                         display='flex'

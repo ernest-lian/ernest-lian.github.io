@@ -41,7 +41,7 @@ const About = () => {
                         component={Typography}
                         style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
                     >
-                        With 6 previous internships in; QA, back-end development, full stack development. I have been able to experience numerous discplines in the software industry.
+                        With 6 previous internships in; QA, back-end development, full stack development, I have been able to experience numerous discplines in the software industry.
                     </Box>
                     <Box
                         component={Typography}
