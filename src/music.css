@@ -3,6 +3,16 @@
   animation: animateleft 2.9s;
 }
 
+.song-details-container {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.song-details-container:hover {
+  top: -10px;
+}
+
 @media only screen and (max-width: 800px) {
   .fave-tunes{
     flex-direction: column;

@@ -9,21 +9,29 @@ const topSongs = {
     1: {
         'artist': 'sza',
         'title': 'good days',
-        'cover': 'https://i.scdn.co/image/ab67616d00001e023097b1375ab17ae5bf302a0a'
+        'cover': 'https://i.scdn.co/image/ab67616d00001e023097b1375ab17ae5bf302a0a',
+        'url': 'https://open.spotify.com/track/3YJJjQPAbDT7mGpX3WtQ9A?si=-5-E-3HeQie2XOF-6zvmFQ'
     },
     2: {
         'artist': 'ariana grande',
-        'title': 'just like magic',
-        'cover': 'https://i.scdn.co/image/ab67616d00001e025ef878a782c987d38d82b605'
+        'title': 'test drive',
+        'cover': 'https://i.scdn.co/image/ab67616d00001e025ef878a782c987d38d82b605',
+        'url': 'https://open.spotify.com/track/3eZYOQO4UzKrUDYDghtnFw?si=W9_x07UzTkelmO0AAAwWhw'
     },
     3: {
         'artist': 'troye sivan',
-        'title': 'rager teenager',
-        'cover': 'https://i.scdn.co/image/ab67616d00001e021121a528557155240feb9273'
+        'title': 'rager teenager!',
+        'cover': 'https://i.scdn.co/image/ab67616d00001e021121a528557155240feb9273',
+        'url': 'https://open.spotify.com/track/26xSz7VJP1AERCJfgaXeMZ?si=LM7TqeayQuW992gQ1hJYIw'
     }
 }
 
 const Song = () => {
+    const openInNewTab = (url) => {
+      const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+      if (newWindow) newWindow.opener = null
+    }
+
     return map(topSongs , (songDetails, index) => {
         return(
             <Box
@@ -31,6 +39,8 @@ const Song = () => {
                 display='flex'
                 flexDirection='row'
                 p={4}
+                onClick={() => openInNewTab(songDetails['url'])}
+                className='song-details-container'
             >
                 <Box
                     component='img'
@@ -89,7 +99,7 @@ const Music= () => {
                 'font-size': '20px'
             }}
         >
-            current tunes
+            songs i currently love
             <Box
                 className='fave-tunes'
                 display='flex'

@@ -1,22 +1,13 @@
 import React from 'react';
 
 import { Box, Typography } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 
 import './project.css';
 
 import Spotilytics from './images/spotilytics.png';
 
-const styles = makeStyles({
-    halfBackground: {
-        'background': 'linear-gradient(to top, #2d2e2e 50%, transparent 0%)'
-    }
-});
-
 const Project = () => {
-    const classes = styles();
-
     const openInNewTab = (url) => {
       const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
       if (newWindow) newWindow.opener = null
@@ -31,7 +22,7 @@ const Project = () => {
             <Box
                 display='flex'
                 alignItems='center'
-                bgcolor='yellow'
+                bgcolor='white'
                 borderRadius='15px'
                 className='project-container'
                 onClick={() => openInNewTab('https://github.com/ernest-lian/Spotilytics')}

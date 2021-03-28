@@ -17,11 +17,8 @@
 }
 
 .project-container:hover .view-project {
-  border-bottom: 5px solid black;
-}
-
-.view-project {
-  border-bottom: 5px solid yellow;
+  border-bottom: 5px solid white;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {
@@ -42,7 +39,11 @@
   }
 
   .project-text-container {
-    background: linear-gradient(to bottom, #FF7E6B 50%, transparent 0%)
+    background: linear-gradient(to bottom, #ffc0cb 50%, transparent 0%)
+  }
+
+  .view-project {
+    border-bottom: 5px solid white;
   }
 }
 
@@ -57,7 +58,15 @@
   }
 
   .project-text-container {
-    background: linear-gradient(to right, #FF7E6B 50%, transparent 0%)
+    background: linear-gradient(to right, #ffc0cb 50%, transparent 0%);
+  }
+
+  .project-container:hover .project-text-container{
+    background: linear-gradient(to right, #ffc0cb 75%, transparent 0%)
+  }
+
+  .view-project {
+    border-bottom: 5px solid #ffc0cb;
   }
 }
 

@@ -1,5 +1,5 @@
 export const HOME = 'ernest lian'
-export const ABOUT = 'about';
+export const ABOUT = 'about me';
 
 export const NAVIGATION_SELECTIONS = [
     HOME,
@@ -8,5 +8,5 @@ export const NAVIGATION_SELECTIONS = [
 
 export const NAVIGATION_EXTENSIONS = {
     'ernest lian': 'home',
-    'about': 'about'
+    'about me': 'about'
 };

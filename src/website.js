@@ -14,7 +14,7 @@ import ErnestAfter from './images/ernest-after.jpg';
 /* FontAwesome Icons */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 import './website.css';
 import Project from './project.js';
