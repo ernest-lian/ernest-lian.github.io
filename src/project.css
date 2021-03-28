@@ -27,6 +27,7 @@
 @media only screen and (max-width: 600px) {
   .project-container {
     flex-direction: column;
+    padding-bottom: 5vw;
   }
 
   .project-icon-container {
@@ -39,6 +40,10 @@
   .project-icon {
     border-radius: inherit;
   }
+
+  .project-text-container {
+    background: linear-gradient(to bottom, #FF7E6B 50%, transparent 0%)
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -49,6 +54,10 @@
 
   .project-icon {
     padding-right: 10vw;
+  }
+
+  .project-text-container {
+    background: linear-gradient(to right, #FF7E6B 50%, transparent 0%)
   }
 }
 

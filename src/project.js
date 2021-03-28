@@ -37,8 +37,8 @@ const Project = () => {
                 onClick={() => openInNewTab('https://github.com/ernest-lian/Spotilytics')}
             >
                 <Box
-                    style={{ 'background': 'linear-gradient(to right, #FF7E6B 50%, transparent 0%)'}}
                     borderRadius='inherit'
+                    className='project-text-container'
                 >
                     <Box
                         className='project-text'
