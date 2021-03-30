@@ -2,18 +2,13 @@
   padding: 10vw 10vw 10vw 10vw;
 }
 
-.about-biography {
+.about-border {
   padding: 5vw 5vw 5vw 5vw;
 }
 
 .about-container {
   position: relative;
-  top: 0;
-  transition: top ease 0.5s;
-}
-
-.about-container:hover {
-  top: -30px;
+  animation: animateup 0.9s
 }
 
 .about-icon-container {
@@ -43,7 +38,17 @@
 
   .about-text-container {
     background-image: linear-gradient(to bottom, #caf7e3 50%, transparent 0%);
-    background-size: cover;
+  }
+}
+
+@keyframes animateup {
+  from {
+    bottom:-300px;
+    opacity:0
+  }
+  to {
+    bottom:0;
+    opacity:1
   }
 }
 
@@ -59,6 +64,17 @@
 
   .about-text-container {
     background-image: linear-gradient(to right, #caf7e3 30%, transparent 0%);  
-    background-size: cover;
+  }
+
+  .about-container:hover .about-text-container {
+    background-image: linear-gradient(to right, #caf7e3 75%, transparent 0%);  
+  }
+
+  .about-container:hover .ernest-about {
+    display: block;
+  }
+
+  .ernest-about {
+    display: none;
   }
 }

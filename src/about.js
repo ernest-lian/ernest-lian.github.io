@@ -6,16 +6,19 @@ import Typography from '@material-ui/core/Typography';
 import './about.css';
 import Music from './music.js';
 
+import ErnestAbout from './images/ernest-about-3.jpg';
+import ErnestAboutSecond from './images/ernest-about-2.jpg';
+
 const About = () => {
     return (
         <React.Fragment>
         <Box
-            className='about-biography'
-            justifyContent='space-around'
+            className='about-border'
         >
             <Box
                 display='flex'
                 alignItems='center'
+                flexDirection='column'
                 bgcolor='white'
                 borderRadius='15px'
                 className='about-container'
@@ -23,44 +26,47 @@ const About = () => {
                 <Box
                     borderRadius='inherit'
                     className='about-text-container'
+                    display='flex'
+
                 >
                     <Box
                         className='about-text'
                     >
-                    <Box
-                        display='flex'
-                        flexDirection='column'
-                        textAlign='left'
-                        style= {{ 'font-size': '40px'}}
-                        className='about-text-header'
-                    >
-                        I am ernest, a uwaterloo student and aspiring computer scientist.
-                    </Box>
+                        <Box
+                            display='flex'
+                            flexDirection='column'
+                            textAlign='left'
+                            style= {{ 'font-size': '40px'}}
+                            className='about-text-header'
+                        >
+                            I am ernest, a uwaterloo student and aspiring computer scientist.
+                        </Box>
 
-                    <Box
-                        component={Typography}
-                        style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
-                    >
-                        With 6 previous internships ranging from; QA, back-end and full stack development, I have been able to experience numerous discplines in the software industry.
-                    </Box>
-                    <Box
-                        component={Typography}
-                        style= {{ 'font-size': '20px' }}
-                    >
-                        I have a huge interest in learning more about front-end development and am passionate about writing more accessible code for all individuals.
-                    </Box>
-                    <Box
-                        component={Typography}
-                        style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
-                    >
-                        Aside from work I am a music enthusiast who has a love for collecting LP records, am an aspiring vegetarian, and hope to open up my own embroidery small business in the future. 
-                    </Box>
+                        <Box
+                            component={Typography}
+                            style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
+                        >
+                            With 6 previous internships ranging from; QA, back-end and full stack development, I have been able to experience numerous discplines in the software industry.
+                        </Box>
+
+                        <Box
+                            component={Typography}
+                            style= {{ 'font-size': '20px' }}
+                        >
+                            I have a huge interest in learning more about front-end development and am passionate about writing more accessible code for all individuals.
+                        </Box>
+                        <Box
+                            component={Typography}
+                            style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
+                        >
+                            Aside from work I am a music enthusiast who has a love for collecting LP records, am an aspiring vegetarian, and hope to open up my own embroidery small business in the future. 
+                        </Box>
                     </Box>
                 </Box>
-                </Box>
+            </Box>
         </Box>
         <Music/>
-        </React.Fragment>
+    </React.Fragment>
         );
 }
 
