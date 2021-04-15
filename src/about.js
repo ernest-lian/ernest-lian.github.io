@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, {useState} from 'react';
 import { Box } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 
@@ -7,8 +7,6 @@ import './about.css';
 import Music from './music.js';
 
 /* Photos */
-import ErnestBefore from './images/ernest-before.jpg';
-import Polaroid from './images/polaroid.png';
 import ErnestAboutOne from './images/ernest-about.png';
 import ErnestAboutTwo from './images/ernest-about-2.png';
 
@@ -47,7 +45,7 @@ const About = () => {
                             textAlign='left'
                             id='about-text-header'
                         >
-                            About me - Toronto based aspiring computer scientist.
+                            <span style={{'color': '#FF7E6B'}}>About me</span> Toronto based aspiring computer scientist.
                         </Box>
                         <Box
                             component={Typography}
@@ -69,7 +67,7 @@ const About = () => {
                             className='about-text-content'
                             style= {{ 'padding': '1rem 0 0 0' }}
                         >
-                            I have a huge interest in learning more about front-end development and am passionate about writing more accessible code for all individuals.
+                            I have a huge interest in learning more about front-end development and am passionate about writing accessible code for all individuals.
                         </Box>
                         <Box
                             component={Typography}
