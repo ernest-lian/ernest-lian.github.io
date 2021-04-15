@@ -6,58 +6,75 @@ import Typography from '@material-ui/core/Typography';
 import './about.css';
 import Music from './music.js';
 
-import ErnestAbout from './images/ernest-about-3.jpg';
-import ErnestAboutSecond from './images/ernest-about-2.jpg';
+/* Photos */
+import ErnestBefore from './images/ernest-before.jpg';
+import Polaroid from './images/polaroid.png';
+import ErnestAboutOne from './images/ernest-about.png';
+import ErnestAboutTwo from './images/ernest-about-2.png';
 
 const About = () => {
     return (
         <React.Fragment>
         <Box
             className='about-border'
+            color='white'
         >
             <Box
-                display='flex'
-                alignItems='center'
-                flexDirection='column'
-                bgcolor='white'
-                borderRadius='15px'
-                className='about-container'
+                className='about-text'
             >
                 <Box
-                    borderRadius='inherit'
-                    className='about-text-container'
                     display='flex'
-
+                    id="about-text-header-container"
                 >
                     <Box
-                        className='about-text'
+                        id='about-profile-container'
+                    >
+                        <Box
+                            component='img'
+                            width='100%'
+                            height='100%'
+                            src={ErnestAboutOne}
+                            id='about-profile'
+                        />
+                    </Box>
+                    <Box
+                        id='about-text-container'
                     >
                         <Box
                             display='flex'
                             flexDirection='column'
+                            component={Typography}
                             textAlign='left'
-                            style= {{ 'font-size': '40px'}}
-                            className='about-text-header'
+                            id='about-text-header'
                         >
-                            I am ernest, a uwaterloo student and aspiring computer scientist.
+                            About me - Toronto based aspiring computer scientist.
                         </Box>
-
                         <Box
                             component={Typography}
-                            style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
+                            className='about-text-content'
+                            pt={2}
+                        >
+                            I am a student at the University of Waterloo pursuing a Bachelor of Computer Science and incoming backend dev at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>shopify</a>.
+                        </Box>
+                        <Box
+                            component={Typography}
+                            className='about-text-content'
+                            style= {{ 'padding': '1rem 0 0 0'}}
                         >
                             With 6 previous internships ranging from; QA, back-end and full stack development, I have been able to experience numerous discplines in the software industry.
                         </Box>
 
                         <Box
                             component={Typography}
-                            style= {{ 'font-size': '20px' }}
+                            className='about-text-content'
+                            style= {{ 'padding': '1rem 0 0 0' }}
                         >
                             I have a huge interest in learning more about front-end development and am passionate about writing more accessible code for all individuals.
                         </Box>
                         <Box
                             component={Typography}
-                            style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
+                            className='about-text-content'
+                            style= {{ 'padding': '1rem 0 0 0' }}
                         >
                             Aside from work I am a music enthusiast who has a love for collecting LP records, am an aspiring vegetarian, and hope to open up my own embroidery small business in the future. 
                         </Box>

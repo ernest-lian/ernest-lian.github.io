@@ -7,7 +7,7 @@ import { Box } from '@material-ui/core';
 import Tooltip from '@material-ui/core/Tooltip';
 import Typography from '@material-ui/core/Typography';
 
-/* Icons */
+/* Photos */
 import ErnestBefore from './images/ernest-before.jpg';
 import ErnestAfter from './images/ernest-after.jpg';
 
@@ -60,7 +60,7 @@ const Website = () => {
                             color='white'
                             style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
                         >
-                            i am an incoming backend dev at shopify
+                            i am an incoming backend dev at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>shopify</a>
                         </Box>
                         <Box
                             display='flex'

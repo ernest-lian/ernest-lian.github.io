@@ -99,7 +99,7 @@ const Music= () => {
                 'font-size': '20px'
             }}
         >
-            songs i currently love
+            <span style={{'color': '#FF7E6B'}}>songs i currently love</span>
             <Box
                 className='fave-tunes'
                 display='flex'
