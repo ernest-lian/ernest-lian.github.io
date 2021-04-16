@@ -26,6 +26,7 @@ const About = () => {
                 >
                     <Box
                         id='about-profile-container'
+                        style={{ 'background-image': 'red'}}
                     >
                         <Box
                             component='img'
@@ -59,15 +60,7 @@ const About = () => {
                             className='about-text-content'
                             style= {{ 'padding': '1rem 0 0 0'}}
                         >
-                            With 6 previous internships ranging from; QA, back-end and full stack development, I have been able to experience numerous discplines in the software industry.
-                        </Box>
-
-                        <Box
-                            component={Typography}
-                            className='about-text-content'
-                            style= {{ 'padding': '1rem 0 0 0' }}
-                        >
-                            I have a huge interest in learning more about front-end development and am passionate about writing accessible code for all individuals.
+                            Playing video games growing up stemmed my passion for development. Development challenges me to think outside of the box, has revolutionalized our society and I'm super excited where it takes us. Accessibility is one of the most disregarded aspects of software and I hope to be able to positively contribute to this change.
                         </Box>
                         <Box
                             component={Typography}
