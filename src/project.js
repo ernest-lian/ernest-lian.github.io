@@ -47,7 +47,7 @@ const Project = () => {
                         component={Typography}
                         style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
                     >
-                        Song recommendation Spotify analytics platform
+                        song recommendation Spotify analytics platform
                     </Box>
                     <Box
                         display='flex'
@@ -58,7 +58,7 @@ const Project = () => {
                             style= {{ 'font-size': '20px' }}
                             className='view-project'
                         >
-                            View Project <span
+                            view project <span
                                 style= {{ 'vertical-align': 'sub'}}
                             >
                                 {<ArrowRightAltIcon/>}
