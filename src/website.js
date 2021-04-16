@@ -127,7 +127,7 @@ const Website = () => {
                 className={` ${classes.halfBackground}`}
                 style= {{ 'font-size': '50px', 'font-weight': '500' }}
             >
-                PROJECTS
+                projects
             </Box>
             <Project/>
             <Footer/>
