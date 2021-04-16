@@ -1,8 +1,8 @@
-
+/* React */
 import React, {useState} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 
-/* Material-UI Components */
+/* Material-UI */
+import { makeStyles } from '@material-ui/core/styles';
 import { Box } from '@material-ui/core';
 import Tooltip from '@material-ui/core/Tooltip';
 import Typography from '@material-ui/core/Typography';
@@ -16,8 +16,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
+/* Local Files */
 import './website.css';
 import Project from './project.js';
+import Footer from './footer.js';
 
 const styles = makeStyles({
     halfBackground: {
@@ -128,6 +130,7 @@ const Website = () => {
                 PROJECTS
             </Box>
             <Project/>
+            <Footer/>
         </React.Fragment>
     );
 }

@@ -21,6 +21,8 @@ const Navigation = () => {
     >
         <HashRouter>
             <Box
+                style={{'background-color': '#181818'}}
+                pb={2}
             >
                 <ul
                     style={{

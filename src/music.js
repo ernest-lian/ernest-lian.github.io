@@ -98,6 +98,7 @@ const Music= () => {
             style= {{
                 'font-size': '20px'
             }}
+            pb={10}
         >
             <span style={{'color': '#FF7E6B'}}>songs i currently love</span>
             <Box

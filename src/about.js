@@ -1,10 +1,14 @@
-
+/* React */
 import React, {useState} from 'react';
+
+/* Material UI */
 import { Box } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 
+/* Local Files */
 import './about.css';
 import Music from './music.js';
+import Footer from './footer.js';
 
 /* Photos */
 import ErnestAboutOne from './images/ernest-about.png';
@@ -74,6 +78,7 @@ const About = () => {
             </Box>
         </Box>
         <Music/>
+        <Footer/>
     </React.Fragment>
         );
 }
