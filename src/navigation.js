@@ -1,13 +1,19 @@
+/* React */
 import React from 'react';
+
+/* Routing */
 import {
     HashRouter,
     Switch,
     Route,
+    Link,
   } from "react-router-dom";
 
-import { Box } from '@material-ui/core';
+/* Material-UI */
+import { Box, Typography } from '@material-ui/core';
 import NavigationOptions from './navigationOptions.js';
 
+/* Local files */
 import Website from './website.js';
 import About from './about.js';
 
@@ -21,20 +27,16 @@ const Navigation = () => {
     >
         <HashRouter>
             <Box
-                style={{'background-color': '#181818'}}
-                pb={2}
+                style={{
+                    'background-color': '#181818',
+                    'position': 'fixed',
+                    'top': '0',
+                    'width': '100%',
+                    'z-index': '1'
+                }}
+                p={4}
             >
-                <ul
-                    style={{
-                        'display':'flex', 
-                        'listStyleType': 'none', 
-                        'alignItems': 'center',
-                        'justifyContent': 'space-around',
-                        'padding-inline-start': '0px'
-                    }}
-                >
-                    <NavigationOptions/>
-                </ul>
+                <NavigationOptions/>
             </Box>
 
             <Box>

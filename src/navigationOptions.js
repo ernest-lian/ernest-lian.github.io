@@ -7,19 +7,17 @@ import {
 import { Box, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-import { NAVIGATION_SELECTIONS, NAVIGATION_EXTENSIONS } from './constants/navigation';
-
 const styles = makeStyles({
     hoverNavigation: {
         "&:hover": {
-            color: 'orange'
+            color: '#ffb3b3'
         }
     },
     selectedNavigation: {
         "&:hover": {
-            color: 'orange'
+            color: '#ffb3b3'
         },
-        borderBottom: 'orange solid 3px'
+        "color": 'orange'
     }
 });
 
@@ -31,29 +29,50 @@ const NavigationOptions = () => {
         setPage(currentPage)
     }
 
-    return map(NAVIGATION_SELECTIONS, (option) => {
-        return (
-            <li
+    return (
+        <Box
+            display='flex'
+            alignItems='center'
+            ml={6}
+        >
+            <Link
+                style={{'textDecoration': 'none'}}
+                to={'/home'}
+            >
+                <Box
+                    component={Typography}
+                    variant='h6'
+                    color='white'
+                    onClick={()=> {handleCurrentPage('home')}}
+                    whiteSpace='nowrap'
+                >
+                    ernest lian
+                </Box>
+            </Link>
+            <Box
+                width='100%'
+                display='flex'
+                alignItems='center'
+                justifyContent='flex-end'
+                mr={8}
             >
                 <Link
                     style={{'textDecoration': 'none'}}
-                    to={'/'+ NAVIGATION_EXTENSIONS[option]}
+                    to={'/about'}
                 >
                     <Box
                         component={Typography}
                         variant='h6'
                         color='white'
-                        className={(page === NAVIGATION_EXTENSIONS[option]) ? classes.selectedNavigation : classes.hoverNavigation}
-                        alignSelf='center'
-                        pt={2}
-                        onClick={()=> {handleCurrentPage(NAVIGATION_EXTENSIONS[option])}}
+                        className={(page === 'about') ? classes.selectedNavigation : classes.hoverNavigation}
+                        onClick={()=> {handleCurrentPage('about')}}
                     >
-                        {option}
+                        {'about me'}
                     </Box>
                 </Link>
-            </li>
-        );
-    })
+            </Box>
+        </Box>
+    );
 }
 
 export default NavigationOptions;
