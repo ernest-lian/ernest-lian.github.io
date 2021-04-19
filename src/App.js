@@ -1,6 +1,12 @@
+/* React */
 import React from 'react';
-import './App.css';
+
+/* Local Files */
 import Navigation from './navigation.js';
+import Footer from './footer.js';
+
+/* Local Files Styling */
+import './App.css';
 
 function App() {
   return (

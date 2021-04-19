@@ -17,6 +17,8 @@ import NavigationOptions from './navigationOptions.js';
 import Website from './website.js';
 import About from './about.js';
 
+import './navigation.css';
+
 const Navigation = () => {
     return(
     <Box
@@ -24,6 +26,7 @@ const Navigation = () => {
         flexDirection='column'
         height='100%'
         width='100%'
+        id='page'
     >
         <HashRouter>
             <Box

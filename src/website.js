@@ -14,10 +14,10 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 /* Local Files */
 import './website.css';
 import Project from './project.js';
-import Footer from './footer.js';
 
 /* Local Images */
 import Spotilytics from './images/spotilytics.png';
+import Blank from './images/blank.jpg';
 
 const Website = () => {
     return (
@@ -113,15 +113,16 @@ const Website = () => {
                     description='Song recommendation Spotify analytics platform'
                     image={Spotilytics}
                     link='https://github.com/ernest-lian/Spotilytics'
+                    background='#e8f4ea'
                 />
                 <Project
                     name='synthesize'
-                    description=''
-                    image={Spotilytics}
+                    description='in progress'
                     link='https://github.com/ernest-lian/synthesize'
+                    image={Blank}
+                    background='white'
                 />
             </Box>
-            <Footer/>
         </React.Fragment>
     );
 }

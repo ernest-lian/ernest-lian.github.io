@@ -9,7 +9,8 @@ const Project = ({
     name,
     description,
     image,
-    link
+    link,
+    background
 }) => {
     const openInNewTab = (url) => {
       const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
@@ -25,6 +26,9 @@ const Project = ({
                 id='mockup-image-container'
                 borderRadius='5px'
                 onClick={() => openInNewTab(link)}
+                style={{
+                    'background-color': background
+                }}
             >
                 <Box
                     component='img'

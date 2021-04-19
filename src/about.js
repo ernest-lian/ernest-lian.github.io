@@ -8,7 +8,6 @@ import Typography from '@material-ui/core/Typography';
 /* Local Files */
 import './about.css';
 import Music from './music.js';
-import Footer from './footer.js';
 
 /* Photos */
 import ErnestBefore from './images/ernest-before.jpg';
@@ -90,7 +89,6 @@ const About = () => {
             </Box>
         </Box>
         <Music/>
-        <Footer/>
     </React.Fragment>
         );
 }

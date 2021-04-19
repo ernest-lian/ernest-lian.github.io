@@ -92,17 +92,18 @@ const Music= () => {
     
     return(
         <Box
-            className='fave-tunes-container'
-            component={Typography}
             color='white'
             style= {{
-                'font-size': '20px'
+                'font-family': 'Lato, sans-serif',
+                'font-weight': 'bold',
+                'font-size': '30px'
             }}
+            pt={10}
             pb={10}
         >
-            <span style={{'color': '#FF7E6B'}}>songs i currently love</span>
+            SONGS I CURRENTLY LOVE
             <Box
-                className='fave-tunes'
+                id='fave-tunes'
                 display='flex'
             >
                 <Song/>
