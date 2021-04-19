@@ -27,13 +27,9 @@ const Navigation = () => {
     >
         <HashRouter>
             <Box
-                style={{
-                    'position': 'fixed',
-                    'top': '0',
-                    'width': '100%',
-                    'z-index': '1'
-                }}
-                p={4}
+                pt={4}
+                pb={4}
+                id='navigation-bar'
             >
                 <NavigationOptions/>
             </Box>

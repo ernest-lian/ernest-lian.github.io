@@ -17,21 +17,37 @@ const Project = ({
     }
     
     return(
-        <Box>
+        <Box
+            id='mockup-container'
+            p={2}
+        >
+            <Box
+                id='mockup-image-container'
+                borderRadius='5px'
+                onClick={() => openInNewTab(link)}
+            >
+                <Box
+                    component='img'
+                    width='100%'
+                    src={image}
+                    id='mockup-image'
+                />
+            </Box>
             <Box
                 color='white'
                 style= {{
-                    'font-family': 'Raleway, sans-serif',
+                    'font-family': 'Lato, sans-serif',
                     'font-weight': 'bold',
-                    'font-size': '20px'
+                    'font-size': '30px'
                 }}
+                pt={2}
             >
                 {name}
             </Box>
             <Box
                 color='white'
                 style= {{
-                    'font-family': 'Raleway, sans-serif',
+                    'font-family': 'Lato, sans-serif',
                     'font-size': '15px'
                 }}
                 pt={2}
@@ -40,15 +56,10 @@ const Project = ({
                 {description}
             </Box>
             <Box
-                component='img'
-                width='25%'
-                height='25%'
-                src={image}
-            />
-            <Box
                 color='white'
                 style= {{
-                    'font-family': 'Raleway, sans-serif',
+                    'font-family': 'Lato, sans-serif',
+                    'font-weight': '600',
                     'font-size': '15px'
                 }}
             >

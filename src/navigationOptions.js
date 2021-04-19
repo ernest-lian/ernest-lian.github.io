@@ -10,9 +10,6 @@ import {
 import { Box, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-/* Local Files */
-import './navigationOptions.css';
-
 const styles = makeStyles({
     hoverNavigation: {
         "&:hover": {
@@ -39,7 +36,6 @@ const NavigationOptions = () => {
         <Box
             display='flex'
             alignItems='center'
-            style= {{'margin-left': '9vw'}}
         >
             <Link
                 style={{'textDecoration': 'none'}}
@@ -72,7 +68,7 @@ const NavigationOptions = () => {
                         className={(page === 'about') ? classes.selectedNavigation : classes.hoverNavigation}
                         onClick={()=> {handleCurrentPage('about')}}
                         style= {{
-                            'font-family': 'Raleway, sans-serif'
+                            'font-family': 'Lato, sans-serif'
                         }}
                     >
                         About

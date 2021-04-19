@@ -17,7 +17,7 @@ import Project from './project.js';
 import Footer from './footer.js';
 
 /* Local Images */
-import Spotilytics from './images/spotilytics.jpg';
+import Spotilytics from './images/spotilytics.png';
 
 const Website = () => {
     return (
@@ -25,28 +25,37 @@ const Website = () => {
             <Box
                 id='biography'
                 alignItems='center'
-                style= {{'margin-left': '9vw', 'margin-right': '15vw'}}
             >
                 <Box
                     className='border'
                 >
                     <Box
-                        component={Typography}
-                        style= {{ 'font-size': '20px', 'font-weight': '600'}}
+                        style= {{
+                            'font-family': 'Lato, sans-serif',
+                            'font-size': '15px',
+                            'font-weight': '600'
+                        }}
+                        pb={1}
                     >
                         <span style={{'color': '#FF7E6B'}}>Hiya! My name is</span>
                     </Box>
                     <Box
-                        component={Typography}
                         color='white'
-                        style= {{ 'font-size': '60px', 'font-weight': '600'}}
+                        style= {{
+                            'font-family': 'Lato, sans-serif',
+                            'font-size': '60px',
+                            'font-weight': '600'
+                        }}
                     >
-                        Ernest Lian.
+                        ERNEST LIAN.
                     </Box>
                     <Box
-                        component={Typography}
                         color='white'
-                        style= {{ 'font-size': '20px', 'padding': '1rem 0 1.5rem 0'}}
+                        style= {{
+                            'font-family': 'Lato, sans-serif',
+                            'font-size': '20px',
+                            'padding': '1rem 0 1.5rem 0'
+                        }}
                     >
                         I am an incoming backend developer on the Online Store Editor at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>shopify</a>
                     </Box>
@@ -85,21 +94,33 @@ const Website = () => {
                     </Box>
                 </Box>
             </Box>
-            {/* <Box
-                component={Typography}
+            <Box
                 color='white'
-                textAlign='center'
-                className={` ${classes.halfBackground}`}
-                style= {{ 'font-size': '50px', 'font-weight': '500' }}
+                style= {{
+                    'font-family': 'Lato, sans-serif',
+                    'font-weight': 'bold',
+                    'font-size': '30px'
+                }}
+                pb={3}
             >
-                projects
-            </Box> */}
-            <Project
-                name='SPOTILYTICS'
-                description='song recommendation Spotify analytics platform'
-                image={Spotilytics}
-                link='https://github.com/ernest-lian/Spotilytics'
-            />
+                MY LATEST SIDE PROJECTS
+            </Box>
+            <Box
+                id='side-project-list-container'
+            >
+                <Project
+                    name='SPOTILYTICS'
+                    description='Song recommendation Spotify analytics platform'
+                    image={Spotilytics}
+                    link='https://github.com/ernest-lian/Spotilytics'
+                />
+                <Project
+                    name='synthesize'
+                    description=''
+                    image={Spotilytics}
+                    link='https://github.com/ernest-lian/synthesize'
+                />
+            </Box>
             <Footer/>
         </React.Fragment>
     );
