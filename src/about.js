@@ -21,11 +21,11 @@ const About = () => {
     return (
         <React.Fragment>
         <Box
-            className='about-border'
+            id='about-border'
             color='white'
         >
             <Box
-                className='about-text'
+                id='about-text'
             >
                 <Box
                     display='flex'

@@ -1,7 +1,3 @@
-.intro {
-  padding: 10vw 10vw 10vw 10vw;
-}
-
 #side-project-list-container {
   display: flex;
 }
@@ -20,7 +16,7 @@
 @media only screen and (max-width: 600px) {
   #biography {
     flex-direction: column;
-    padding: 15vw 0vw 10vw 0vw;
+    padding: 10vw 0vw 20vw 0vw;
   }
 
   .profile-container {
@@ -52,7 +48,7 @@
   }
 
   #biography {
-    padding: 10vw 0vw 10vw 0vw;
+    padding: 5vw 0vw 10vw 0vw;
   }
 
   #side-project-list-container {

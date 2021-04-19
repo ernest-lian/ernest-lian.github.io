@@ -98,7 +98,6 @@ const Music= () => {
                 'font-weight': 'bold',
                 'font-size': '30px'
             }}
-            pt={10}
             pb={10}
         >
             SONGS I CURRENTLY LOVE
