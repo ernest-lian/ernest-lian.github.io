@@ -11,10 +11,14 @@ import Music from './music.js';
 import Footer from './footer.js';
 
 /* Photos */
-import ErnestAboutOne from './images/ernest-about.png';
-import ErnestAboutTwo from './images/ernest-about-2.png';
+import ErnestBefore from './images/ernest-before.jpg';
+import ErnestAfter from './images/ernest-after.jpg';
 
 const About = () => {
+    const [isBefore, setIsBefore] = useState(true);
+
+    const handleHover = () => setIsBefore(!isBefore);
+
     return (
         <React.Fragment>
         <Box
@@ -36,7 +40,9 @@ const About = () => {
                             component='img'
                             width='100%'
                             height='100%'
-                            src={ErnestAboutOne}
+                            src={isBefore ? ErnestBefore : ErnestAfter}
+                            onMouseOver={handleHover}
+                            onMouseOut={handleHover}
                             id='about-profile'
                         />
                     </Box>

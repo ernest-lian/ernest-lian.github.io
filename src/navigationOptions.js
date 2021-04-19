@@ -1,21 +1,27 @@
+/* React */
 import React, { useState } from 'react';
-import { map } from 'lodash';
+
+/* Router */
 import {
     Link
 } from "react-router-dom";
 
+/* Material-UI */
 import { Box, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+
+/* Local Files */
+import './navigationOptions.css';
 
 const styles = makeStyles({
     hoverNavigation: {
         "&:hover": {
-            color: '#ffb3b3'
+            color: 'rgb(204, 198, 187)'
         }
     },
     selectedNavigation: {
         "&:hover": {
-            color: '#ffb3b3'
+            color: 'rgb(204, 198, 187)'
         },
         "color": 'orange'
     }
@@ -33,20 +39,21 @@ const NavigationOptions = () => {
         <Box
             display='flex'
             alignItems='center'
-            ml={6}
+            style= {{'margin-left': '9vw'}}
         >
             <Link
                 style={{'textDecoration': 'none'}}
                 to={'/home'}
             >
                 <Box
-                    component={Typography}
-                    variant='h6'
                     color='white'
                     onClick={()=> {handleCurrentPage('home')}}
                     whiteSpace='nowrap'
+                    style= {{
+                        'font-family': 'Raleway, sans-serif'
+                    }}
                 >
-                    ernest lian
+                    ernest
                 </Box>
             </Link>
             <Box
@@ -54,20 +61,21 @@ const NavigationOptions = () => {
                 display='flex'
                 alignItems='center'
                 justifyContent='flex-end'
-                mr={8}
+                style= {{'margin-right': '15vw'}}
             >
                 <Link
                     style={{'textDecoration': 'none'}}
                     to={'/about'}
                 >
                     <Box
-                        component={Typography}
-                        variant='h6'
                         color='white'
                         className={(page === 'about') ? classes.selectedNavigation : classes.hoverNavigation}
                         onClick={()=> {handleCurrentPage('about')}}
+                        style= {{
+                            'font-family': 'Raleway, sans-serif'
+                        }}
                     >
-                        {'about me'}
+                        About
                     </Box>
                 </Link>
             </Box>

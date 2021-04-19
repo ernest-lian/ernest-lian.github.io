@@ -2,10 +2,6 @@
   padding: 10vw 10vw 10vw 10vw;
 }
 
-.biography {
-  padding: 5vw 0vw 10vw 0vw;
-}
-
 /* Icons */
 .social-icons {
   position: relative;
@@ -18,8 +14,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .biography {
+  #biography {
     flex-direction: column;
+    padding: 15vw 0vw 10vw 0vw;
   }
 
   .profile-container {
@@ -43,6 +40,10 @@
   .profile {
     padding-right: 10vw;
     border-radius: 50%
+  }
+
+  #biography {
+    padding: 10vw 0vw 10vw 0vw;
   }
 }
 

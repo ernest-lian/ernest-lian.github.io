@@ -28,7 +28,6 @@ const Navigation = () => {
         <HashRouter>
             <Box
                 style={{
-                    'background-color': '#181818',
                     'position': 'fixed',
                     'top': '0',
                     'width': '100%',
