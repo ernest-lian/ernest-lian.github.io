@@ -5,12 +5,11 @@ import React from 'react';
 import {
     HashRouter,
     Switch,
-    Route,
-    Link,
+    Route
   } from "react-router-dom";
 
 /* Material-UI */
-import { Box, Typography } from '@material-ui/core';
+import { Box } from '@material-ui/core';
 import NavigationOptions from './navigationOptions.js';
 
 /* Local files */

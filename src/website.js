@@ -1,10 +1,9 @@
 /* React */
-import React, {useState} from 'react';
+import React from 'react';
 
 /* Material-UI */
 import { Box } from '@material-ui/core';
 import Tooltip from '@material-ui/core/Tooltip';
-import Typography from '@material-ui/core/Typography';
 
 /* FontAwesome Icons */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -17,7 +16,7 @@ import Project from './project.js';
 
 /* Local Images */
 import Spotilytics from './images/spotilytics.png';
-import Blank from './images/blank.jpg';
+import Blank from './images/blank.png';
 
 const Website = () => {
     return (
@@ -107,9 +106,10 @@ const Website = () => {
             </Box>
             <Box
                 id='side-project-list-container'
+                pb={10}
             >
                 <Project
-                    name='SPOTILYTICS'
+                    name='spotilytics'
                     description='Song recommendation Spotify analytics platform'
                     image={Spotilytics}
                     link='https://github.com/ernest-lian/Spotilytics'
@@ -120,7 +120,7 @@ const Website = () => {
                     description='in progress'
                     link='https://github.com/ernest-lian/synthesize'
                     image={Blank}
-                    background='white'
+                    background='#d3e0e5'
                 />
             </Box>
         </React.Fragment>

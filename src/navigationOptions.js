@@ -7,12 +7,12 @@ import {
 } from "react-router-dom";
 
 /* Material-UI */
-import { Box, Typography } from '@material-ui/core';
+import { Box } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 /* FontAwesome Icons */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome} from '@fortawesome/free-solid-svg-icons';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 const styles = makeStyles({
     hoverNavigation: {

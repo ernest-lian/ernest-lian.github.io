@@ -13,7 +13,48 @@
   transform: scale(1.2);
 }
 
+#mockup-container:hover {
+  top: -10px;
+}
+
+#mockup-container:hover #mockup-view-project{
+	color: #FF7E6B;
+}
+
+#mockup-container:hover #mockup-view-project-container{
+	border-color: #FF7E6B;
+}
+
+#mockup-container:hover #mockup-arrow{
+	right: -3px;
+}
+
 /* Background */
 #mockup-image-container {
   background-color: #e8f4ea;
+}
+
+#mockup-container {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+#mockup-view-project-container{
+	border-bottom: 2px solid white;
+}
+
+#mockup-arrow {
+	position: relative;
+}
+
+@keyframes animateup {
+  from {
+    right:0;
+    opacity:0
+  }
+  to {
+    right:300px;
+    opacity:1
+  }
 }

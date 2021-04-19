@@ -3,7 +3,6 @@ import React from 'react';
 
 /* Local Files */
 import Navigation from './navigation.js';
-import Footer from './footer.js';
 
 /* Local Files Styling */
 import './App.css';

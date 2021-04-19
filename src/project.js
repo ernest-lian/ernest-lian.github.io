@@ -2,8 +2,11 @@
 import React from 'react';
 
 /* Material-UI*/
-import { Box, Typography } from '@material-ui/core';
-import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import { Box } from '@material-ui/core';
+
+/* FontAwesome Icons */
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 
 /* Local Files Styling */
 import './project.css';
@@ -55,7 +58,8 @@ const Project = ({
                 color='white'
                 style= {{
                     'font-family': 'Lato, sans-serif',
-                    'font-size': '15px'
+                    'font-size': '15px',
+                    'opacity': '70%'
                 }}
                 pt={2}
                 pb={2}
@@ -63,16 +67,29 @@ const Project = ({
                 {description}
             </Box>
             <Box
-                color='white'
-                style= {{
-                    'font-family': 'Lato, sans-serif',
-                    'font-weight': '600',
-                    'font-size': '15px'
-                }}
+                display='inline-flex'
+                flexDirection='row'
+                id='mockup-view-project-container'
             >
-                VIEW PROJECT
+                <Box
+                    color='white'
+                    style= {{
+                        'font-family': 'Lato, sans-serif',
+                        'font-weight': '600',
+                        'font-size': '15px'
+                    }}
+                    alignSelf='center'
+                    pb={1}
+                    id='mockup-view-project'
+                >
+                    View Project
+                </Box>
+                <Box
+                    pl={1}
+                >
+                    <FontAwesomeIcon id='mockup-arrow' icon={faLongArrowAltRight} size='1x' color='#FF7E6B'/>
+                </Box>
             </Box>
-            <ArrowRightAltIcon/>
         </Box>
     )
 }
