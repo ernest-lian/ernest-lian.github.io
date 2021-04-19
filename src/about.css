@@ -4,6 +4,7 @@
 
 #about-profile {
   border-radius: 15px;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 800px) {
