@@ -57,7 +57,6 @@ const NavigationOptions = () => {
                 display='flex'
                 alignItems='center'
                 justifyContent='flex-end'
-                style= {{'margin-right': '15vw'}}
             >
                 <Link
                     style={{'textDecoration': 'none'}}

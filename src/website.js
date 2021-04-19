@@ -103,7 +103,7 @@ const Website = () => {
                 }}
                 pb={3}
             >
-                MY LATEST SIDE PROJECTS
+                SIDE PROJECTS
             </Box>
             <Box
                 id='side-project-list-container'
