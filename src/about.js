@@ -64,7 +64,7 @@ const About = () => {
                                 'font-family': 'Lato, sans-serif'
                             }}
                         >
-                            I am a student at the University of Waterloo pursuing a Bachelor of Computer Science and incoming backend dev at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>shopify</a>.
+                            I am a student at the University of Waterloo pursuing a Bachelor of Computer Science and incoming backend developer at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>shopify</a>.
                         </Box>
                         <Box
                             className='about-text-content'
@@ -73,7 +73,7 @@ const About = () => {
                                 'font-family': 'Lato, sans-serif'
                             }}
                         >
-                            Playing video games growing up stemmed my passion for development. Development challenges me to think outside of the box, has revolutionalized our society and I'm super excited where it takes us. Accessibility is one of the most disregarded aspects of software and I hope to be able to positively contribute to this change.
+                            Playing video games growing up stemmed my passion for development. Development challenges me to think outside of the box, has revolutionalized our society and I'm super excited to see where it takes us. Accessibility is one of the most disregarded aspects of software and I hope to be able to positively contribute to this change.
                         </Box>
                         <Box
                             className='about-text-content'

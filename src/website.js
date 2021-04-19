@@ -1,5 +1,5 @@
 /* React */
-import React from 'react';
+import React, {useState} from 'react';
 
 /* Material-UI */
 import { Box } from '@material-ui/core';
@@ -19,6 +19,20 @@ import Spotilytics from './images/spotilytics.png';
 import Blank from './images/blank.png';
 
 const Website = () => {
+    const [introIndex, setIntroIndex] = useState(0);
+
+    const introduction = [
+        'Hiya! I am',
+        '你好! 我是',
+        'こんにちは! 私は',
+        '안녕하세요! 저는',
+        'Bonjour! Je suis',
+        'Hola! Yo soy',
+        'Hallo! Ich bin',
+        'Ciao! Io sono',
+        'नमस्ते! मैं हूँ'
+    ]
+
     return (
         <React.Fragment>
             <Box
@@ -36,7 +50,7 @@ const Website = () => {
                         }}
                         pb={1}
                     >
-                        <span style={{'color': '#FF7E6B'}}>Hiya! My name is</span>
+                      <span style={{'color': '#FF7E6B'}}>{introduction[introIndex]}</span>
                     </Box>
                     <Box
                         color='white'

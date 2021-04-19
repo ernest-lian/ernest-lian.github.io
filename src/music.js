@@ -65,18 +65,18 @@ const Song = () => {
                     ml={2}
                 >
                     <Box
-                        component={Typography}
                         style= {{
-                            'font-size': '12px'
+                            'font-size': '12px',
+                            'font-family': 'Lato, sans-serif'
                         }}
                         color='white'
                     >
                         {songDetails['title']}
                     </Box>
                     <Box
-                        component={Typography}
                         style= {{
-                            'font-size': '12px'
+                            'font-size': '12px',
+                            'font-family': 'Lato, sans-serif'
                         }}
                     >
                         {songDetails['artist']}
