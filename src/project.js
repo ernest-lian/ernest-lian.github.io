@@ -1,8 +1,11 @@
+/* React */
 import React from 'react';
 
+/* Material-UI*/
 import { Box, Typography } from '@material-ui/core';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 
+/* Local Files Styling */
 import './project.css';
 
 const Project = ({
@@ -69,6 +72,7 @@ const Project = ({
             >
                 VIEW PROJECT
             </Box>
+            <ArrowRightAltIcon/>
         </Box>
     )
 }

@@ -10,6 +10,10 @@ import {
 import { Box, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
+/* FontAwesome Icons */
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome} from '@fortawesome/free-solid-svg-icons';
+
 const styles = makeStyles({
     hoverNavigation: {
         "&:hover": {
@@ -27,10 +31,13 @@ const styles = makeStyles({
 const NavigationOptions = () => {
     const classes = styles();
     const [page, setPage] = useState('')
+    const [showHomeIcon, setShowHomeIcon] = useState(false)
 
     const handleCurrentPage = (currentPage) => {
         setPage(currentPage)
     }
+
+    const handleShowHomeIcon = () => setShowHomeIcon(!showHomeIcon);
 
     return (
         <Box
@@ -42,14 +49,22 @@ const NavigationOptions = () => {
                 to={'/home'}
             >
                 <Box
-                    color='white'
-                    onClick={()=> {handleCurrentPage('home')}}
-                    whiteSpace='nowrap'
-                    style= {{
-                        'font-family': 'Raleway, sans-serif'
-                    }}
+                    display='flex'
                 >
-                    ernest
+                    <Box
+                        color='white'
+                        onClick={()=> {handleCurrentPage('home')}}
+                        whiteSpace='nowrap'
+                        style= {{
+                            'font-family': 'Raleway, sans-serif'
+                        }}
+                        pr={1}
+                        onMouseOver={handleShowHomeIcon}
+                        onMouseOut={handleShowHomeIcon}
+                    >
+                        ernest
+                    </Box>
+                    {showHomeIcon ? <FontAwesomeIcon icon={faHome} size='1x' color='grey'/> : null}
                 </Box>
             </Link>
             <Box
