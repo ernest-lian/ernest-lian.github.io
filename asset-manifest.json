@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9ce183a.chunk.css",
-    "main.js": "/static/js/main.acae847c.chunk.js",
-    "main.js.map": "/static/js/main.acae847c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e4492a50.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e4492a50.js.map",
-    "static/js/2.cc83c5e6.chunk.js": "/static/js/2.cc83c5e6.chunk.js",
-    "static/js/2.cc83c5e6.chunk.js.map": "/static/js/2.cc83c5e6.chunk.js.map",
+    "main.css": "/static/css/main.45ab526a.chunk.css",
+    "main.js": "/static/js/main.0baac094.chunk.js",
+    "main.js.map": "/static/js/main.0baac094.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bf2bcaec.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bf2bcaec.js.map",
+    "static/js/2.f0ea2a5e.chunk.js": "/static/js/2.f0ea2a5e.chunk.js",
+    "static/js/2.f0ea2a5e.chunk.js.map": "/static/js/2.f0ea2a5e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1a7d0a34c08df89121808a4153d01ce9.js": "/precache-manifest.1a7d0a34c08df89121808a4153d01ce9.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d9ce183a.chunk.css.map": "/static/css/main.d9ce183a.chunk.css.map",
-    "static/js/2.cc83c5e6.chunk.js.LICENSE.txt": "/static/js/2.cc83c5e6.chunk.js.LICENSE.txt",
-    "static/media/blank.jpg": "/static/media/blank.50a7b0b2.jpg",
-    "static/media/ernest-after.jpg": "/static/media/ernest-after.72460ece.jpg",
-    "static/media/ernest-before.jpg": "/static/media/ernest-before.31c18bb4.jpg",
-    "static/media/spotilytics.png": "/static/media/spotilytics.48f0015f.png"
+    "static/css/main.45ab526a.chunk.css.map": "/static/css/main.45ab526a.chunk.css.map",
+    "static/js/2.f0ea2a5e.chunk.js.LICENSE.txt": "/static/js/2.f0ea2a5e.chunk.js.LICENSE.txt",
+    "static/media/ernest-after.2b33b561.jpg": "/static/media/ernest-after.2b33b561.jpg",
+    "static/media/ernest-before.58baa343.jpg": "/static/media/ernest-before.58baa343.jpg",
+    "static/media/spotilytics.271465b1.png": "/static/media/spotilytics.271465b1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4492a50.js",
-    "static/js/2.cc83c5e6.chunk.js",
-    "static/css/main.d9ce183a.chunk.css",
-    "static/js/main.acae847c.chunk.js"
+    "static/js/runtime-main.bf2bcaec.js",
+    "static/js/2.f0ea2a5e.chunk.js",
+    "static/css/main.45ab526a.chunk.css",
+    "static/js/main.0baac094.chunk.js"
   ]
 }
