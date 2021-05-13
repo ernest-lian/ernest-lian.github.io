@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c897f9a.chunk.css",
-    "main.js": "/static/js/main.626b7378.chunk.js",
-    "main.js.map": "/static/js/main.626b7378.chunk.js.map",
+    "main.css": "/static/css/main.a72f55a2.chunk.css",
+    "main.js": "/static/js/main.dff90772.chunk.js",
+    "main.js.map": "/static/js/main.dff90772.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf2bcaec.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf2bcaec.js.map",
     "static/js/2.9406a088.chunk.js": "/static/js/2.9406a088.chunk.js",
     "static/js/2.9406a088.chunk.js.map": "/static/js/2.9406a088.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2c897f9a.chunk.css.map": "/static/css/main.2c897f9a.chunk.css.map",
+    "static/css/main.a72f55a2.chunk.css.map": "/static/css/main.a72f55a2.chunk.css.map",
     "static/js/2.9406a088.chunk.js.LICENSE.txt": "/static/js/2.9406a088.chunk.js.LICENSE.txt",
     "static/media/ernest-after.2b33b561.jpg": "/static/media/ernest-after.2b33b561.jpg",
     "static/media/ernest-before.58baa343.jpg": "/static/media/ernest-before.58baa343.jpg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf2bcaec.js",
     "static/js/2.9406a088.chunk.js",
-    "static/css/main.2c897f9a.chunk.css",
-    "static/js/main.626b7378.chunk.js"
+    "static/css/main.a72f55a2.chunk.css",
+    "static/js/main.dff90772.chunk.js"
   ]
 }
