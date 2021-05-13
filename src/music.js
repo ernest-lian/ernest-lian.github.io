@@ -100,7 +100,7 @@ const Music= () => {
             }}
             pb={10}
         >
-            SONGS I CURRENTLY LOVE
+            SONGS I LOVE ❤️
             <Box
                 id='fave-tunes'
                 display='flex'

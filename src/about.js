@@ -73,7 +73,7 @@ const About = () => {
                                 'font-family': 'Lato, sans-serif'
                             }}
                         >
-                            Playing video games growing up stemmed my passion for development. Development challenges me to think outside of the box, has revolutionalized our society and I'm super excited to see where it takes us. Accessibility is one of the most disregarded aspects of software and I hope to be able to positively contribute to this change.
+                            Playing video games growing up stemmed my interest for development. Development not only challenges me to think critically, but also allows me to tap into my creativity. Accessibility is one of the most disregarded aspects of software and I hope to be able to positively contribute to this change.
                         </Box>
                         <Box
                             className='about-text-content'
