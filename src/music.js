@@ -76,7 +76,8 @@ const Song = () => {
                     <Box
                         style= {{
                             'font-size': '12px',
-                            'font-family': 'Lato, sans-serif'
+                            'font-family': 'Lato, sans-serif',
+                            'color': 'rgba(255, 255, 255, 0.7)'
                         }}
                     >
                         {songDetails['artist']}
@@ -92,7 +93,6 @@ const Music= () => {
     
     return(
         <Box
-            color='white'
             style= {{
                 'font-family': 'Lato, sans-serif',
                 'font-weight': 'bold',
