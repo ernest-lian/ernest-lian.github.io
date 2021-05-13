@@ -19,17 +19,6 @@
     padding: 10vw 0vw 20vw 0vw;
   }
 
-  .profile-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .profile {
-    border-radius: 15px;
-  }
-
   #side-project-list-container {
     flex-direction: column;
     align-items: center;
@@ -37,16 +26,6 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .profile-container {
-    width: 50%;
-    height: 50%;
-  }
-
-  .profile {
-    padding-right: 10vw;
-    border-radius: 50%
-  }
-
   #biography {
     padding: 5vw 0vw 10vw 0vw;
   }
@@ -56,9 +35,14 @@
   }
 }
 
-.border {
+#border {
   position:relative;
   animation:animateleft 0.9s
+}
+
+#side-projects-container {
+  position: relative;
+  animation: animateup 0.9s
 }
 
 @keyframes animateleft {
@@ -70,11 +54,6 @@
     left:0;
     opacity:1
   }
-}
-
-.profile-container {
-  position: relative;
-  animation: animateup 0.9s
 }
 
 @keyframes animateup {

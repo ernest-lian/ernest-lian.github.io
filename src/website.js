@@ -40,7 +40,7 @@ const Website = () => {
                 alignItems='center'
             >
                 <Box
-                    className='border'
+                    id='border'
                 >
                     <Box
                         style= {{
@@ -108,34 +108,38 @@ const Website = () => {
                 </Box>
             </Box>
             <Box
-                color='white'
-                style= {{
-                    'font-family': 'Lato, sans-serif',
-                    'font-weight': 'bold',
-                    'font-size': '30px'
-                }}
-                pb={3}
+                id='side-projects-container'
             >
-                SIDE PROJECTS
-            </Box>
-            <Box
-                id='side-project-list-container'
-                pb={10}
-            >
-                <Project
-                    name='spotilytics'
-                    description='Song recommendation Spotify analytics platform'
-                    image={Spotilytics}
-                    link='https://github.com/ernest-lian/Spotilytics'
-                    background='#e8f4ea'
-                />
-                <Project
-                    name='synthesize'
-                    description='in progress'
-                    link='https://github.com/ernest-lian/synthesize'
-                    image={Blank}
-                    background='#d3e0e5'
-                />
+                <Box
+                    color='white'
+                    style= {{
+                        'font-family': 'Lato, sans-serif',
+                        'font-weight': 'bold',
+                        'font-size': '30px'
+                    }}
+                    pb={3}
+                >
+                    SIDE PROJECTS
+                </Box>
+                <Box
+                    id='side-project-list-container'
+                    pb={10}
+                >
+                    <Project
+                        name='spotilytics'
+                        description='Song recommendation Spotify analytics platform'
+                        image={Spotilytics}
+                        link='https://github.com/ernest-lian/Spotilytics'
+                        background='#e8f4ea'
+                    />
+                    <Project
+                        name='synthesize'
+                        description='in progress'
+                        link='https://github.com/ernest-lian/synthesize'
+                        image={Blank}
+                        background='#d3e0e5'
+                    />
+                </Box>
             </Box>
         </React.Fragment>
     );

@@ -8,6 +8,22 @@
   top: -10px;
 }
 
+#all-songs {
+  position:relative;
+  animation:animateleft 0.9s
+}
+
+@keyframes animateleft {
+  from {
+    right:300px;
+    opacity:0
+  }
+  to {
+    right:0;
+    opacity:1
+  }
+}
+
 @media only screen and (max-width: 800px) {
   #fave-tunes{
     flex-direction: column;

@@ -75,15 +75,6 @@ const About = () => {
                         >
                             Playing video games growing up stemmed my interest for development. Development not only challenges me to think critically, but also allows me to tap into my creativity. Accessibility is one of the most disregarded aspects of software and I hope to be able to positively contribute to this change.
                         </Box>
-                        <Box
-                            className='about-text-content'
-                            style= {{
-                                'padding': '1rem 0 0 0',
-                                'font-family': 'Lato, sans-serif'
-                            }}
-                        >
-                            Aside from work I am a music enthusiast who has a love for collecting LP records, am an aspiring vegetarian, and hope to open up my own embroidery small business in the future. 
-                        </Box>
                     </Box>
                 </Box>
             </Box>

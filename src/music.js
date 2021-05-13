@@ -93,6 +93,7 @@ const Music= () => {
     
     return(
         <Box
+            id='all-songs'
             color='white'
             style= {{
                 'font-family': 'Lato, sans-serif',
