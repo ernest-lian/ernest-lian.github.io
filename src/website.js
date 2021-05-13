@@ -108,6 +108,7 @@ const Website = () => {
                 </Box>
             </Box>
             <Box
+                color='white'
                 style= {{
                     'font-family': 'Lato, sans-serif',
                     'font-weight': 'bold',
