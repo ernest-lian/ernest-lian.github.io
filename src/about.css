@@ -33,11 +33,27 @@
   }
 
   #about-text-header {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   #about-text-content {
     font-size: 12px;
+  }
+
+  #career-hobbies-container {
+    flex-direction: column;
+  }
+
+  #career {
+    font-size: 12px;
+  }
+
+  #hobbies {
+    font-size: 12px;
+  }
+
+  #as-a-header {
+    font-size: 30px;
   }
 }
 
@@ -79,7 +95,7 @@
 
 @media only screen and (min-width: 800px) {
   #about-border {
-    padding: 5vw 0vw 8vw 0vw;
+    padding: 5vw 0vw 2vw 0vw;
   }
 
   .about-icon-container {
@@ -112,5 +128,25 @@
 
   #about-profile {
     max-width: 100%;
+  }
+
+  #career-hobbies-container {
+    flex-direction: row;
+  }
+
+  #career {
+    width: 50%;
+    padding: 3vw;
+    font-size: '20px';
+  }
+
+  #hobbies {
+    width: 50%;
+    padding: 3vw;
+    font-size: '20px';
+  }
+
+  #as-a-header {
+    font-size: 33px;
   }
 }

@@ -1,5 +1,5 @@
 /* React */
-import React, {useState} from 'react';
+import React from 'react';
 
 /* Material-UI */
 import { Box } from '@material-ui/core';
@@ -19,20 +19,6 @@ import Spotilytics from './images/spotilytics.png';
 import Blank from './images/blank.png';
 
 const Website = () => {
-    const [introIndex, setIntroIndex] = useState(0);
-
-    const introduction = [
-        'Hiya! I am',
-        '你好! 我是',
-        'こんにちは! 私は',
-        '안녕하세요! 저는',
-        'Bonjour! Je suis',
-        'Hola! Yo soy',
-        'Hallo! Ich bin',
-        'Ciao! Io sono',
-        'नमस्ते! मैं हूँ'
-    ]
-
     return (
         <React.Fragment>
             <Box
@@ -50,7 +36,7 @@ const Website = () => {
                         }}
                         pb={1}
                     >
-                      <span style={{'color': '#FF7E6B'}}>{introduction[introIndex]}</span>
+                      <span style={{'color': '#FF7E6B'}}>Hiya! I am</span>
                     </Box>
                     <Box
                         color='white'
@@ -70,7 +56,7 @@ const Website = () => {
                             'padding': '1rem 0 1.5rem 0'
                         }}
                     >
-                        I am a backend developer on the Online Store Editor at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a> & Computer Science grad from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>University of Waterloo</a>
+                        I am a backend developer on the Online Store Editor at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a> & Computer Science grad from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FDFD96', 'text-decoration': 'none'}}>University of Waterloo</a>
                     </Box>
                     <Box
                         display='flex'
