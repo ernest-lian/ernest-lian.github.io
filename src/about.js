@@ -61,7 +61,8 @@ const About = () => {
                             id='about-text-content'
                             pt={2}
                             style= {{
-                                'font-family': 'Lato, sans-serif'
+                                'font-family': 'Lato, sans-serif',
+                                'font-size': '21px'
                             }}
                         >
                             I am a Toronto-based software engineer and Computer Science gradudate from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FDFD96', 'text-decoration': 'none'}}>University of Waterloo</a>.
@@ -70,7 +71,8 @@ const About = () => {
                             id='about-text-content'
                             pt={3}
                             style= {{
-                                'font-family': 'Lato, sans-serif'
+                                'font-family': 'Lato, sans-serif',
+                                'font-size': '21px'
                             }}
                         >
                             I believe that accessibility is one of the most disregarded aspects of software, everyone deserves the best user experience possible and I hope to be able to positively contribute to this change.
@@ -79,7 +81,8 @@ const About = () => {
                             id='about-text-content'
                             pt={3}
                             style= {{
-                                'font-family': 'Lato, sans-serif'
+                                'font-family': 'Lato, sans-serif',
+                                'font-size': '21px'
                             }}
                         >
                             Currently enhancing the online store editor experience for merchants @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a>.
@@ -110,7 +113,7 @@ const About = () => {
                             'font-family': 'Lato, sans-serif'
                         }}
                     >
-                        Playing video games growing up stemmed my interest for development. Fast forward to 6 internships later, my love for coding has only grown.
+                        Playing video games growing up stemmed my interest in development. Fast forward 6 internships later, my love for coding has only grown.
                     </Box>
                     <Box
                         color='white'
@@ -149,6 +152,9 @@ const About = () => {
                         color='white'
                         id='about-text-content'
                         pt={2}
+                        style= {{
+                            'font-family': 'Lato, sans-serif'
+                        }}
                     >
                         As a first generation college student, this has opened my eyes to the amount of privilege that furthering your education is and how often we usually take it for granted. I hope to be able to sponsor my own scholarship in the future to help other first generation students pursue post-secondary.
                     </Box>
@@ -156,27 +162,42 @@ const About = () => {
                         color='white'
                         id='about-text-content'
                         pt={2}
+                        style= {{
+                            'font-family': 'Lato, sans-serif'
+                        }}
                     >
                         <Box>
                             During my free time:
                         </Box>
                         <Box
                             pl={1}
+                            style= {{
+                                'font-family': 'Lato, sans-serif'
+                            }}
                         >
                             •&nbsp;&nbsp;&nbsp;💿&nbsp;&nbsp;collecting LP records
                         </Box>
                         <Box
                             pl={1}
+                            style= {{
+                                'font-family': 'Lato, sans-serif'
+                            }}
                         >
                             •&nbsp;&nbsp;&nbsp;🥬&nbsp;&nbsp;aspiring vegetarian
                         </Box>
                         <Box
                             pl={1}
+                            style= {{
+                                'font-family': 'Lato, sans-serif'
+                            }}
                         >
                             •&nbsp;&nbsp;&nbsp;🪡&nbsp;&nbsp;future embroidery entrepeneur
                         </Box>
                         <Box
                             pl={1}
+                            style= {{
+                                'font-family': 'Lato, sans-serif'
+                            }}
                         >
                             •&nbsp;&nbsp;&nbsp;🏊&nbsp;&nbsp;ex-competitive swimmer
                         </Box>
