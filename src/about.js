@@ -64,7 +64,7 @@ const About = () => {
                             id='about-text-content'
                             pt={2}
                         >
-                            I am a Toronto-based software engineer and Computer Science gradudate from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>University of Waterloo</a>
+                            I am a Toronto-based software engineer and Computer Science gradudate from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>University of Waterloo</a>.
                         </Box>
                         <Box
                             id='about-text-content'
