@@ -70,7 +70,7 @@ const Website = () => {
                             'padding': '1rem 0 1.5rem 0'
                         }}
                     >
-                        I am an incoming backend developer on the Online Store Editor at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>shopify</a>
+                        I am a backend developer on the Online Store Editor at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a> & Computer Science grad from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>University of Waterloo</a>
                     </Box>
                     <Box
                         display='flex'
