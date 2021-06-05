@@ -61,8 +61,7 @@ const About = () => {
                             id='about-text-content'
                             pt={2}
                             style= {{
-                                'font-family': 'Lato, sans-serif',
-                                'font-size': '21px'
+                                'font-family': 'Lato, sans-serif'
                             }}
                         >
                             I am a Toronto-based software engineer and Computer Science gradudate from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FDFD96', 'text-decoration': 'none'}}>University of Waterloo</a>.
@@ -71,8 +70,7 @@ const About = () => {
                             id='about-text-content'
                             pt={3}
                             style= {{
-                                'font-family': 'Lato, sans-serif',
-                                'font-size': '21px'
+                                'font-family': 'Lato, sans-serif'
                             }}
                         >
                             I believe that accessibility is one of the most disregarded aspects of software, everyone deserves the best user experience possible and I hope to be able to positively contribute to this change.
@@ -81,8 +79,7 @@ const About = () => {
                             id='about-text-content'
                             pt={3}
                             style= {{
-                                'font-family': 'Lato, sans-serif',
-                                'font-size': '21px'
+                                'font-family': 'Lato, sans-serif'
                             }}
                         >
                             Currently enhancing the online store editor experience for merchants @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a>.
