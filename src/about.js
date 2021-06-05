@@ -8,10 +8,13 @@ import Typography from '@material-ui/core/Typography';
 /* Local Files */
 import './about.css';
 import Music from './music.js';
+import Insights from './insights.js';
 
 /* Photos */
 import ErnestBefore from './images/ernest-before.jpg';
 import ErnestAfter from './images/ernest-after.jpg';
+import Spotilytics from './images/spotilytics.png';
+import Blank from './images/blank.png';
 
 const About = () => {
     const [isBefore, setIsBefore] = useState(true);
@@ -55,38 +58,50 @@ const About = () => {
                             textAlign='left'
                             id='about-text-header'
                         >
-                            <span style={{'color': '#FF7E6B'}}>About me</span> Toronto based aspiring computer scientist.
+                            <span style={{'color': '#FF7E6B'}}>About me</span>
                         </Box>
                         <Box
-                            className='about-text-content'
+                            id='about-text-content'
                             pt={2}
-                            style = {{
-                                'font-family': 'Lato, sans-serif'
-                            }}
                         >
-                            I am a student at the University of Waterloo pursuing a Bachelor of Computer Science and incoming backend developer at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>shopify</a>.
+                            I am a Toronto-based software engineer and Computer Science gradudate from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FF7E6B', 'text-decoration': 'none'}}>University of Waterloo</a>
                         </Box>
                         <Box
-                            className='about-text-content'
-                            style= {{
-                                'padding': '1rem 0 0 0',
-                                'font-family': 'Lato, sans-serif'
-                            }}
+                            id='about-text-content'
+                            pt={3}
                         >
-                            Playing video games growing up stemmed my interest for development. Development not only challenges me to think critically, but also allows me to tap into my creativity. Accessibility is one of the most disregarded aspects of software and I hope to be able to positively contribute to this change.
+                            I believe that accessibility is one of the most disregarded aspects of software, everyone deserves the best user experience possible and I hope to be able to positively contribute to this change.
                         </Box>
                         <Box
-                            className='about-text-content'
-                            style= {{
-                                'padding': '1rem 0 0 0',
-                                'font-family': 'Lato, sans-serif'
-                            }}
+                            id='about-text-content'
+                            pt={3}
                         >
-                            Aside from work I am a music enthusiast who has a love for collecting LP records, am an aspiring vegetarian, and hope to open up my own embroidery small business in the future. 
+                            Currently enhancing the online store editor experience for merchants @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a>.
                         </Box>
                     </Box>
                 </Box>
             </Box>
+            
+{/* <Box
+            //     pt={5}
+            //     display='flex'
+            // >
+            //     <Insights
+            //         question='Why Software?'
+            //         answer={['Playing video games growing up stemmed my interest for development. Development not only challenges me to think critically, but also allows me to tap into my creativity.']}
+            //         background='#fcd1d1'
+            //     />
+            //     <Insights
+            //         question='What Inspires You?'
+            //         answer={['answer']}
+            //         background='#ece2e1'
+            //     />
+            //     <Insights
+            //         question='Fun Facts?'
+            //         answer={['💿 - Collecting LP records', 'am an aspiring vegetarian, and hope to open up my own embroidery small business in the future. ']}
+            //         background='#f6e2b3'
+            //     />
+            // </Box>*/}
         </Box>
         <Music/>
     </React.Fragment>

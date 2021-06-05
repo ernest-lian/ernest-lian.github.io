@@ -41,6 +41,10 @@
   }
 }
 
+#about-text-content {
+  font-family: 'Lato';
+}
+
 #about-text-container {
   position:relative;
   animation:animateright 0.9s
@@ -103,7 +107,7 @@
   }
 
   #about-text-content {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   #about-profile {
