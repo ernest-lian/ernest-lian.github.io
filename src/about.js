@@ -60,18 +60,27 @@ const About = () => {
                         <Box
                             id='about-text-content'
                             pt={2}
+                            style= {{
+                                'font-family': 'Lato, sans-serif'
+                            }}
                         >
                             I am a Toronto-based software engineer and Computer Science gradudate from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FDFD96', 'text-decoration': 'none'}}>University of Waterloo</a>.
                         </Box>
                         <Box
                             id='about-text-content'
                             pt={3}
+                            style= {{
+                                'font-family': 'Lato, sans-serif'
+                            }}
                         >
                             I believe that accessibility is one of the most disregarded aspects of software, everyone deserves the best user experience possible and I hope to be able to positively contribute to this change.
                         </Box>
                         <Box
                             id='about-text-content'
                             pt={3}
+                            style= {{
+                                'font-family': 'Lato, sans-serif'
+                            }}
                         >
                             Currently enhancing the online store editor experience for merchants @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a>.
                         </Box>
@@ -97,6 +106,9 @@ const About = () => {
                         color='white'
                         id='about-text-content'
                         pt={2}
+                        style= {{
+                            'font-family': 'Lato, sans-serif'
+                        }}
                     >
                         Playing video games growing up stemmed my interest for development. Fast forward to 6 internships later, my love for coding has only grown.
                     </Box>
@@ -104,6 +116,9 @@ const About = () => {
                         color='white'
                         id='about-text-content'
                         pt={2}
+                        style= {{
+                            'font-family': 'Lato, sans-serif'
+                        }}
                     >
                         Development not only challenges me to think critically, but also allows me to tap into my creativity which is the aspect that I love the most about this career.
                     </Box>
@@ -111,6 +126,9 @@ const About = () => {
                         color='white'
                         id='about-text-content'
                         pt={2}
+                        style= {{
+                            'font-family': 'Lato, sans-serif'
+                        }}
                     >
                          Not only am I interested in full stack development, but I have a growing love for data. Data plays a crucial aspect in our everyday lives, it's a main factor that drives our society towards further innovation and is revolutionizing society. 
                     </Box>
