@@ -68,12 +68,23 @@
 
 #career-hobbies-container {
   position: relative;
-  animation: animateup 0.9s
+  animation: animateright 0.9s
 }
 
 @keyframes animateright {
   from {
     right:-300px;
+    opacity:0
+  }
+  to {
+    right:0;
+    opacity:1
+  }
+}
+
+@keyframes animateleft {
+  from {
+    right:300px;
     opacity:0
   }
   to {
