@@ -74,7 +74,7 @@ const About = () => {
                                 'font-family': 'Lato, sans-serif'
                             }}
                         >
-                            As a first generation college student, this has opened my eyes to the amount of privilege that furthering your education is and how often we usually take it for granted. I'm a huge advocate for not only accessible education but as well as software as it's one of the most disregarded aspects in the industry, everyone deserves the best user experience possible and I hope to be able to positively contribute to this change.
+                            As a first generation college student, this has opened my eyes to the amount of privilege that furthering your education is and how often we usually take it for granted. I'm a huge advocate for not only accessible education but as well as software as it's one of the most disregarded aspects in the industry. Everyone deserves the best user experience possible and I hope to be able to positively contribute to this change.
                         </Box>
                         <Box
                             id='about-text-content'
