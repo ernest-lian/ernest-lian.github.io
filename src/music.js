@@ -101,8 +101,9 @@ const Music= () => {
                 'font-size': '30px'
             }}
             pb={10}
+            pt={5}
         >
-            <span style={{'color': '#77DD77'}}>Songs I Love ❤️</span>
+            <span style={{'color': 'rgb(255, 174, 26)'}}>Songs I Love ❤️</span>
             <Box
                 id='fave-tunes'
                 display='flex'

@@ -51,11 +51,12 @@ const About = () => {
                         <Box
                             display='flex'
                             flexDirection='column'
-                            component={Typography}
-                            textAlign='left'
-                            id='about-text-header'
+                            style= {{
+                                'font-family': 'Lato, sans-serif',
+                                'font-size': '30px'
+                            }}
                         >
-                            <span style={{'color': '#ff2015'}}>About me</span>
+                            <span style={{'color': 'rgb(255, 174, 26)'}}>About me</span>
                         </Box>
                         <Box
                             id='about-text-content'
@@ -73,7 +74,7 @@ const About = () => {
                                 'font-family': 'Lato, sans-serif'
                             }}
                         >
-                            I believe that accessibility is one of the most disregarded aspects of software, everyone deserves the best user experience possible and I hope to be able to positively contribute to this change.
+                            As a first generation college student, this has opened my eyes to the amount of privilege that furthering your education is and how often we usually take it for granted. I'm a huge advocate for not only accessible education but as well as software as it's one of the most disregarded aspects in the industry, everyone deserves the best user experience possible and I hope to be able to positively contribute to this change.
                         </Box>
                         <Box
                             id='about-text-content'
@@ -86,123 +87,8 @@ const About = () => {
                         </Box>
                     </Box>
                 </Box>
-            </Box>
-            <Box
-                display='flex'
-                id='career-hobbies-container'
-                pt={3}
-            >
-                <Box
-                    id='career'
-                >
-                    <Box
-                        color='white'
-                        component={Typography}
-                        id='as-a-header'
-                    >
-                        <span style={{'color': '#FF7E6B'}}>As a developer</span>
-                    </Box>
-                    <Box
-                        color='white'
-                        id='about-text-content'
-                        pt={2}
-                        style= {{
-                            'font-family': 'Lato, sans-serif'
-                        }}
-                    >
-                        Playing video games growing up stemmed my interest in development. Fast forward 6 internships later, my love for coding has only grown.
-                    </Box>
-                    <Box
-                        color='white'
-                        id='about-text-content'
-                        pt={2}
-                        style= {{
-                            'font-family': 'Lato, sans-serif'
-                        }}
-                    >
-                        Development not only challenges me to think critically, but also allows me to tap into my creativity which is the aspect that I love the most about this career.
-                    </Box>
-                    <Box
-                        color='white'
-                        id='about-text-content'
-                        pt={2}
-                        style= {{
-                            'font-family': 'Lato, sans-serif'
-                        }}
-                    >
-                         Not only am I interested in full stack development, but I have a growing love for data. Data plays a crucial aspect in our everyday lives, it's a main factor that drives our society towards further innovation and is revolutionizing society. 
-                    </Box>
-                </Box>
-
-                <Box
-                    id='hobbies'
-                    pt={2}
-                >
-                    <Box
-                        color='white'
-                        component={Typography}
-                        id='as-a-header'
-                    >
-                        <span style={{'color': '#FDFD96'}}>As a person</span>
-                    </Box>
-                    <Box
-                        color='white'
-                        id='about-text-content'
-                        pt={2}
-                        style= {{
-                            'font-family': 'Lato, sans-serif'
-                        }}
-                    >
-                        As a first generation college student, this has opened my eyes to the amount of privilege that furthering your education is and how often we usually take it for granted. I hope to be able to sponsor my own scholarship in the future to help other first generation students pursue post-secondary.
-                    </Box>
-                    <Box
-                        color='white'
-                        id='about-text-content'
-                        pt={2}
-                        style= {{
-                            'font-family': 'Lato, sans-serif'
-                        }}
-                    >
-                        <Box>
-                            During my free time:
-                        </Box>
-                        <Box
-                            pl={1}
-                            style= {{
-                                'font-family': 'Lato, sans-serif'
-                            }}
-                        >
-                            •&nbsp;&nbsp;&nbsp;💿&nbsp;&nbsp;collecting LP records
-                        </Box>
-                        <Box
-                            pl={1}
-                            style= {{
-                                'font-family': 'Lato, sans-serif'
-                            }}
-                        >
-                            •&nbsp;&nbsp;&nbsp;🥬&nbsp;&nbsp;aspiring vegetarian
-                        </Box>
-                        <Box
-                            pl={1}
-                            style= {{
-                                'font-family': 'Lato, sans-serif'
-                            }}
-                        >
-                            •&nbsp;&nbsp;&nbsp;🪡&nbsp;&nbsp;future embroidery entrepeneur
-                        </Box>
-                        <Box
-                            pl={1}
-                            style= {{
-                                'font-family': 'Lato, sans-serif'
-                            }}
-                        >
-                            •&nbsp;&nbsp;&nbsp;🏊&nbsp;&nbsp;ex-competitive swimmer
-                        </Box>
-                    </Box>
-                </Box>
-            </Box>
+            </Box>  
         </Box>
-        <Music/>
     </React.Fragment>
         );
 }
