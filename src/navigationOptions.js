@@ -14,6 +14,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 
+import './navigationOptions.css';
+
 const styles = makeStyles({
     hoverNavigation: {
         "&:hover": {
@@ -58,6 +60,7 @@ const NavigationOptions = () => {
                         style= {{
                             'font-family': 'Raleway, sans-serif'
                         }}
+                        id='ernest'
                         pr={1}
                         onMouseOver={handleShowHomeIcon}
                         onMouseOut={handleShowHomeIcon}
@@ -84,8 +87,9 @@ const NavigationOptions = () => {
                         style= {{
                             'font-family': 'Lato, sans-serif'
                         }}
+                        id='about-moi'
                     >
-                        About
+                        about moi
                     </Box>
                 </Link>
             </Box>

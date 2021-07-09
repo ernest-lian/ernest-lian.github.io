@@ -1,0 +1,20 @@
+#ernest {
+	position: relative;
+  	animation: animateup 3.0s
+}
+
+#about-moi {
+	position: relative;
+	animation: animateup 3.0s
+}
+
+@keyframes animateup {
+  from {
+    bottom:-300px;
+    opacity:0
+  }
+  to {
+    bottom:0;
+    opacity:1
+  }
+}
