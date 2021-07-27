@@ -121,7 +121,7 @@ const Website = () => {
                     <Project
                         name='synthesize'
                         description='in progress'
-                        link='https://github.com/ernest-lian/synthesize'
+                        link='https://ernest-lian-synthesize.herokuapp.com/'
                         image={Blank}
                         background='#d3e0e5'
                     />
