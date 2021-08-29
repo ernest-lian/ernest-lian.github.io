@@ -41,11 +41,6 @@ const Website = () => {
                     <Box
                         id='name'
                         color='black'
-                        style= {{
-                            'font-family': 'Lato, sans-serif',
-                            'font-size': '60px',
-                            'font-weight': '600'
-                        }}
                     >
                         ERNEST LIAN.
                     </Box>
