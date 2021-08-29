@@ -36,7 +36,7 @@ const Website = () => {
                         }}
                         pb={1}
                     >
-                      <span style={{'color': '#FF7E6B'}}>Hiya! I am</span>
+                      <span style={{'color': '#EB96AA'}}>Hiya! I am</span>
                     </Box>
                     <Box
                         color='black'

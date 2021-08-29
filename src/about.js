@@ -53,10 +53,11 @@ const About = () => {
                             flexDirection='column'
                             style= {{
                                 'font-family': 'Lato, sans-serif',
+                                'font-weight': 'bold',
                                 'font-size': '30px'
                             }}
                         >
-                            <span style={{'color': 'rgb(255, 174, 26)'}}>About me</span>
+                            <span>About me</span>
                         </Box>
                         <Box
                             id='about-text-content'

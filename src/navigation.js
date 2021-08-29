@@ -30,8 +30,6 @@ const Navigation = () => {
             <Box
                 pt={4}
                 pb={4}
-                pl={10}
-                pr={10} 
                 id='navigation-bar'
             >
                 <NavigationOptions/>
