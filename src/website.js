@@ -39,6 +39,7 @@ const Website = () => {
                       <span style={{'color': '#EB96AA'}}>Hiya! I am</span>
                     </Box>
                     <Box
+                        id='name'
                         color='black'
                         style= {{
                             'font-family': 'Lato, sans-serif',
