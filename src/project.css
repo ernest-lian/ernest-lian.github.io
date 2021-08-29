@@ -32,6 +32,8 @@
 /* Background */
 #mockup-image-container {
   background-color: #e8f4ea;
+  border: 1px solid black;
+  box-shadow: 5px 5px;
 }
 
 #mockup-container {

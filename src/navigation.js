@@ -25,18 +25,22 @@ const Navigation = () => {
         flexDirection='column'
         height='100%'
         width='100%'
-        id='page'
     >
         <HashRouter>
             <Box
                 pt={4}
                 pb={4}
+                pl={10}
+                pr={10} 
                 id='navigation-bar'
             >
                 <NavigationOptions/>
             </Box>
 
-            <Box>
+            <Box
+                pl={10}
+                pr={10} 
+            >
                 <Switch>
                     <Route path="/" exact component={Website}/>
                     <Route path="/home" component={Website}/>

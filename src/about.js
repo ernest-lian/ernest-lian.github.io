@@ -22,7 +22,7 @@ const About = () => {
         <React.Fragment>
         <Box
             id='about-border'
-            color='white'
+            color='black'
         >
             <Box
                 id='about-text'
@@ -65,7 +65,7 @@ const About = () => {
                                 'font-family': 'Lato, sans-serif'
                             }}
                         >
-                            I am a Toronto-based software engineer and Computer Science gradudate from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FDFD96', 'text-decoration': 'none'}}>University of Waterloo</a>.
+                            I am a Toronto-based software engineer and Computer Science gradudate from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#ffdf00', 'text-decoration': 'none'}}>University of Waterloo</a>.
                         </Box>
                         <Box
                             id='about-text-content'

@@ -44,7 +44,7 @@ const Project = ({
                 />
             </Box>
             <Box
-                color='white'
+                color='black'
                 style= {{
                     'font-family': 'Lato, sans-serif',
                     'font-weight': 'bold',
@@ -55,7 +55,7 @@ const Project = ({
                 {name}
             </Box>
             <Box
-                color='white'
+                color='black'
                 style= {{
                     'font-family': 'Lato, sans-serif',
                     'font-size': '15px',
@@ -72,7 +72,7 @@ const Project = ({
                 id='mockup-view-project-container'
             >
                 <Box
-                    color='white'
+                    color='black'
                     style= {{
                         'font-family': 'Lato, sans-serif',
                         'font-weight': '600',

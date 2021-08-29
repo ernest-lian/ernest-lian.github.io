@@ -1,17 +1,24 @@
 /* React */
 import React from 'react';
 
+import { 
+  Box,
+  Typography,
+  Button
+} from '@material-ui/core';
+
 /* Local Files */
 import Navigation from './navigation.js';
+import Window from './window.js';
 
 /* Local Files Styling */
 import './App.css';
 
 function App() {
   return (
-  	<React.Fragment>
-    	<Navigation/>
-	</React.Fragment>
+  	<Box className='App'>
+  		<Window/>
+	</Box>
   );
 }
 

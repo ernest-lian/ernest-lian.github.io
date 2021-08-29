@@ -54,7 +54,7 @@ const NavigationOptions = () => {
                     display='flex'
                 >
                     <Box
-                        color='white'
+                        color='black'
                         onClick={()=> {handleCurrentPage('home')}}
                         whiteSpace='nowrap'
                         style= {{
@@ -81,7 +81,7 @@ const NavigationOptions = () => {
                     to={'/about'}
                 >
                     <Box
-                        color='white'
+                        color='black'
                         className={(page === 'about') ? classes.selectedNavigation : classes.hoverNavigation}
                         onClick={()=> {handleCurrentPage('about')}}
                         style= {{

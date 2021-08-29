@@ -39,7 +39,7 @@ const Website = () => {
                       <span style={{'color': '#FF7E6B'}}>Hiya! I am</span>
                     </Box>
                     <Box
-                        color='white'
+                        color='black'
                         style= {{
                             'font-family': 'Lato, sans-serif',
                             'font-size': '60px',
@@ -49,14 +49,14 @@ const Website = () => {
                         ERNEST LIAN.
                     </Box>
                     <Box
-                        color='white'
+                        color='black'
                         style= {{
                             'font-family': 'Lato, sans-serif',
                             'font-size': '20px',
                             'padding': '1rem 0 1.5rem 0'
                         }}
                     >
-                        I am a backend developer on the Online Store Editor at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a> & Computer Science grad from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#FDFD96', 'text-decoration': 'none'}}>University of Waterloo</a>
+                        I am a backend developer on the Online Store Editor at <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a> & Computer Science grad from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#ffdf00', 'text-decoration': 'none'}}>University of Waterloo</a>
                     </Box>
                     <Box
                         display='flex'
@@ -68,7 +68,7 @@ const Website = () => {
                                 className='social-icons'
                             >
                                 <a href='https://www.linkedin.com/in/ernest-lian/' rel="noopener noreferrer" target='_blank'>
-                                    <FontAwesomeIcon icon={faLinkedin} size='2x' color='white'/>
+                                    <FontAwesomeIcon icon={faLinkedin} size='2x' color='black'/>
                                 </a>
                             </Box>
                         </Tooltip>
@@ -77,7 +77,7 @@ const Website = () => {
                                 className='social-icons'
                             >
                                 <a href='https://github.com/ernest-lian' rel="noopener noreferrer" target="_blank">
-                                    <FontAwesomeIcon icon={faGithub} size='2x' color='white'/>
+                                    <FontAwesomeIcon icon={faGithub} size='2x' color='black'/>
                                 </a>
                             </Box>
                         </Tooltip>
@@ -86,7 +86,7 @@ const Website = () => {
                                 className='social-icons'
                             >
                                 <a href='mailto: ernestclian@gmail.com'>
-                                    <FontAwesomeIcon icon={faEnvelope} size='2x' color='white'/>
+                                    <FontAwesomeIcon icon={faEnvelope} size='2x' color='black'/>
                                 </a>
                             </Box>
                         </Tooltip>
@@ -97,7 +97,7 @@ const Website = () => {
                 id='side-projects-container'
             >
                 <Box
-                    color='white'
+                    color='black'
                     style= {{
                         'font-family': 'Lato, sans-serif',
                         'font-weight': 'bold',
@@ -105,7 +105,7 @@ const Website = () => {
                     }}
                     pb={3}
                 >
-                    Side Projects
+                    Side projects
                 </Box>
                 <Box
                     id='side-project-list-container'
