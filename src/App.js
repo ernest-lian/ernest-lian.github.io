@@ -2,13 +2,10 @@
 import React from 'react';
 
 import { 
-  Box,
-  Typography,
-  Button
+  Box
 } from '@material-ui/core';
 
 /* Local Files */
-import Navigation from './navigation.js';
 import Window from './window.js';
 
 /* Local Files Styling */

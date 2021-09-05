@@ -3,11 +3,9 @@ import React, {useState} from 'react';
 
 /* Material UI */
 import { Box } from '@material-ui/core';
-import Typography from '@material-ui/core/Typography';
 
 /* Local Files */
 import './about.css';
-import Music from './music.js';
 
 /* Photos */
 import ErnestBefore from './images/ernest-before.jpg';
