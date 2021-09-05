@@ -89,7 +89,7 @@ const NavigationOptions = () => {
                         }}
                         id='about-moi'
                     >
-                        about moi
+                        more about me
                     </Box>
                 </Link>
             </Box>
