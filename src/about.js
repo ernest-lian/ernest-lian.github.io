@@ -73,7 +73,7 @@ const About = () => {
                                 'font-family': 'Lato, sans-serif'
                             }}
                         >
-                            As a first generation college student, this has opened my eyes to the amount of privilege that furthering your education is and how often we usually take it for granted. I am a huge advocate for not only accessible education but as well as software as it's often disregarded, and I hope to be able to positively contribute to this change.
+                            As a first generation post-secondary student, this has opened my eyes to the privilege that furthering your education is and how often we usually take it for granted. I am really passionate about not only making education more accessible but also providing resources to aid individuals from under represented communities. In addition, I am an advocate for making software more accessible as it is often disregarded, and I hope to be able to positively contribute to this change.
                         </Box>
                         <Box
                             id='about-text-content'
