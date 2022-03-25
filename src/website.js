@@ -108,18 +108,18 @@ const Website = () => {
                     pb={10}
                 >
                     <Project
-                        name='spotilytics'
-                        description='Song recommendation Spotify analytics platform'
-                        image={Spotilytics}
-                        link='https://github.com/ernest-lian/Spotilytics'
-                        background='#e8f4ea'
-                    />
-                    <Project
                         name='synthesize'
                         description='in progress'
                         link='https://ernest-lian-synthesize.herokuapp.com/'
                         image={Blank}
                         background='#d3e0e5'
+                    />
+                    <Project
+                        name='spotilytics'
+                        description='Song recommendation Spotify analytics platform'
+                        image={Spotilytics}
+                        link='https://github.com/ernest-lian/Spotilytics'
+                        background='#e8f4ea'
                     />
                 </Box>
             </Box>

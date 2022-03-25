@@ -12,7 +12,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 /* FontAwesome Icons */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
 import './navigationOptions.css';
 
@@ -34,12 +34,14 @@ const NavigationOptions = () => {
     const classes = styles();
     const [page, setPage] = useState('')
     const [showHomeIcon, setShowHomeIcon] = useState(false)
+    const [showProfileIcon, setShowProfileIcon] = useState(false)
 
     const handleCurrentPage = (currentPage) => {
         setPage(currentPage)
     }
 
     const handleShowHomeIcon = () => setShowHomeIcon(!showHomeIcon);
+    const handleShowProfileIcon = () => setShowProfileIcon(!showProfileIcon);
 
     return (
         <Box
@@ -81,15 +83,27 @@ const NavigationOptions = () => {
                     to={'/about'}
                 >
                     <Box
-                        color='black'
-                        className={(page === 'about') ? classes.selectedNavigation : classes.hoverNavigation}
-                        onClick={()=> {handleCurrentPage('about')}}
-                        style= {{
-                            'font-family': 'Lato, sans-serif'
-                        }}
-                        id='about-moi'
+                        display='flex'
                     >
-                        about me
+                        <Box
+                            color='black'
+                            className={(page === 'about') ? classes.selectedNavigation : classes.hoverNavigation}
+                            onClick={()=> {handleCurrentPage('about')}}
+                            style= {{
+                                'font-family': 'Lato, sans-serif'
+                            }}
+                            id='about-me'
+                            pr={1}
+                            onMouseOver={handleShowProfileIcon}
+                            onMouseOut={handleShowProfileIcon}
+                        >
+                            about me
+                        </Box>
+                        <Box
+                            verticalAlign='text-bottom'
+                        >
+                            {showProfileIcon ? <FontAwesomeIcon icon={faUserCircle} size='1x' color='grey'/> : <FontAwesomeIcon icon={faUserCircle} size='1x' color='white'/> }
+                        </Box>
                     </Box>
                 </Link>
             </Box>
