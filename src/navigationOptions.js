@@ -67,7 +67,7 @@ const NavigationOptions = () => {
                         onMouseOver={handleShowHomeIcon}
                         onMouseOut={handleShowHomeIcon}
                     >
-                        ernest
+                        Ernest Lian
                     </Box>
                     {showHomeIcon ? <FontAwesomeIcon icon={faHome} size='1x' color='grey'/> : null}
                 </Box>
@@ -97,7 +97,7 @@ const NavigationOptions = () => {
                             onMouseOver={handleShowProfileIcon}
                             onMouseOut={handleShowProfileIcon}
                         >
-                            about me
+                            About
                         </Box>
                         <Box
                             verticalAlign='text-bottom'
