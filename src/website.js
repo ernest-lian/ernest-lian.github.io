@@ -3,12 +3,6 @@ import React from 'react';
 
 /* Material-UI */
 import { Box } from '@material-ui/core';
-import Tooltip from '@material-ui/core/Tooltip';
-
-/* FontAwesome Icons */
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 /* Local Files */
 import './website.css';

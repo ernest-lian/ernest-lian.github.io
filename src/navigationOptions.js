@@ -12,21 +12,21 @@ import { makeStyles } from '@material-ui/core/styles';
 
 /* FontAwesome Icons */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 import './navigationOptions.css';
 
 const styles = makeStyles({
     hoverNavigation: {
         "&:hover": {
-            color: 'rgb(204, 198, 187)'
+            color: 'orange'
         }
     },
     selectedNavigation: {
         "&:hover": {
             color: 'rgb(204, 198, 187)'
         },
-        "color": 'orange'
+        "color": '#95BF47'
     }
 });
 
@@ -57,6 +57,7 @@ const NavigationOptions = () => {
                 >
                     <Box
                         color='black'
+                        className={(page === 'home') ? classes.selectedNavigation : classes.hoverNavigation}
                         onClick={()=> {handleCurrentPage('home')}}
                         whiteSpace='nowrap'
                         style= {{
@@ -98,11 +99,6 @@ const NavigationOptions = () => {
                             onMouseOut={handleShowProfileIcon}
                         >
                             About
-                        </Box>
-                        <Box
-                            verticalAlign='text-bottom'
-                        >
-                            {showProfileIcon ? <FontAwesomeIcon icon={faUserCircle} size='1x' color='grey'/> : <FontAwesomeIcon icon={faUserCircle} size='1x' color='white'/> }
                         </Box>
                     </Box>
                 </Link>

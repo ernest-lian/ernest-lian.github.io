@@ -7,6 +7,7 @@ import {
 
 /* Local Files */
 import Window from './window.js';
+import SideBar from './sideBar.js';
 
 /* Local Files Styling */
 import './App.css';
