@@ -26,6 +26,13 @@ const Navigation = () => {
         height='100%'
         width='100%'
     >
+        <Box
+            id='window-bar'
+        >
+            <span id="red-dot"></span>
+            <span id="yellow-dot"></span>
+            <span id="green-dot"></span>
+        </Box>
         <HashRouter>
             <Box
                 pt={4}
