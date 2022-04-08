@@ -29,20 +29,10 @@ const Website = () => {
                     id='border'
                 >
                     <Box
-                        style= {{
-                            'font-family': 'Lato, sans-serif',
-                            'font-size': '15px',
-                            'font-weight': '600'
-                        }}
-                        pb={1}
-                    >
-                      <span style={{'color': '#EB96AA'}}>Hiya! I am</span>
-                    </Box>
-                    <Box
                         id='name'
                         color='black'
                     >
-                        ERNEST LIAN.
+                        Hello I'm Ernest Lian.
                     </Box>
                     <Box
                         color='black'
