@@ -42,7 +42,7 @@ const Website = () => {
                             'padding-top': '2rem'
                         }}
                     >
-                        Computer Science gradudate from the University of Waterloo
+                        Computer Science gradudate from the University of Waterloo.
                     </Box>
                     <Box
                         color='black'
@@ -51,7 +51,7 @@ const Website = () => {
                             'font-size': '20px'
                         }}
                     >
-                        Backend developer & first-generation student
+                        Backend developer & first-generation student.
                     </Box>
                     <Box
                         color='black'
@@ -62,7 +62,7 @@ const Website = () => {
                             'padding-top': '2rem'
                         }}
                     >
-                        Currently enhancing the Theme Editor experience @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a>
+                        Currently enhancing the Theme Editor experience @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify.</a>
                     </Box>
                 </Box>
             </Box>
