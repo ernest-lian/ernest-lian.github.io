@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.04359a3b.chunk.css",
-    "main.js": "/static/js/main.0077f4b2.chunk.js",
-    "main.js.map": "/static/js/main.0077f4b2.chunk.js.map",
+    "main.css": "/static/css/main.8ed82ac1.chunk.css",
+    "main.js": "/static/js/main.9c391cab.chunk.js",
+    "main.js.map": "/static/js/main.9c391cab.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf2bcaec.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf2bcaec.js.map",
     "static/js/2.6e00105c.chunk.js": "/static/js/2.6e00105c.chunk.js",
     "static/js/2.6e00105c.chunk.js.map": "/static/js/2.6e00105c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.04359a3b.chunk.css.map": "/static/css/main.04359a3b.chunk.css.map",
+    "static/css/main.8ed82ac1.chunk.css.map": "/static/css/main.8ed82ac1.chunk.css.map",
     "static/js/2.6e00105c.chunk.js.LICENSE.txt": "/static/js/2.6e00105c.chunk.js.LICENSE.txt",
     "static/media/calendar.50bc6e48.png": "/static/media/calendar.50bc6e48.png",
     "static/media/ernest-after.2b33b561.jpg": "/static/media/ernest-after.2b33b561.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf2bcaec.js",
     "static/js/2.6e00105c.chunk.js",
-    "static/css/main.04359a3b.chunk.css",
-    "static/js/main.0077f4b2.chunk.js"
+    "static/css/main.8ed82ac1.chunk.css",
+    "static/js/main.9c391cab.chunk.js"
   ]
 }
