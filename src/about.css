@@ -5,6 +5,8 @@
 #about-profile {
   border-radius: 15px;
   object-fit: cover;
+  border: solid black 1px;
+  height: 80%;
 }
 
 @media only screen and (max-width: 800px) {
