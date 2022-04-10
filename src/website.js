@@ -26,7 +26,17 @@ const Website = () => {
                         id='name'
                         color='black'
                     >
-                        <span id='hello'>Hello</span> I'm <span style={{'color': '#95BF47'}}>Ernest</span>
+                        <span id='hello'>Hello</span> I'm <span style={{'color': '#95BF47'}}>Ernest.</span>
+                    </Box>
+                    <Box
+                        color='#808080'
+                        style= {{
+                            'font-family': 'Lato, sans-serif',
+                            'font-size': '30px',
+                            'padding-top': '2rem'
+                        }}
+                    >
+                        Software Developer.
                     </Box>
                     <Box
                         color='black'
@@ -36,7 +46,7 @@ const Website = () => {
                             'padding-top': '2rem'
                         }}
                     >
-                        Computer Science gradudate from the University of Waterloo
+                        I'm passionate about developing accessible software for everyone.
                     </Box>
                     <Box
                         color='black'
@@ -45,18 +55,7 @@ const Website = () => {
                             'font-size': '20px'
                         }}
                     >
-                        Backend developer & first-generation student
-                    </Box>
-                    <Box
-                        color='black'
-                        style= {{
-                            'font-family': 'Lato, sans-serif',
-                            'font-size': '20px',
-                            'font-weight': '100',
-                            'padding-top': '2rem'
-                        }}
-                    >
-                        Enhancing the Theme Editor @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify</a>
+                        Currently enhancing the Theme Editor experience @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify.</a>
                     </Box>
                 </Box>
             </Box>
