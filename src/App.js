@@ -16,7 +16,8 @@ function App() {
   return (
   	<Box className='App'>
   		<Window/>
-	</Box>
+      <SideBar id='side-bar'/>
+  </Box>
   );
 }
 

@@ -1,0 +1,25 @@
+#side-bar {
+    background:rgba(255, 255, 255,0.3);
+    border-radius: 15px;
+}
+
+.information-icons {
+    opacity: 100%;
+    width: 45px;
+    height: 45px;
+    padding: 7px;
+}
+
+.side-bar-icons {
+    width: 45px;
+    height: 45px;
+    padding: 7px;
+    opacity: 20%;
+}
+
+#gmail-icon {
+    opacity: 100%;
+    width: 45px;
+    height: 40px;
+    padding: 7px;
+}
