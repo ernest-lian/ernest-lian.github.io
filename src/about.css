@@ -9,6 +9,10 @@
   height: 80%;
 }
 
+#about-me-header {
+  border-bottom: 3px solid black;
+}
+
 @media only screen and (max-width: 800px) {
   #about-border {
     padding: 10vw 0vw 10vw 0vw;

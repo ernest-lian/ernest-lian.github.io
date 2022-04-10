@@ -47,28 +47,13 @@ const About = () => {
                         id='about-text-container'
                     >
                         <Box
-                            display='flex'
-                            flexDirection='column'
                             style= {{
                                 'font-family': 'Lato, sans-serif',
                                 'font-weight': 'bold',
                                 'font-size': '40px'
                             }}
                         >
-                            Ernest Lian
-                        </Box>
-                        <Box
-                            display='flex'
-                            flexDirection='column'
-                            style= {{
-                                'font-family': 'Lato, sans-serif',
-                                'font-weight': 'bold',
-                                'font-size': '30px',
-                                'color': '#808080',
-                                'padding-top': '2rem'
-                            }}
-                        >
-                            Software Developer
+                             <span id='about-me-header'> About Me</span>
                         </Box>
                         <Box
                             id='about-text-content'
