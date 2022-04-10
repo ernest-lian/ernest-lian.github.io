@@ -58,28 +58,34 @@ const SideBar = () => {
                     class='side-bar-icons'
                 />
                 <GreenTooltip title="LinkedIn" placement="left">
-                    <Box
-                        component='img'
-                        width='100%'
-                        src={Linkedin}
-                        class='information-icons'
-                    />
+                    <a href='https://www.linkedin.com/in/ernest-lian/' rel="noopener noreferrer" target='_blank'>
+                        <Box
+                            component='img'
+                            width='100%'
+                            src={Linkedin}
+                            class='information-icons'
+                        />
+                    </a>
                 </GreenTooltip>
                 <GreenTooltip title="Github" placement="left">
-                    <Box
-                        component='img'
-                        width='100%'
-                        src={Github}
-                        class='information-icons'
-                    />
+                    <a href='https://github.com/ernest-lian' rel="noopener noreferrer" target="_blank">
+                        <Box
+                            component='img'
+                            width='100%'
+                            src={Github}
+                            class='information-icons'
+                        />
+                    </a>
                 </GreenTooltip>
                 <GreenTooltip title="Email" placement="left">
-                    <Box
-                        component='img'
-                        width='100%'
-                        src={Gmail}
-                        id='gmail-icon'
-                    />
+                    <a href='mailto: ernestclian@gmail.com'>
+                        <Box
+                            component='img'
+                            width='100%'
+                            src={Gmail}
+                            id='gmail-icon'
+                        />
+                    </a>
                 </GreenTooltip>
                 <Box
                     component='img'
