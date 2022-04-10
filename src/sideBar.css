@@ -4,7 +4,7 @@
 }
 
 .information-icons {
-    opacity: 100%;
+    opacity: 1;
     width: 45px;
     height: 45px;
     padding: 7px;
@@ -14,11 +14,11 @@
     width: 45px;
     height: 45px;
     padding: 7px;
-    opacity: 20%;
+    opacity: 0.2;
 }
 
 #gmail-icon {
-    opacity: 100%;
+    opacity: 1;
     width: 45px;
     height: 40px;
     padding: 7px;
