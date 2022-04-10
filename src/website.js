@@ -55,7 +55,7 @@ const Website = () => {
                             'font-size': '20px'
                         }}
                     >
-                        Currently enhancing the Theme Editor experience @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify.</a>
+                        Currently enhancing the Theme Editor experience for merchants @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify.</a>
                     </Box>
                 </Box>
             </Box>
