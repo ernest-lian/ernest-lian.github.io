@@ -89,7 +89,7 @@ const Website = () => {
                         description='Song recommendation Spotify analytics platform'
                         image={Spotilytics}
                         link='https://github.com/ernest-lian/Spotilytics'
-                        background='#e8f4ea'
+                        background='#edf3e2'
                     />
                 </Box>
             </Box>
