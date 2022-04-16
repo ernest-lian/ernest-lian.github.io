@@ -9,7 +9,7 @@ import './website.css';
 import Project from './project.js';
 
 /* Local Images */
-import Spotilytics from './images/spotilytics.png';
+import Spotilytics from './images/spotilytics-new.png';
 import Blank from './images/blank.png';
 
 const Website = () => {
