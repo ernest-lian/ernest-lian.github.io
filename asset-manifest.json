@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ed82ac1.chunk.css",
+    "main.css": "/static/css/main.1243610f.chunk.css",
     "main.js": "/static/js/main.9259533a.chunk.js",
     "main.js.map": "/static/js/main.9259533a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf2bcaec.js",
@@ -8,7 +8,7 @@
     "static/js/2.6e00105c.chunk.js": "/static/js/2.6e00105c.chunk.js",
     "static/js/2.6e00105c.chunk.js.map": "/static/js/2.6e00105c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8ed82ac1.chunk.css.map": "/static/css/main.8ed82ac1.chunk.css.map",
+    "static/css/main.1243610f.chunk.css.map": "/static/css/main.1243610f.chunk.css.map",
     "static/js/2.6e00105c.chunk.js.LICENSE.txt": "/static/js/2.6e00105c.chunk.js.LICENSE.txt",
     "static/media/calendar.50bc6e48.png": "/static/media/calendar.50bc6e48.png",
     "static/media/ernest-after.2b33b561.jpg": "/static/media/ernest-after.2b33b561.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf2bcaec.js",
     "static/js/2.6e00105c.chunk.js",
-    "static/css/main.8ed82ac1.chunk.css",
+    "static/css/main.1243610f.chunk.css",
     "static/js/main.9259533a.chunk.js"
   ]
 }
