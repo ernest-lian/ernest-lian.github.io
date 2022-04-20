@@ -23,12 +23,23 @@ import Gmail from './images/gmail.png';
 /* Local Files Styling */
 import './sideBar.css';
 
-  
-const GreenTooltip = withStyles({
+const BlueTooltip = withStyles({
 tooltip: {
-    backgroundColor: "rgb(149, 191, 71)"
+    backgroundColor: "#0072b1"
 }
 })(Tooltip);
+
+const BlackTooltip = withStyles({
+tooltip: {
+    backgroundColor: "#000000"
+}
+})(Tooltip);
+
+const RedTooltip = withStyles({
+    tooltip: {
+        backgroundColor: "#EA4335"
+    }
+    })(Tooltip);
 
 const SideBar = () => {
     return (
@@ -57,7 +68,7 @@ const SideBar = () => {
                     src={Mail}
                     class='side-bar-icons'
                 />
-                <GreenTooltip title="LinkedIn" placement="left">
+                <BlueTooltip title="LinkedIn" placement="left">
                     <a href='https://www.linkedin.com/in/ernest-lian/' rel="noopener noreferrer" target='_blank'>
                         <Box
                             component='img'
@@ -66,8 +77,8 @@ const SideBar = () => {
                             class='information-icons'
                         />
                     </a>
-                </GreenTooltip>
-                <GreenTooltip title="Github" placement="left">
+                </BlueTooltip>
+                <BlackTooltip title="Github" placement="left">
                     <a href='https://github.com/ernest-lian' rel="noopener noreferrer" target="_blank">
                         <Box
                             component='img'
@@ -76,8 +87,8 @@ const SideBar = () => {
                             class='information-icons'
                         />
                     </a>
-                </GreenTooltip>
-                <GreenTooltip title="Email" placement="left">
+                </BlackTooltip>
+                <RedTooltip title="Email" placement="left">
                     <a href='mailto: ernestclian@gmail.com'>
                         <Box
                             component='img'
@@ -86,7 +97,7 @@ const SideBar = () => {
                             id='gmail-icon'
                         />
                     </a>
-                </GreenTooltip>
+                </RedTooltip>
                 <Box
                     component='img'
                     width='100%'
