@@ -80,7 +80,7 @@ const Website = () => {
                     <Project
                         name='synthesize'
                         description='in progress'
-                        link='https://ernest-lian-synthesize.herokuapp.com/'
+                        link=''
                         image={Blank}
                         background='#d3e0e5'
                     />
