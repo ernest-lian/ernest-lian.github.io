@@ -37,6 +37,7 @@ const Project = ({
                 }}
             >
                 <Box
+                    display='block'
                     component='img'
                     width='100%'
                     src={image}
