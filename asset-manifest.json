@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1243610f.chunk.css",
-    "main.js": "/static/js/main.d7808d4b.chunk.js",
-    "main.js.map": "/static/js/main.d7808d4b.chunk.js.map",
+    "main.css": "/static/css/main.791262d1.chunk.css",
+    "main.js": "/static/js/main.ee2e871f.chunk.js",
+    "main.js.map": "/static/js/main.ee2e871f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf2bcaec.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf2bcaec.js.map",
     "static/js/2.6e00105c.chunk.js": "/static/js/2.6e00105c.chunk.js",
     "static/js/2.6e00105c.chunk.js.map": "/static/js/2.6e00105c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1243610f.chunk.css.map": "/static/css/main.1243610f.chunk.css.map",
+    "static/css/main.791262d1.chunk.css.map": "/static/css/main.791262d1.chunk.css.map",
     "static/js/2.6e00105c.chunk.js.LICENSE.txt": "/static/js/2.6e00105c.chunk.js.LICENSE.txt",
     "static/media/calendar.50bc6e48.png": "/static/media/calendar.50bc6e48.png",
     "static/media/ernest-after.2b33b561.jpg": "/static/media/ernest-after.2b33b561.jpg",
@@ -17,12 +17,13 @@
     "static/media/gmail.39351ee7.png": "/static/media/gmail.39351ee7.png",
     "static/media/linkedin.f1d872af.png": "/static/media/linkedin.f1d872af.png",
     "static/media/map.a38982a8.png": "/static/media/map.a38982a8.png",
-    "static/media/spotilytics-new.e3af3eed.png": "/static/media/spotilytics-new.e3af3eed.png"
+    "static/media/spotilytics-new.e3af3eed.png": "/static/media/spotilytics-new.e3af3eed.png",
+    "static/media/synthesize.4cc64492.png": "/static/media/synthesize.4cc64492.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bf2bcaec.js",
     "static/js/2.6e00105c.chunk.js",
-    "static/css/main.1243610f.chunk.css",
-    "static/js/main.d7808d4b.chunk.js"
+    "static/css/main.791262d1.chunk.css",
+    "static/js/main.ee2e871f.chunk.js"
   ]
 }
