@@ -10,6 +10,7 @@ import Project from './project.js';
 
 /* Local Images */
 import Spotilytics from './images/spotilytics-new.png';
+import Synthesize from './images/synthesize.png';
 import Blank from './images/blank.png';
 
 const Website = () => {
@@ -81,8 +82,8 @@ const Website = () => {
                         name='synthesize'
                         description='in progress'
                         link=''
-                        image={Blank}
-                        background='#d3e0e5'
+                        image={Synthesize}
+                        background='#e7e9ed'
                     />
                     <Project
                         name='spotilytics'
