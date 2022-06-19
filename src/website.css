@@ -37,6 +37,7 @@
   }
 
   #side-project-list-container {
+    display: flex;
     flex-direction: row;
   }
 

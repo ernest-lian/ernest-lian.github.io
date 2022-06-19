@@ -12,6 +12,7 @@ import Project from './project.js';
 import Spotilytics from './images/spotilytics-new.png';
 import Synthesize from './images/synthesize.png';
 import Blank from './images/blank.png';
+import ArianaAI from './images/ariana-ai.png';
 
 const Website = () => {
     return (
@@ -83,6 +84,13 @@ const Website = () => {
                         description='in progress'
                         link=''
                         image={Synthesize}
+                        background='#e7e9ed'
+                    />
+                    <Project
+                        name='Ariana AI'
+                        description='in progress'
+                        link=''
+                        image={ArianaAI}
                         background='#e7e9ed'
                     />
                     <Project
