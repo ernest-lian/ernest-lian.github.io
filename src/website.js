@@ -11,7 +11,6 @@ import Project from './project.js';
 /* Local Images */
 import Spotilytics from './images/spotilytics-new.png';
 import Synthesize from './images/synthesize.png';
-import Blank from './images/blank.png';
 import ArianaAI from './images/ariana-ai.png';
 
 const Website = () => {
@@ -81,21 +80,21 @@ const Website = () => {
                 >
                     <Project
                         name='synthesize'
-                        description='in progress'
+                        description='isolate audio by vocal, drum and bass stems to create your own remixed tracks'
                         link=''
                         image={Synthesize}
                         background='#e7e9ed'
                     />
                     <Project
-                        name='Ariana AI'
-                        description='in progress'
+                        name='ariana AI'
+                        description='synthesize and vocode lyrics to be sung in the style of Ariana Grande'
                         link=''
                         image={ArianaAI}
                         background='#e7e9ed'
                     />
                     <Project
                         name='spotilytics'
-                        description='Song recommendation Spotify analytics platform'
+                        description='song recommendation Spotify analytics platform'
                         image={Spotilytics}
                         link='https://github.com/ernest-lian/Spotilytics'
                         background='#edf3e2'
