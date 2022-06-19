@@ -80,7 +80,7 @@ const Website = () => {
                 >
                     <Project
                         name='synthesize'
-                        description='isolate audio by vocal, drum and bass stems to create your own remixed tracks'
+                        description='isolate vocal, drum and bass stems to create your own remixed tracks'
                         link=''
                         image={Synthesize}
                         background='#e7e9ed'
