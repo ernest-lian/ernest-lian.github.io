@@ -13,7 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffc87a;
+  background-color: rgb(149, 191, 71);
   height: inherit;
 }
 

@@ -61,7 +61,8 @@ const NavigationOptions = () => {
                         onClick={()=> {handleCurrentPage('home')}}
                         whiteSpace='nowrap'
                         style= {{
-                            'font-family': 'Raleway, sans-serif'
+                            'font-family': 'Raleway, sans-serif',
+                            'font-weight': '500'
                         }}
                         id='ernest'
                         pr={1}
