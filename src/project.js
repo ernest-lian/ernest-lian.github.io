@@ -88,7 +88,7 @@ const Project = ({
                 <Box
                     pl={1}
                 >
-                    <FontAwesomeIcon id='mockup-arrow' icon={faLongArrowAltRight} size='1x' color='#FF7E6B'/>
+                    <FontAwesomeIcon id='mockup-arrow' icon={faLongArrowAltRight} size='1x' color='#b8d8be'/>
                 </Box>
             </Box>
         </Box>
