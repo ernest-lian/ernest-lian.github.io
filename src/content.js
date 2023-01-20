@@ -54,6 +54,7 @@ const Content = () => {
                 </Switch>
             </Box>
         </HashRouter>
+        <Footer/>
     </Box>);
 }
 
