@@ -19,14 +19,14 @@ import './navigationOptions.css';
 const styles = makeStyles({
     hoverNavigation: {
         "&:hover": {
-            color: 'orange'
+            color: '#b8d8be'
         }
     },
     selectedNavigation: {
         "&:hover": {
             color: 'rgb(204, 198, 187)'
         },
-        "color": '#95BF47'
+        "color": '#b8d8be'
     }
 });
 

@@ -7,6 +7,7 @@ import { Box } from '@material-ui/core';
 /* Local Files */
 import './website.css';
 import Project from './project.js';
+import Footer from './footer.js';
 
 /* Local Images */
 import Spotilytics from './images/spotilytics-new.png';
@@ -27,7 +28,7 @@ const Website = () => {
                         id='name'
                         color='black'
                     >
-                        <span id='hello'>Hello</span> I'm <span style={{'color': '#95BF47'}}>Ernest.</span>
+                        <span id='hello'>Hello</span> I'm <span style={{'color': '#b8d8be'}}>Ernest.</span>
                     </Box>
                     <Box
                         color='#808080'

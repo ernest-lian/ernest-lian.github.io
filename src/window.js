@@ -2,7 +2,8 @@ import {
   Box
 } from '@material-ui/core';
 
-import Navigation from './navigation.js';
+import Content from './content.js';
+import Footer from './footer.js';
 
 import './window.css';
 
@@ -14,7 +15,7 @@ const Window = () => {
       justifyContent='center'
       alignItems='center'
     >
-      <Navigation/>
+      <Content/>
     </Box>
   )
 }

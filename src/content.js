@@ -15,10 +15,11 @@ import NavigationOptions from './navigationOptions.js';
 /* Local files */
 import Website from './website.js';
 import About from './about.js';
+import Footer from './footer.js';
 
 import './navigation.css';
 
-const Navigation = () => {
+const Content = () => {
     return(
     <Box
         display='flex'
@@ -56,4 +57,4 @@ const Navigation = () => {
     </Box>);
 }
 
-export default Navigation;
+export default Content;
