@@ -7,7 +7,6 @@ import { Box } from '@material-ui/core';
 /* Local Files */
 import './website.css';
 import Project from './project.js';
-import Footer from './footer.js';
 
 /* Local Images */
 import Spotilytics from './images/spotilytics-new.png';
@@ -79,27 +78,44 @@ const Website = () => {
                     id='side-project-list-container'
                     pb={10}
                 >
-                    <Project
-                        name='synthesize'
-                        description='isolate vocal, drum and bass stems to create your own remixed tracks'
-                        link=''
-                        image={Synthesize}
-                        background='#e7e9ed'
-                    />
-                    <Project
-                        name='ariana AI'
-                        description='synthesize and vocode lyrics to be sung in the style of Ariana Grande'
-                        link=''
-                        image={ArianaAI}
-                        background='#e7e9ed'
-                    />
-                    <Project
-                        name='spotilytics'
-                        description='song recommendation Spotify analytics platform'
-                        image={Spotilytics}
-                        link='https://github.com/ernest-lian/Spotilytics'
-                        background='#edf3e2'
-                    />
+                    <Box
+                        className='side-project-list-items'
+                    >
+                        <Project
+                            name='synthesize'
+                            description='isolate vocal, drum and bass stems to create your own remixed tracks'
+                            link=''
+                            image={Synthesize}
+                            background='#e7e9ed'
+                        />
+                    </Box>
+                    <Box
+                        className='side-project-list-items'
+                    >
+                        <Project
+                            name='ariana AI'
+                            description='synthesize and vocode lyrics to be sung in the style of Ariana Grande'
+                            link=''
+                            image={ArianaAI}
+                            background='#e7e9ed'
+                        />
+                    </Box>
+                    <Box
+                        className='side-project-list-items'
+                    >
+                        <Project
+                            name='spotilytics'
+                            description='song recommendation Spotify analytics platform'
+                            image={Spotilytics}
+                            link='https://github.com/ernest-lian/Spotilytics'
+                            background='#edf3e2'
+                        />
+                    </Box>
+                    <Box
+                        className='side-project-list-items'
+                    >
+
+                    </Box>
                 </Box>
             </Box>
         </React.Fragment>

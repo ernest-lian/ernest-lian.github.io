@@ -1,5 +1,6 @@
 #side-project-list-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 /* Icons */
@@ -12,6 +13,7 @@
 .social-icons:hover {
   top: -5px;
 }
+
 
 @media only screen and (max-width: 800px) {
   #biography {
@@ -39,6 +41,11 @@
   #side-project-list-container {
     display: flex;
     flex-direction: row;
+  }
+
+  .side-project-list-items {
+    flex: 50%;
+    
   }
 
   #name {
