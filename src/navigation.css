@@ -18,6 +18,10 @@
 
 #window-bar {
     border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    background-color: #ebf0f5;
+    z-index: 2;
 }
 
 #red-dot {
