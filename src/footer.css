@@ -14,5 +14,9 @@
 
 #footer {
     background-color: #ebf0f5;
-    text-align: center;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
