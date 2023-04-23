@@ -11,11 +11,20 @@ import Project from './project.js';
 /* Local Images */
 import Spotilytics from './images/spotilytics-new.png';
 import Synthesize from './images/synthesize.png';
-import ArianaAI from './images/ariana-ai.png';
 
 const Website = () => {
+
+    const handleScroll = () => {
+        console.log('handle scroll')
+        console.log(window)
+        var topElement = document.getElementById('application-wrapper')
+        topElement.scrollTo({ top: 0, behavior: 'smooth' });
+    }
     return (
-        <React.Fragment>
+        <Box
+            pl={10}
+            pr={10} 
+        >
             <Box
                 id='biography'
                 alignItems='center'
@@ -62,6 +71,7 @@ const Website = () => {
             </Box>
             <Box
                 id='side-projects-container'
+                onClick={()=> {handleScroll()}}
             >
                 <Box
                     color='black'
@@ -84,19 +94,8 @@ const Website = () => {
                         <Project
                             name='synthesize'
                             description='isolate vocal, drum and bass stems to create your own remixed tracks'
-                            link=''
+                            link='synthesize'
                             image={Synthesize}
-                            background='#e7e9ed'
-                        />
-                    </Box>
-                    <Box
-                        className='side-project-list-items'
-                    >
-                        <Project
-                            name='ariana AI'
-                            description='synthesize and vocode lyrics to be sung in the style of Ariana Grande'
-                            link=''
-                            image={ArianaAI}
                             background='#e7e9ed'
                         />
                     </Box>
@@ -107,7 +106,7 @@ const Website = () => {
                             name='spotilytics'
                             description='song recommendation Spotify analytics platform'
                             image={Spotilytics}
-                            link='https://github.com/ernest-lian/Spotilytics'
+                            link='spotilytics'
                             background='#edf3e2'
                         />
                     </Box>
@@ -118,7 +117,7 @@ const Website = () => {
                     </Box>
                 </Box>
             </Box>
-        </React.Fragment>
+        </Box>
     );
 }
 
