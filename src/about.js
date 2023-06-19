@@ -17,7 +17,10 @@ const About = () => {
     const handleHover = () => setIsBefore(!isBefore);
 
     return (
-        <React.Fragment>
+        <Box
+            pl={10}
+            pr={10} 
+        >
         <Box
             id='about-border'
             color='black'
@@ -86,7 +89,7 @@ const About = () => {
                 </Box>
             </Box>  
         </Box>
-    </React.Fragment>
+    </Box>
         );
 }
 

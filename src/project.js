@@ -1,5 +1,6 @@
 /* React */
 import React from 'react';
+import { useHistory } from "react-router-dom";
 
 /* Material-UI*/
 import { Box } from '@material-ui/core';
@@ -11,6 +12,7 @@ import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 /* Local Files Styling */
 import './project.css';
 
+
 const Project = ({
     name,
     description,
@@ -18,9 +20,10 @@ const Project = ({
     link,
     background
 }) => {
-    const openInNewTab = (url) => {
-      const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-      if (newWindow) newWindow.opener = null
+    const history = useHistory();
+
+    const openCaseStudy = (path) => {
+        history.push(path);
     }
     
     return(
@@ -31,7 +34,7 @@ const Project = ({
             <Box
                 id='mockup-image-container'
                 borderRadius='5px'
-                onClick={() => openInNewTab(link)}
+                onClick={() => openCaseStudy(link)}
                 style={{
                     'background-color': background
                 }}

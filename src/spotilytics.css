@@ -1,0 +1,92 @@
+#title {
+    font-family: Lato, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#h1 {
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: "#b8d8be";
+}
+
+#h2 {
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: "#b8d8be";
+}
+
+#project-subheader {
+    color: #7a8087;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.solution-header {
+    font-weight: bold;
+}
+
+.project-detail-header {
+    font-weight: 500;
+}
+
+#synthesize-spacing {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#project-details {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.spotilytics-information-icons {
+    height: 20px;
+    width: 20px;
+    padding: 0px 5px 0px 0px;
+}
+
+@media only screen and (min-width: 800px) {
+    #project-details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .demo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .demo-even {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    #demo-gif {
+        width: 25%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #project-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project-detail-languages {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .demo, .demo-even {
+        display: flex;
+        flex-direction: column;
+    } 
+}

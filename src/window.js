@@ -3,7 +3,6 @@ import {
 } from '@material-ui/core';
 
 import Content from './content.js';
-import Footer from './footer.js';
 
 import './window.css';
 

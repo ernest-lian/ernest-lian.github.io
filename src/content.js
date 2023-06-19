@@ -16,6 +16,8 @@ import NavigationOptions from './navigationOptions.js';
 import Website from './website.js';
 import About from './about.js';
 import Footer from './footer.js';
+import Synthesize from './synthesize.js';
+import Spotilytics from './spotilytics.js';
 
 import './navigation.css';
 
@@ -44,13 +46,13 @@ const Content = () => {
             </Box>
 
             <Box
-                pl={10}
-                pr={10} 
             >
                 <Switch>
                     <Route path="/" exact component={Website}/>
                     <Route path="/home" component={Website}/>
                     <Route path="/about" component={About}/>
+                    <Route path="/synthesize" component={Synthesize}/>
+                    <Route path="/spotilytics" component={Spotilytics}/>
                 </Switch>
             </Box>
         </HashRouter>
