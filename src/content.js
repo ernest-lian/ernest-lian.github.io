@@ -18,6 +18,7 @@ import About from './about.js';
 import Footer from './footer.js';
 import Synthesize from './synthesize.js';
 import Spotilytics from './spotilytics.js';
+import Splurge from './splurge.js';
 
 import './navigation.css';
 
@@ -53,6 +54,7 @@ const Content = () => {
                     <Route path="/about" component={About}/>
                     <Route path="/synthesize" component={Synthesize}/>
                     <Route path="/spotilytics" component={Spotilytics}/>
+                    <Route path="/splurge" component={Splurge}/>
                 </Switch>
             </Box>
         </HashRouter>

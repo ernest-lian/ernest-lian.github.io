@@ -11,6 +11,7 @@ import Project from './project.js';
 /* Local Images */
 import Spotilytics from './images/spotilytics-new.png';
 import Synthesize from './images/synthesize.png';
+import Splurge from './images/splurge.png';
 
 const Website = () => {
 
@@ -92,6 +93,17 @@ const Website = () => {
                         className='side-project-list-items'
                     >
                         <Project
+                            name='splurge'
+                            description='track and categorize monthly expenses to maintain financial stability.'
+                            image={Splurge}
+                            link='splurge'
+                            background='#edf3e2'
+                        />
+                    </Box>
+                    <Box
+                        className='side-project-list-items'
+                    >
+                        <Project
                             name='synthesize'
                             description='isolate vocal, drum and bass stems to create your own remixed tracks'
                             link='synthesize'
@@ -99,6 +111,11 @@ const Website = () => {
                             background='#e7e9ed'
                         />
                     </Box>
+                </Box>
+                <Box
+                    id='side-project-list-container'
+                    pb={10}
+                >
                     <Box
                         className='side-project-list-items'
                     >
@@ -113,7 +130,6 @@ const Website = () => {
                     <Box
                         className='side-project-list-items'
                     >
-
                     </Box>
                 </Box>
             </Box>
