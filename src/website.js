@@ -94,7 +94,7 @@ const Website = () => {
                     >
                         <Project
                             name='splurge'
-                            description='track and categorize monthly expenses to maintain financial stability.'
+                            description='track and categorize monthly expenses to maintain financial stability'
                             image={Splurge}
                             link='splurge'
                             background='#edf3e2'
