@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a089ec30.chunk.css",
-    "main.js": "/static/js/main.4269fbd0.chunk.js",
-    "main.js.map": "/static/js/main.4269fbd0.chunk.js.map",
+    "main.css": "/static/css/main.e9302018.chunk.css",
+    "main.js": "/static/js/main.e3375387.chunk.js",
+    "main.js.map": "/static/js/main.e3375387.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf2bcaec.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf2bcaec.js.map",
     "static/js/2.bb689814.chunk.js": "/static/js/2.bb689814.chunk.js",
     "static/js/2.bb689814.chunk.js.map": "/static/js/2.bb689814.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a089ec30.chunk.css.map": "/static/css/main.a089ec30.chunk.css.map",
+    "static/css/main.e9302018.chunk.css.map": "/static/css/main.e9302018.chunk.css.map",
     "static/js/2.bb689814.chunk.js.LICENSE.txt": "/static/js/2.bb689814.chunk.js.LICENSE.txt",
     "static/media/calendar.50bc6e48.png": "/static/media/calendar.50bc6e48.png",
-    "static/media/ernest-after.2b33b561.jpg": "/static/media/ernest-after.2b33b561.jpg",
-    "static/media/ernest-before.58baa343.jpg": "/static/media/ernest-before.58baa343.jpg",
+    "static/media/ernest-frog-square-after.3b6a7559.png": "/static/media/ernest-frog-square-after.3b6a7559.png",
+    "static/media/ernest-frog-square.69d7cf09.png": "/static/media/ernest-frog-square.69d7cf09.png",
     "static/media/github.e85d39b0.png": "/static/media/github.e85d39b0.png",
     "static/media/gmail.39351ee7.png": "/static/media/gmail.39351ee7.png",
     "static/media/linkedin.f1d872af.png": "/static/media/linkedin.f1d872af.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf2bcaec.js",
     "static/js/2.bb689814.chunk.js",
-    "static/css/main.a089ec30.chunk.css",
-    "static/js/main.4269fbd0.chunk.js"
+    "static/css/main.e9302018.chunk.css",
+    "static/js/main.e3375387.chunk.js"
   ]
 }
