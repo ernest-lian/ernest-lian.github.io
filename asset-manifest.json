@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e9302018.chunk.css",
-    "main.js": "/static/js/main.e3375387.chunk.js",
-    "main.js.map": "/static/js/main.e3375387.chunk.js.map",
+    "main.js": "/static/js/main.a3478cf9.chunk.js",
+    "main.js.map": "/static/js/main.a3478cf9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf2bcaec.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf2bcaec.js.map",
     "static/js/2.bb689814.chunk.js": "/static/js/2.bb689814.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/ernest-frog-square.69d7cf09.png": "/static/media/ernest-frog-square.69d7cf09.png",
     "static/media/github.e85d39b0.png": "/static/media/github.e85d39b0.png",
     "static/media/gmail.39351ee7.png": "/static/media/gmail.39351ee7.png",
+    "static/media/hobbies.2d8e0588.png": "/static/media/hobbies.2d8e0588.png",
     "static/media/linkedin.f1d872af.png": "/static/media/linkedin.f1d872af.png",
     "static/media/map.a38982a8.png": "/static/media/map.a38982a8.png",
     "static/media/splurge-cover.466f2d4e.png": "/static/media/splurge-cover.466f2d4e.png",
@@ -38,6 +39,6 @@
     "static/js/runtime-main.bf2bcaec.js",
     "static/js/2.bb689814.chunk.js",
     "static/css/main.e9302018.chunk.css",
-    "static/js/main.e3375387.chunk.js"
+    "static/js/main.a3478cf9.chunk.js"
   ]
 }
