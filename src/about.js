@@ -10,6 +10,8 @@ import './about.css';
 /* Photos */
 import ErnestBeforeFrog from './images/ernest-frog-square.png';
 import ErnestAfterFrog from './images/ernest-frog-square-after.png';
+import Hobbies from './images/hobbies.png';
+import Music from './images/music.png';
 
 const About = () => {
     const [isBefore, setIsBefore] = useState(true);
@@ -93,10 +95,24 @@ const About = () => {
                             'padding-top': '2rem',
                         }}
                     >
-                        As a first generation student, I am really passionate about not only making education more accessible  but also providing resources to aid individuals from underrepresented communities.
+                        As a first generation post-secondary student, I am really passionate about not only making education more accessible  but also providing resources to aid individuals from underrepresented communities.
                     </Box>
                 </Box>
             </Box>
+        </Box>
+        <Box
+            id='hobbies-and-music'
+        >
+            <Box
+                id='music'
+                component='img'
+                src={Hobbies}
+            />
+            <Box
+                id='hobbies'
+                component='img'
+                src={Music}
+            />
         </Box>
     </Box>
         );
