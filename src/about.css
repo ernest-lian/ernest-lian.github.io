@@ -10,7 +10,13 @@
     align-items: center;
   }
 
-  #music, #hobbies {
+  #hobbies {
+    margin: 1em;
+    width: 100%;
+    height: 100%;
+  }
+
+  #music {
     width: 100%;
     height: 100%;
   }
@@ -33,7 +39,15 @@
   }
 
   #about-text-content {
-    font-size: 20px;
+    font-size: 15px;
+  }
+
+  #about-text-header {
+    font-size: 30px;
+  }
+
+  #about-text-sub-header {
+    font-size: 25px;
   }
 }
 
@@ -85,9 +99,15 @@
 }
 
 @media only screen and (min-width: 800px) {
-  #music, #hobbies {
+  #music{
     width: 50%;
     height: 50%;
+  }
+
+  #hobbies {
+    width: 50%;
+    height: 50%;
+    margin: 1em;
   }
 
   #about-border {
@@ -117,7 +137,15 @@
   }
 
   #about-text-content {
-    font-size: 21px;
+    font-size: 20px;
+  }
+
+  #about-text-header {
+    font-size: 40px;
+  }
+
+  #about-text-sub-header {
+    font-size: 30px;
   }
 
   #about-profile {

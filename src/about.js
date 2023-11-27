@@ -48,21 +48,19 @@ const About = () => {
                     id='about-text-container'
                 >
                     <Box
-                        id='about-text-content'
+                        id='about-text-header'
                         style= {{
                             'font-family': 'Lato, sans-serif',
                             'padding-top': '2rem',
-                            'font-size': '40px',
                             'font-weight': 'bold'
                         }}
                     >
                         Ernest Lian
                     </Box>
                     <Box
-                        id='about-text-content'
+                        id='about-text-header'
                         style= {{
                             'font-family': 'Lato, sans-serif',
-                            'font-size': '30px',
                             'color': '#808080',
                             'font-weight': 'bold'
                         }}
@@ -70,32 +68,33 @@ const About = () => {
                         Software Developer
                     </Box>
                     <Box
-                        id='about-text-content'
+                        id='about-text-sub-header'
                         style= {{
                             'font-family': 'Lato, sans-serif',
                             'font-size': '20px',
+                            'padding-top': '1rem',
                             'font-weight': 'bold'
                         }}
                     >
-                        Toronto, Canada
+                        Toronto, Canada 🍁
                     </Box>
                     <Box
+                        id='about-text-content'
                         style= {{
                             'font-family': 'Lato, sans-serif',
-                            'font-size': '18px',
                             'padding-top': '2rem',
                         }}
                     >
-                        I am a Computer Science gradudate from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#ffdf00', 'text-decoration': 'none'}}>University of Waterloo.</a>
+                        I am a Computer Science gradudate from the <a href="https://uwaterloo.ca/future-students/programs/computer-science" target="_blank" rel="noopener noreferrer" style={{'color': '#F6BE00', 'text-decoration': 'none'}}>University of Waterloo.</a>
                     </Box>
                     <Box
+                        id='about-text-content'
                         style= {{
                             'font-family': 'Lato, sans-serif',
-                            'font-size': '18px',
                             'padding-top': '2rem',
                         }}
                     >
-                        As a first generation post-secondary student, I am really passionate about not only making education more accessible  but also providing resources to aid individuals from underrepresented communities.
+                       As a first-generation post-secondary student, I am committed to enhancing accessibility to education and providing resources for individuals within underrepresented communities. My passion lies in creating opportunities that empower and support those who face unique challenges in pursuing higher education.
                     </Box>
                 </Box>
             </Box>
