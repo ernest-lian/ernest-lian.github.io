@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c9566e6.chunk.css",
-    "main.js": "/static/js/main.515c0d6d.chunk.js",
-    "main.js.map": "/static/js/main.515c0d6d.chunk.js.map",
+    "main.css": "/static/css/main.22af432f.chunk.css",
+    "main.js": "/static/js/main.59f6a641.chunk.js",
+    "main.js.map": "/static/js/main.59f6a641.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf2bcaec.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf2bcaec.js.map",
     "static/js/2.bb689814.chunk.js": "/static/js/2.bb689814.chunk.js",
     "static/js/2.bb689814.chunk.js.map": "/static/js/2.bb689814.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4c9566e6.chunk.css.map": "/static/css/main.4c9566e6.chunk.css.map",
+    "static/css/main.22af432f.chunk.css.map": "/static/css/main.22af432f.chunk.css.map",
     "static/js/2.bb689814.chunk.js.LICENSE.txt": "/static/js/2.bb689814.chunk.js.LICENSE.txt",
     "static/media/calendar.50bc6e48.png": "/static/media/calendar.50bc6e48.png",
-    "static/media/ernest-frog-square-after.3b6a7559.png": "/static/media/ernest-frog-square-after.3b6a7559.png",
+    "static/media/ernest-frog-square-after.b26fad6c.png": "/static/media/ernest-frog-square-after.b26fad6c.png",
     "static/media/ernest-frog-square.69d7cf09.png": "/static/media/ernest-frog-square.69d7cf09.png",
     "static/media/github.e85d39b0.png": "/static/media/github.e85d39b0.png",
     "static/media/gmail.39351ee7.png": "/static/media/gmail.39351ee7.png",
-    "static/media/hobbies.5b75b39b.png": "/static/media/hobbies.5b75b39b.png",
+    "static/media/hobbies.bde7b1f8.png": "/static/media/hobbies.bde7b1f8.png",
     "static/media/linkedin.f1d872af.png": "/static/media/linkedin.f1d872af.png",
     "static/media/map.a38982a8.png": "/static/media/map.a38982a8.png",
-    "static/media/music.0c023f76.png": "/static/media/music.0c023f76.png",
+    "static/media/music.f2b53824.png": "/static/media/music.f2b53824.png",
     "static/media/splurge-cover.466f2d4e.png": "/static/media/splurge-cover.466f2d4e.png",
     "static/media/splurge-gif-three.623a8983.gif": "/static/media/splurge-gif-three.623a8983.gif",
     "static/media/splurge-gif-two.2a475ed2.gif": "/static/media/splurge-gif-two.2a475ed2.gif",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf2bcaec.js",
     "static/js/2.bb689814.chunk.js",
-    "static/css/main.4c9566e6.chunk.css",
-    "static/js/main.515c0d6d.chunk.js"
+    "static/css/main.22af432f.chunk.css",
+    "static/js/main.59f6a641.chunk.js"
   ]
 }
