@@ -87,7 +87,6 @@ const Website = () => {
                 </Box>
                 <Box
                     id='side-project-list-container'
-                    pb={10}
                 >
                     <Box
                         className='side-project-list-items'

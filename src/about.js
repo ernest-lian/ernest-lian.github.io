@@ -94,7 +94,16 @@ const About = () => {
                             'padding-top': '2rem',
                         }}
                     >
-                       As a first-generation post-secondary student, I am committed to enhancing accessibility to education and providing resources for individuals within underrepresented communities. My passion lies in creating opportunities that empower and support those who face unique challenges in pursuing higher education.
+                       As a first-generation post-secondary student, I am committed to enhancing accessibility to education and providing resources for individuals within underrepresented communities.
+                    </Box>
+                    <Box
+                        id='about-text-content'
+                        style= {{
+                            'font-family': 'Lato, sans-serif',
+                            'padding-top': '2rem',
+                        }}
+                    >
+                       My passion lies in creating opportunities that empower and support those who face unique challenges in pursuing higher education.
                     </Box>
                 </Box>
             </Box>
