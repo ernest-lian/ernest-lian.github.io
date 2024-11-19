@@ -57,26 +57,17 @@ const Website = () => {
                             'padding-top': '2rem'
                         }}
                     >
-                        I'm passionate about developing accessible software for everyone.
-                    </Box>
-                    <Box
-                        color='black'
-                        style= {{
-                            'font-family': 'Lato, sans-serif',
-                            'font-size': '20px'
-                        }}
-                    >
-                        I'm currently in search of my next opportunity.
+                        I'm passionate about developing accessible software and currently in search of my next opportunity!
                     </Box>
                     <Box
                         color='black'
                         style= {{
                             'font-family': 'Lato, sans-serif',
                             'font-size': '20px',
-                            'padding-top': '3rem'
+                            'padding-top': '1rem'
                         }}
                     >
-                        Previously I have worked on trust & safety @ <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" style={{'color': '#FF3D33', 'text-decoration': 'none'}}>TikTok</a> and enhanching selling strategies for merchants @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify.</a>
+                        Previously I have worked on Trust & Safety @ <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" style={{'color': '#FF3D33', 'text-decoration': 'none'}}>TikTok</a> and enhanching Selling Strategies for merchants @ <a href="https://www.shopify.ca/" target="_blank" rel="noopener noreferrer" style={{'color': '#95BF47', 'text-decoration': 'none'}}>Shopify.</a>
                     </Box>
                 </Box>
             </Box>
