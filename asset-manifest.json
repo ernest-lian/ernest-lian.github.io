@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.908cfee8.chunk.css",
-    "main.js": "/static/js/main.54a04f98.chunk.js",
-    "main.js.map": "/static/js/main.54a04f98.chunk.js.map",
+    "main.js": "/static/js/main.884727b7.chunk.js",
+    "main.js.map": "/static/js/main.884727b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf2bcaec.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf2bcaec.js.map",
     "static/js/2.bb689814.chunk.js": "/static/js/2.bb689814.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/ernest-frog-square.69d7cf09.png": "/static/media/ernest-frog-square.69d7cf09.png",
     "static/media/github.e85d39b0.png": "/static/media/github.e85d39b0.png",
     "static/media/gmail.39351ee7.png": "/static/media/gmail.39351ee7.png",
-    "static/media/hobbies.bde7b1f8.png": "/static/media/hobbies.bde7b1f8.png",
+    "static/media/hobbies.fbc282c6.png": "/static/media/hobbies.fbc282c6.png",
     "static/media/linkedin.f1d872af.png": "/static/media/linkedin.f1d872af.png",
     "static/media/map.a38982a8.png": "/static/media/map.a38982a8.png",
     "static/media/music.f2b53824.png": "/static/media/music.f2b53824.png",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.bf2bcaec.js",
     "static/js/2.bb689814.chunk.js",
     "static/css/main.908cfee8.chunk.css",
-    "static/js/main.54a04f98.chunk.js"
+    "static/js/main.884727b7.chunk.js"
   ]
 }
