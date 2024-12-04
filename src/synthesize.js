@@ -350,6 +350,12 @@ const Synthesize  = ({
           A digital platform for creators to develop song remixes and connect with other creators.
         </Box>
 
+        <Box
+          pt={2}
+        >
+          <a href="https://ernest-lian-synthesize.netlify.app/" target="_blank" rel="noopener noreferrer" style={{'font-weight': 'bold', 'color': '#0000EE'}}>Functionality demo link (works better on Desktop)</a>
+        </Box>
+
         <ProjectDetails/>
 
     </Box>
