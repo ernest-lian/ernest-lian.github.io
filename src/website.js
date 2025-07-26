@@ -91,6 +91,16 @@ const Website = () => {
                 >
                     <Box
                         className='side-project-list-items'
+                        pb={10}
+                    >
+                        🚧 Work in progress 🚧
+                    </Box>
+                </Box>
+                {/* <Box
+                    id='side-project-list-container'
+                > */}
+                    {/* <Box
+                        className='side-project-list-items'
                     >
                         <Project
                             name='splurge'
@@ -131,7 +141,7 @@ const Website = () => {
                         className='side-project-list-items'
                     >
                     </Box>
-                </Box>
+                </Box> */}
             </Box>
         </Box>
     );
